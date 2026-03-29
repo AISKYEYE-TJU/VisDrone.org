@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+SC:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Typography */
+  --font-sans: Inter, 'Noto Sans SC', system-ui, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Radius */
+  --radius: 0.75rem;
+
+  /* Core UI Tokens */
+  --background: oklch(0.99 0.002 235);
+  --foreground: oklch(0.18 0.02 235);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 235);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 235);
+  --primary: oklch(0.32 0.06 235);
+  --primary-foreground: oklch(0.98 0.005 235);
+  --secondary: oklch(0.96 0.005 235);
+  --secondary-foreground: oklch(0.25 0.02 235);
+  --muted: oklch(0.96 0.005 235);
+  --muted-foreground: oklch(0.45 0.02 235);
+  --accent: oklch(0.88 0.12 185);
+  --accent-foreground: oklch(0.2 0.05 185);
+  --destructive: oklch(0.55 0.18 25);
+  --destructive-foreground: oklch(0.98 0.01 25);
+  --border: oklch(0.92 0.01 235);
+  --input: oklch(0.92 0.01 235);
+  --ring: oklch(0.32 0.06 235);
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.5 0.15 235);
+  --chart-2: oklch(0.65 0.12 185);
+  --chart-3: oklch(0.75 0.1 145);
+  --chart-4: oklch(0.8 0.12 55);
+  --chart-5: oklch(0.6 0.15 20);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.98 0.005 235);
+  --sidebar-foreground: oklch(0.25 0.02 235);
+  --sidebar-primary: oklch(0.32 0.06 235);
+  --sidebar-primary-foreground: oklch(0.98 0.005 235);
+  --sidebar-accent: oklch(0.92 0.01 235);
+  --sidebar-accent-foreground: oklch(0.18 0.02 235);
+  --sidebar-border: oklch(0.92 0.01 235);
+  --sidebar-ring: oklch(0.32 0.06 235);
+}
+
+.dark {
+  --background: oklch(0.14 0.01 235);
+  --foreground: oklch(0.94 0.01 235);
+  --card: oklch(0.18 0.015 235);
+  --card-foreground: oklch(0.94 0.01 235);
+  --popover: oklch(0.16 0.015 235);
+  --popover-foreground: oklch(0.94 0.01 235);
+  --primary: oklch(0.65 0.08 235);
+  --primary-foreground: oklch(0.1 0.02 235);
+  --secondary: oklch(0.25 0.02 235);
+  --secondary-foreground: oklch(0.94 0.01 235);
+  --muted: oklch(0.25 0.02 235);
+  --muted-foreground: oklch(0.65 0.02 235);
+  --accent: oklch(0.65 0.12 185);
+  --accent-foreground: oklch(0.1 0.05 185);
+  --destructive: oklch(0.45 0.15 25);
+  --destructive-foreground: oklch(0.98 0.01 25);
+  --border: oklch(0.25 0.02 235);
+  --input: oklch(0.25 0.02 235);
+  --ring: oklch(0.65 0.08 235);
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.6 0.15 235);
+  --chart-2: oklch(0.7 0.12 185);
+  --chart-3: oklch(0.8 0.1 145);
+  --chart-4: oklch(0.85 0.12 55);
+  --chart-5: oklch(0.7 0.15 20);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.12 0.01 235);
+  --sidebar-foreground: oklch(0.9 0.01 235);
+  --sidebar-primary: oklch(0.65 0.08 235);
+  --sidebar-primary-foreground: oklch(0.1 0.02 235);
+  --sidebar-accent: oklch(0.2 0.02 235);
+  --sidebar-accent-foreground: oklch(0.94 0.01 235);
+  --sidebar-border: oklch(0.2 0.02 235);
+  --sidebar-ring: oklch(0.65 0.08 235);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans min-h-screen;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold tracking-tight;
+  }
+
+  code, pre {
+    @apply font-mono;
+  }
+
+  ::selection {
+    background-color: rgba(50, 70, 200, 0.2);
+    color: var(--primary);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(70, 80, 90, 0.2);
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(70, 80, 90, 0.4);
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 md:px-6;
+  }
+
+  .btn {
+    @apply px-4 py-2 bg-primary text-primary-foreground rounded-lg transition-colors;
+  }
+  
+  .btn:hover {
+    background-color: rgba(50, 70, 200, 0.9);
+  }
+
+  .card {
+    @apply bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow;
+  }
+
+  .card-title {
+    @apply text-xl font-serif font-semibold mb-4 text-foreground;
+  }
+
+  .card-content {
+    @apply text-muted-foreground leading-relaxed;
+  }
+
+  .card-actions {
+    @apply mt-6 flex gap-4;
+  }
+
+  .table-container {
+    @apply overflow-x-auto;
+  }
+
+  table {
+    @apply w-full border-collapse bg-card rounded-lg overflow-hidden;
+  }
+
+  th, td {
+    @apply px-6 py-4 text-left border-b border-border;
+  }
+
+  th {
+    @apply bg-muted font-semibold text-foreground;
+  }
+
+  tr:hover {
+    background-color: rgba(240, 240, 245, 0.5);
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .text-muted-foreground {
+    color: var(--muted-foreground);
+  }
+
+  .bg-background {
+    background-color: var(--background);
+  }
+
+  .bg-card {
+    background-color: var(--card);
+  }
+
+  .bg-muted {
+    background-color: var(--muted);
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .border-border {
+    border-color: var(--border);
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .rounded-lg {
+    border-radius: var(--radius);
+  }
+
+  .shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-shadow {
+    transition-property: box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+}

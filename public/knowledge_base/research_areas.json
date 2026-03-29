@@ -1,0 +1,183 @@
+{
+  "areas": [
+    {
+      "id": "low-altitude-perception",
+      "name": "低空环境感知",
+      "nameEn": "Low-Altitude Environmental Perception",
+      "description": "面向低空复杂环境的目标感知与理解，包括低空目标检测、多模态融合、反无人机、低空目标跟踪等关键技术，为低空飞行器提供全方位的环境感知能力。",
+      "icon": "eye",
+      "color": "from-blue-500 to-cyan-500",
+      "subAreas": [
+        {
+          "id": "object-detection",
+          "name": "低空目标检测",
+          "nameEn": "Low-Altitude Object Detection",
+          "description": "低空小目标检测、弱小目标识别、多尺度目标检测、复杂背景下的目标检测等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "multi-modal-fusion",
+          "name": "多模态融合",
+          "nameEn": "Multi-Modal Fusion",
+          "description": "红外与可见光图像融合、多光谱图像融合、多传感器数据融合、特征级融合等",
+          "stats": {
+            "papers": 207,
+            "datasets": 14,
+            "algorithms": 35
+          }
+        },
+        {
+          "id": "multimodal-llm-reasoning",
+          "name": "多模态大模型推理",
+          "nameEn": "Multimodal LLM Reasoning",
+          "description": "多模态大语言模型推理、视觉理解与推理 Chain-of-Thought、可解释性推理、视觉问答等",
+          "stats": {
+            "papers": 33,
+            "datasets": 16,
+            "algorithms": 9
+          }
+        },
+        {
+          "id": "anti-uav",
+          "name": "反无人机",
+          "nameEn": "Anti-UAV Systems",
+          "description": "无人机检测与识别、无人机追踪、反制技术、低空安防等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "object-tracking",
+          "name": "低空目标跟踪",
+          "nameEn": "Low-Altitude Object Tracking",
+          "description": "多目标跟踪、长时间跟踪、遮挡处理、运动预测等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "low-altitude-embodied-ai",
+      "name": "低空具身智能",
+      "nameEn": "Low-Altitude Embodied AI",
+      "description": "面向低空飞行器的具身智能技术，包括世界模型、视觉 - 语言 - 动作模型、视觉语言导航、端到端飞行器等，实现飞行器的智能化和自主化。",
+      "icon": "brain",
+      "color": "from-purple-500 to-pink-500",
+      "subAreas": [
+        {
+          "id": "world-model",
+          "name": "世界模型",
+          "nameEn": "World Models",
+          "description": "低空环境建模、动态场景预测、物理引擎、仿真环境等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "vla",
+          "name": "VLA(视觉 - 语言 - 动作)",
+          "nameEn": "Vision-Language-Action Models",
+          "description": "视觉语言动作模型、多模态指令理解、动作生成与执行等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "vln",
+          "name": "VLN(视觉语言导航)",
+          "nameEn": "Vision-Language Navigation",
+          "description": "视觉语言导航、指令跟随导航、语义地图构建与导航等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "end-to-end-uav",
+          "name": "端到端飞行器",
+          "nameEn": "End-to-End UAV Control",
+          "description": "端到端飞行控制、感知决策一体化、强化学习飞行控制等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "low-altitude-swarm-intelligence",
+      "name": "低空群体智能",
+      "nameEn": "Low-Altitude Swarm Intelligence",
+      "description": "低空飞行器群体智能协同技术，包括空地协同、多机协同、群体具身、社会化学习等，实现大规模无人机群体的高效协同与智能涌现。",
+      "icon": "users",
+      "color": "from-orange-500 to-red-500",
+      "subAreas": [
+        {
+          "id": "air-ground-coordination",
+          "name": "空地协同",
+          "nameEn": "Air-Ground Coordination",
+          "description": "空地协同感知、空地协同作业、异构平台协同等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "multi-uav-coordination",
+          "name": "多机协同",
+          "nameEn": "Multi-UAV Coordination",
+          "description": "多机编队控制、协同路径规划、分布式协同决策等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "swarm-embodied",
+          "name": "群体具身",
+          "nameEn": "Swarm Embodiment",
+          "description": "群体具身智能、群体行为涌现、自组织协同等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        },
+        {
+          "id": "social-learning",
+          "name": "社会化学习",
+          "nameEn": "Social Learning",
+          "description": "群体知识共享、模仿学习、群体技能传递等",
+          "stats": {
+            "papers": 0,
+            "datasets": 0,
+            "algorithms": 0
+          }
+        }
+      ]
+    }
+  ],
+  "globalStats": {
+    "totalPapers": 240,
+    "totalDatasets": 32,
+    "totalAlgorithms": 44,
+    "totalSubAreas": 12
+  }
+}

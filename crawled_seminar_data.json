@@ -1,0 +1,531 @@
+{
+  "seminars": [
+    {
+      "date": "2025-10-21",
+      "title": "社会化学习在连续学习中的初探",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/202051021-陈慧彤-社会化学习在连续学习中的初探.pptx",
+      "paper_url": null,
+      "group": "learning"
+    },
+    {
+      "date": "2025-10-21",
+      "title": "VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/2025_CVPRLee_VLsI_Verbalized_Layers-to-Interactions_from_Large_to_Small_Vision_Language_Models.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/2025-CVPRLee_VLsI_Verbalized_Layers-to-Interactions_from_Large_to_Small_Vision_Language_Models_CVPR_2025_paper.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-10-21",
+      "title": "Divide and not forget: ensemble of selectively trained experts in continual learning",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1021组会.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2024_ICLR_Divide-and-not-forget-Ensemble-of-selectively-trained-experts-in-Continual-Learning.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-10-28",
+      "title": "Adaptive Multi-prompt Contrastive Network for Few-shot Out-of-distribution Detection",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/20251028-穆郡贤-20251028-穆郡贤-基于视觉语言模型的开放集识别.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/2025_ICML_Adaptive_Multi-prompt_Contrastive_Network_for_Few-shot_Out-of-distribution_Detection.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-10-28",
+      "title": "Univad: A training-free unified model for few-shot visual anomaly detection（CVPR 2025）",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/20251028-吕姝钰-面向全领域的视觉异常检测模型1.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/CVPR_2025_UniVAD_A_Training-free_Unified_Model_for_Few-shot_Visual_Anomaly_Detection_paper.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-10-28",
+      "title": "Bridging Cross-task Protocol Inconsistency for Distillation  in Dense Object Detection",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/20251028-李维浩-桥接目标检测蒸馏中的跨任务协议不一致性.pptx",
+      "paper_url": null,
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "多模态模型能力迁移——大模型知识向轻量模型蒸馏",
+      "ppt_url": null,
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2025-CVPR-Jang_VL2Lite_Task-Specific_Knowledge_Distillation_from_Large_Vision-Language_Models_to_Lightweight_paper.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "VISUALLY CONSISTENT HIERARCHICAL IMAGE CLASSIFICATION （ICLR 2025）",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251202-杨竣然-视觉一致的分层图像分类.pdf",
+      "paper_url": null,
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "Attraction Diminishing and Distributing for Few-Shot Class-Incremental Learning（CVPR 2025）",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/25_CVPR_Attraction_Diminishing_and_Distributing_for_Few-Shot_Class-Incremental_Learning.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/Zhao_Attraction_Diminishing_and_Distributing_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "Tripartite Weight-Space Ensemble for Few-Shot Class-Incremental Learning（CVPR 2025）",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251208-彭博-基于三重权重空间集成的少样本类增量学习.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/Tripartite-Weight-Space-Ensemble-for-Few-Shot-Class-Incremental-Learning.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "GOOD: Training-Free Guided Diffusion Sampling for Out-of-Distribution Detection（NeurIPS 2025）",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251206-徐婧怡-用于分布外检测的免训练引导扩散采样.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2025_NeurIPS_GOOD-Training-Free-Guided-Diffusion-Sampling-for-Out-of-Distribution-Detection.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "强化学习指导的多教师知识蒸馏",
+      "ppt_url": null,
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/32990-Article-Text-37058-1-2-20250410.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "联邦连续图学习",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251216-许易非-联邦增量学习.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/Federated-Continual-Graph-Learning.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "双曲几何下的深度学习",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/组会汇报-2025.12.23-Hypformer-Exploring-Efficient-Hyperbolic-Transformer-Fully-in-Hyperbolic-Space.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/12.23chf.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "基于独立与协作学习增强混合专家以实现长尾视觉识别",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251223-张志超-基于独立与协作学习增强混合专家以实现长尾视觉识别.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/0093.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-30",
+      "title": "动态混合专家的图增量学习",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1230组会.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2025_ICLR_Dynamic-Mixture-of-Experts-for-Incremental-Graph-Learning.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-12-30",
+      "title": "为广义类别发现解锁CLIP的多模态潜力",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/20251230组会.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2025-CVPR-Wang_GET_Unlocking_the_Multi-modal_Potential_of_CLIP_for_Generalized_Category_CVPR_2025_paper.pdf",
+      "group": "learning"
+    },
+    {
+      "date": "2025-03-12",
+      "title": "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/20260312-杨竣然-engram-3.pdf",
+      "paper_url": null,
+      "group": "learning"
+    },
+    {
+      "date": "2025-03-12",
+      "title": "DiffusionAD: Norm-Guided One-Step Denoising  Diffusion for Anomaly Detection",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/DiffusionAD-Norm-Guided-One-Step-Denoising-Diffusion-for-Anomaly-Detection.pptx",
+      "paper_url": null,
+      "group": "learning"
+    },
+    {
+      "date": "2025-09-11",
+      "title": "Self-reward and Mutual Reward in RLFT for VLMs",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/09/组会0911-武嘉和.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/09/组会论文-武嘉和.zip",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-10-11",
+      "title": "The survey of pan-sharpening",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/组会2025.10.11.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/组会论文2025.10.11.zip",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-10-17",
+      "title": "Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/组会1017.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/组会1017论文.zip",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian  Modeling",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/组会2025.10.24_zxx.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/论文2025.10.24.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "Anatomical Consistency and Adaptive Prior-informed Transformation for  Multi-contrast MR Image Synthesis via Diffusion Model",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/组会2025.10.24_ljz.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/论文2025.10.24_ljz.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "Learning to Rebalance Multi-Modal Optimization by Adaptively Masking Subnetworks",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/组会2025.10.31_hjw.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/论文2025.10.31_hjw.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-11-07",
+      "title": "ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/组会2025.11.10_gyk.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/论文2025.11.10_gyk.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-11-21",
+      "title": "What You Have is What You Track: Adaptive and Robust Multimodal Tracking",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/组会2025.11.21_zyy.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/论文2025.11.21_zyy.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-05",
+      "title": "DISCRIMINATOR-GUIDED EMBODIED PLANNING FOR LLM AGENT",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/组会2025.12.4_chy.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/论文2025.12.4_chy.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-12",
+      "title": "Feature Information Driven Position Gaussian Distribution Estimation  for Tiny Object Detection",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/组会2025.12.12_cgz.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/论文2025.12.12_cgz.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-12",
+      "title": "Boosting Multimodal Learning via Disentangled Gradient Learning",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/组会2025.12.12_lpx.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/论文2025.12.12_lpx.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/ControlFusion_Groupmeeting.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/ControlFusion.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "CSTrack: Enhancing RGB-X Tracking via Compact Spatiotemporal Features",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2025.12.20_CSTrack.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/2505.19434v1.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-12-26",
+      "title": "MokA: Multimodal Low-Rank Adaptation for MLLMs",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/组会.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/MokA-Multimodal-Low-Rank-Adaptation-for-MLLMs.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-01-11",
+      "title": "大模型安全综述",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.11_lzy.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.11_lzy论文.zip",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-01-11",
+      "title": "Towards Unified Semantic and Controllable Image  Fusion: A Diffusion Transformer Approach",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.11_lty_PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.11_lty_论文原文.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Vision Function Layer in Multimodal LLMs",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.22_zxy_PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.22_zxy_论文原文.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Vision-centric Token Compression in Large Language Model",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.22_zmh_PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.22_zmh_论文原文.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Re-coding for Uncertainties: Edge-awareness Semantic Concordance for Resilient Event-RGB Segmentation",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.29_try_PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.1.29_try_论文原文.zip",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-03-06",
+      "title": "Beyond Semantic Entropy:Boosting LLM Uncertainty Quantification with\nPairwise Semantic Similarity",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.3.6_msy_PPT.ppt",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.3.6_msy_论文原文.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2026-03-06",
+      "title": "X-Fusion: Introducing New Modality to Frozen Large Language Models",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.3.6_yky_PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/03/2026.3.6_yky_论文原文.pdf",
+      "group": "multimodal"
+    },
+    {
+      "date": "2025-09-12",
+      "title": "论文分析《UCDNet: Multi-UAV Collaborative 3D Object Detection Network by Reliable Feature Mapping》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/09/2025.9.12UCDNet汇报.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/09/UCDNet-Multi-UAV-Collaborative-3D-Object-Detection-Network-by-Reliable-Feature-Mapping.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-09-17",
+      "title": "论文分析《AeroDuo: Aerial Duo for UAV-based Vision and Language Navigation》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/09/AeroDuo.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/09/AeroDuo.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-09-17",
+      "title": "论文分析《AerialVLN : Vision-and-Language Navigation for UAVs》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/09/AerialVLN.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/09/AerialVLN.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-09-26",
+      "title": "论文分析《UAV-VLA: Vision-Language-Action System for Large Scale Aerial Mission Generation》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/Large-Scale-Aerial-Mission-Generation-VLA.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/Large-Scale-Aerial-Mission-Generation-VLA.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-09-26",
+      "title": "论文分析《UAV-FlowColosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/uav-flow.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/UAV-FlowColosseo.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-10-15",
+      "title": "论文分析《UAV Geo-Localization Dataset and Method Based on Cross-View Matching》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/UAV-Geo-Localization-Dataset-and-Method-Based-on-Cross-View-Matching.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/UAV-Geo-Localization-Dataset-and-Method-Based-on-Cross-View-Matching.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-10-15",
+      "title": "论文分析《Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/TravelUAV.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/TravelUAV.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-10-22",
+      "title": "论文分析《RaceVLA: VLA-based Racing Drone Navigation with Human-like Behaviour》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/RaceVLA.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/RaceVLA.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-10-29",
+      "title": "论文分析《UAV-VLRR: Vision-Language Informed NMPC for Rapid Response in UAV Search and Rescue》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/10/UAV-VLRR.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/10/UAV-VLRRVision-Language-Informed-NMPC-for-Rapid-Response.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-05",
+      "title": "论文分析《DroneDreamer: Multi-View Low-Altitude World Model with Adaptive Control》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1105组会DroneDreamer.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1105组会DroneDreamer.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-05",
+      "title": "论文分析《Enhancing End-to-End Autonomous Driving with Latent World Model》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1105组会LAW.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1105组会LAW.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "论文分析《WorldVLA: Towards Autoregressive Action World\nModel》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/WorldVLA.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/WorldVLA.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "论文分析《Planning-oriented Autonomous Driving》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/UniAD.pdf",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/UniAD-.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-26",
+      "title": "论文分析《DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/11/DRIVEVLA-W0.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/DriveVLA-W0.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-11-26",
+      "title": "论文分析《Scaling Laws for Neural Language Models》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1126组会ScalingLaws.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/11/1126组会论文原文.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-05",
+      "title": "论文分析《Scaling Test-Time Sampling and Verification for Vision-Language-Action Models》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1205组会RoboMonkey.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1205组会RoboMonkey.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-05",
+      "title": "论文分析《DINOv2: Learning Robust Visual Features without Supervision》《DINOv3》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1205组会DINOV23.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1205组会DINOV23.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-11",
+      "title": "论文分析《AirCopBench: A Benchmark for Multi-drone Collaborative Embodied Perception and Reasoning》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1211组会AircoBench.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1211组会AircoBench.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-11",
+      "title": "论文分析《StreamVLN: Streaming Vision-and-Language Navigation via SlowFast Context Modeling》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1211组会StreamVLN.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1211组会StreamVLN.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-17",
+      "title": "论文分析《Towards Precise Embodied Dialogue Localization via Causality Guided Diffusion》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1217组会.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1217组会.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-17",
+      "title": "论文分析《Embodied Navigation Foundation Model》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1217组会NavFoM.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1217组会NavFoM.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-24",
+      "title": "论文分析《An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1224组会SimWorld.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/SimWorld.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-24",
+      "title": "论文分析《SimWorld-Robotics》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1224组会SimWorld_Robotics.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1224组会SimWorld_Robotics.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-12-31",
+      "title": "论文分析《Flying in Clutter on Monocular RGB by Learning in 3D Radiance Fields with Domain Adaptation》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1231组会PPT.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2025/12/1231组会论文原文.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-01-07",
+      "title": "论文分析《NavForesee: A Uniffed Vision-Language World Model for Hierarchical\nPlanning and Dual-Horizon Navigation Prediction》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0107组会NavForesee.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0107组会NavForesee.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2025-01-07",
+      "title": "论文分析《AirScape: An Aerial Generative World Model with Motion Controllability》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0107组会AirScape.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0107组会AirScape.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2026-01-16",
+      "title": "论文分析《GigaGS: Scaling up Planar-Based 3D Gaussians for Large Scene Surface Reconstruction 》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0116组会GigaGS.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0116组会GigaGS.pdf",
+      "group": "embodied"
+    },
+    {
+      "date": "2026-01-16",
+      "title": "论文分析《3D Gaussian Splatting for Real-Time Radiance Field Rendering》",
+      "ppt_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0116组会3D-Gaussian-Splatting.pptx",
+      "paper_url": "https://aiskyeye.com/wp-content/uploads/2026/01/0116组会3D-Gaussian-Splatting.pdf",
+      "group": "embodied"
+    }
+  ],
+  "talks": [
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1ozdvUlQWaXKyVIQT9B4OCg?pwd=i3rd",
+      "paper_url": null
+    },
+    {
+      "title": "PDF",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1x0RvDrxTXzGHZV2rdwHFkg?pwd=bhfa",
+      "paper_url": null
+    },
+    {
+      "title": "PDF",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1PONJ6jf7sX7euZM7gdDoVA?pwd=e767",
+      "paper_url": null
+    },
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1Nj8wE56h7l5YXez_gNlydg?pwd=e9ds",
+      "paper_url": null
+    },
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1_y3gWKvDDMNYldTBOsYp_Q?pwd=ft4q",
+      "paper_url": null
+    },
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1IZH4d2He-w5FuUy0LLQWxw?pwd=1s5y",
+      "paper_url": null
+    },
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1b5Q09e9h7n6EL5GK91fliQ?pwd=urp3",
+      "paper_url": null
+    },
+    {
+      "title": "PPT",
+      "date": "2024",
+      "ppt_url": "https://pan.baidu.com/s/1B1hSQ36vQrsepR0RKKgckw?pwd=xvck",
+      "paper_url": null
+    }
+  ],
+  "crawled_at": "2026-03-21T19:21:37.193682"
+}

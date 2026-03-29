@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="95" fill="#f0f0f0"/>
+  
+  <!-- HAI 字母 -->
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333" text-anchor="middle">HAI</text>
+  
+  <!-- 实验室名称 -->
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">人机协同设计实验室</text>
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="10" fill="#999" text-anchor="middle">东南大学艺术学院</text>
+</svg>

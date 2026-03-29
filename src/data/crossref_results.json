@@ -1,0 +1,122 @@
+[
+  {
+    "id": "paper-2",
+    "title": "Dream-IF: Dynamic Relative EnhAnceMent for Image Fusion",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38126/42088",
+    "status": "success"
+  },
+  {
+    "id": "paper-3",
+    "title": "VTD-CLIP: Video-to-Text Discretization via Prompting CLIP",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38408/42370",
+    "status": "success"
+  },
+  {
+    "id": "paper-4",
+    "title": "Point Cloud Quantization through Multimodal Prompting for 3D Understanding",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37539/41501",
+    "status": "success"
+  },
+  {
+    "id": "paper-5",
+    "title": "CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37884/41846",
+    "status": "success"
+  },
+  {
+    "id": "paper-7",
+    "title": "Decoupled Multi-Predictor Optimization for Inference-Efficient Model Tuning",
+    "pdf_url": "https://doi.org/10.18653/v1/2025.emnlp-main.394",
+    "status": "success"
+  },
+  {
+    "id": "paper-10",
+    "title": "Motion-Aware Adaptive Pixel Pruning for Efficient Local Motion Deblurring",
+    "pdf_url": "https://doi.org/10.1145/3746027.3755062",
+    "status": "success"
+  },
+  {
+    "id": "paper-11",
+    "title": "CKD: Contrastive Knowledge Distillation from A Sample-Wise Perspective",
+    "pdf_url": "https://doi.org/10.1109/iccv51070.2023.01499",
+    "status": "success"
+  },
+  {
+    "id": "paper-15",
+    "title": "RTF: Recursive TransFusion for Multi-Modal Image Synthesis",
+    "pdf_url": "https://doi.org/10.1109/tip.2025.3541877/mm1",
+    "status": "success"
+  },
+  {
+    "id": "paper-16",
+    "title": "BackMix: Regularizing Open Set Recognition by Removing Underlying Fore-Background Priors",
+    "pdf_url": "https://doi.org/10.1109/tpami.2025.3550703/mm1",
+    "status": "success"
+  },
+  {
+    "id": "paper-18",
+    "title": "Unknown Support Prototype Set for Open Set Recognition",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11263-025-02384-9.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-19",
+    "title": "Hyperbolic-Euclidean Deep Mutual Learning",
+    "pdf_url": "https://doi.org/10.1142/9789819821303_0009",
+    "status": "success"
+  },
+  {
+    "id": "paper-22",
+    "title": "Asymmetric Reinforcing against Multi modal Representation Bias",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33841/35996",
+    "status": "success"
+  },
+  {
+    "id": "paper-23",
+    "title": "One-Step Multi-View Spectral Clustering",
+    "pdf_url": "https://doi.org/10.2139/ssrn.5351417",
+    "status": "success"
+  },
+  {
+    "id": "paper-27",
+    "title": "Visible and Clear: Finding Tiny Objects in Difference Map",
+    "pdf_url": "https://doi.org/10.1007/978-3-031-72643-9_1",
+    "status": "success"
+  },
+  {
+    "id": "paper-28",
+    "title": "M-RRFS: A Memory-Based Robust Region Feature Synthesizer for Zero-Shot Object Detection",
+    "pdf_url": "https://doi.org/10.1109/cvpr52688.2022.00747",
+    "status": "success"
+  },
+  {
+    "id": "paper-29",
+    "title": "M2FNet: Multi-modal fusion network for object detection from visible and thermal infrared images",
+    "pdf_url": "https://doi.org/10.1016/j.jag.2024.103918",
+    "status": "success"
+  },
+  {
+    "id": "paper-32",
+    "title": "Integrated Heterogeneous Graph Attention Network for Incomplete Multi-Modal Clustering",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11263-024-02066-y.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-33",
+    "title": "Task-Customized Mixture of Adapters for General Image Fusion",
+    "pdf_url": "https://doi.org/10.1109/cvpr52733.2024.00678",
+    "status": "success"
+  },
+  {
+    "id": "paper-34",
+    "title": "AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning",
+    "pdf_url": "https://doi.org/10.1109/cvpr52733.2024.02201",
+    "status": "success"
+  },
+  {
+    "id": "paper-36",
+    "title": "Bi-directional Adapter for Multimodal Tracking",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/27852/27730",
+    "status": "success"
+  }
+]

@@ -1,0 +1,873 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  "zhaosiqi",
+                      "name":  "赵思淇",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2026",
+                      "image":  "/team/赵思淇.jpg",
+                      "bio":  "研究方向：待定",
+                      "research_interests":  [
+                                                 "待定"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:19.24846+00:00",
+                      "updated_at":  "2026-03-19T15:33:22.433689+00:00"
+                  },
+                  {
+                      "id":  "yangwanglu",
+                      "name":  "杨王璐",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/杨王璐.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:19.129204+00:00",
+                      "updated_at":  "2026-03-19T15:33:22.319058+00:00"
+                  },
+                  {
+                      "id":  "wangyuchen",
+                      "name":  "汪宇辰",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/汪宇辰.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:19.004457+00:00",
+                      "updated_at":  "2026-03-19T15:33:22.180049+00:00"
+                  },
+                  {
+                      "id":  "chenxinrui",
+                      "name":  "陈星睿",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/陈星睿.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:18.881929+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.747835+00:00"
+                  },
+                  {
+                      "id":  "songshengmin",
+                      "name":  "宋生敏",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/宋生敏.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:18.536678+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.628285+00:00"
+                  },
+                  {
+                      "id":  "chenguozhen",
+                      "name":  "陈振国",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/陈振国.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:18.415651+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.497297+00:00"
+                  },
+                  {
+                      "id":  "huyitian",
+                      "name":  "胡亦添",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/胡亦添.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:18.181363+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.376768+00:00"
+                  },
+                  {
+                      "id":  "churuilin",
+                      "name":  "褚瑞麟",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/褚瑞麟.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:18.066262+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.25643+00:00"
+                  },
+                  {
+                      "id":  "wangshuo",
+                      "name":  "王硕",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/王硕.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.940913+00:00",
+                      "updated_at":  "2026-03-19T15:33:21.125941+00:00"
+                  },
+                  {
+                      "id":  "zhaowenxi",
+                      "name":  "赵文希",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/赵文希.jpg",
+                      "bio":  "研究方向：待定",
+                      "research_interests":  [
+                                                 "待定"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.820726+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.988429+00:00"
+                  },
+                  {
+                      "id":  "liheyang",
+                      "name":  "李赫扬",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/李赫扬.jpg",
+                      "bio":  "研究方向：all-in-one 图像复原",
+                      "research_interests":  [
+                                                 "all-in-one 图像复原"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.704646+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.875646+00:00"
+                  },
+                  {
+                      "id":  "xuzhiyu",
+                      "name":  "徐志雨",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/徐志雨.jpg",
+                      "bio":  "研究方向：待定",
+                      "research_interests":  [
+                                                 "待定"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.573669+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.473032+00:00"
+                  },
+                  {
+                      "id":  "chenguanzhuo",
+                      "name":  "陈冠佐",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/陈冠佐.jpg",
+                      "bio":  "研究方向：小目标检测",
+                      "research_interests":  [
+                                                 "小目标检测"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.441323+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.344132+00:00"
+                  },
+                  {
+                      "id":  "wangzhixiang",
+                      "name":  "王志翔",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2025",
+                      "image":  "/team/王志翔.jpg",
+                      "bio":  "研究方向：待定",
+                      "research_interests":  [
+                                                 "待定"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.322325+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.220793+00:00"
+                  },
+                  {
+                      "id":  "yezifan",
+                      "name":  "叶子凡",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/叶子凡.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:17.197251+00:00",
+                      "updated_at":  "2026-03-19T15:33:20.092216+00:00"
+                  },
+                  {
+                      "id":  "ruanyuan",
+                      "name":  "阮媛",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/阮媛.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.974872+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.958661+00:00"
+                  },
+                  {
+                      "id":  "lixin",
+                      "name":  "李欣",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2026",
+                      "image":  "/team/李欣.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.770757+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.829122+00:00"
+                  },
+                  {
+                      "id":  "yaokexin",
+                      "name":  "姚可心",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/姚可心.jpg",
+                      "bio":  "研究方向：大模型微调",
+                      "research_interests":  [
+                                                 "大模型微调"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.652759+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.708049+00:00"
+                  },
+                  {
+                      "id":  "zhuruixuan",
+                      "name":  "朱芮萱",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/朱芮萱.jpg",
+                      "bio":  "研究方向：多模态协同",
+                      "research_interests":  [
+                                                 "多模态协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.533755+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.523081+00:00"
+                  },
+                  {
+                      "id":  "zhangyueying",
+                      "name":  "张月潆",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/张月潆.jpg",
+                      "bio":  "研究方向：多模态协同",
+                      "research_interests":  [
+                                                 "多模态协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.399041+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.409166+00:00"
+                  },
+                  {
+                      "id":  "zhangshengli",
+                      "name":  "张胜利",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/张胜利.png",
+                      "bio":  "研究方向：多模态协同",
+                      "research_interests":  [
+                                                 "多模态协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.275116+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.282613+00:00"
+                  },
+                  {
+                      "id":  "liranxin",
+                      "name":  "李冉新",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/李冉新.jpg",
+                      "bio":  "研究方向：多模态协同",
+                      "research_interests":  [
+                                                 "多模态协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.163189+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.125331+00:00"
+                  },
+                  {
+                      "id":  "gaoyike",
+                      "name":  "高祎珂",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2024",
+                      "image":  "/team/高祎珂.jpg",
+                      "bio":  "研究方向：多模态协同",
+                      "research_interests":  [
+                                                 "多模态协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:16.046309+00:00",
+                      "updated_at":  "2026-03-19T15:33:19.0092+00:00"
+                  },
+                  {
+                      "id":  "zhouxin",
+                      "name":  "周鑫",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/周鑫.jpg",
+                      "bio":  "研究方向：大模型微调",
+                      "research_interests":  [
+                                                 "大模型微调"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:15.76286+00:00",
+                      "updated_at":  "2026-03-19T15:33:18.861244+00:00"
+                  },
+                  {
+                      "id":  "yaohailu",
+                      "name":  "姚海屿",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/姚海屿.jpg",
+                      "bio":  "研究方向：微小目标检测",
+                      "research_interests":  [
+                                                 "微小目标检测"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:15.64317+00:00",
+                      "updated_at":  "2026-03-19T15:33:18.466168+00:00"
+                  },
+                  {
+                      "id":  "wangyuexin",
+                      "name":  "王月新",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/王月新.jpg",
+                      "bio":  "研究方向：大模型微调",
+                      "research_interests":  [
+                                                 "大模型微调"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:15.348561+00:00",
+                      "updated_at":  "2026-03-19T15:33:18.313532+00:00"
+                  },
+                  {
+                      "id":  "lijin",
+                      "name":  "李津",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/李津.jpg",
+                      "bio":  "研究方向：低代价学习",
+                      "research_interests":  [
+                                                 "低代价学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:15.211944+00:00",
+                      "updated_at":  "2026-03-19T15:33:18.189503+00:00"
+                  },
+                  {
+                      "id":  "zhangqiang",
+                      "name":  "张强",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/张强.jpg",
+                      "bio":  "研究方向：大模型微调",
+                      "research_interests":  [
+                                                 "大模型微调"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:15.078511+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.988067+00:00"
+                  },
+                  {
+                      "id":  "jiahanyu",
+                      "name":  "贾昊宇",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2023",
+                      "image":  "/team/贾昊宇.jpg",
+                      "bio":  "研究方向：低代价学习",
+                      "research_interests":  [
+                                                 "低代价学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.958703+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.865256+00:00"
+                  },
+                  {
+                      "id":  "zhaodengyu",
+                      "name":  "赵登妤",
+                      "name_en":  null,
+                      "role":  "Master",
+                      "title":  "硕士生",
+                      "year":  "2026",
+                      "image":  "/team/赵登妤.jpg",
+                      "bio":  "研究方向：待定",
+                      "research_interests":  [
+                                                 "待定"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.838872+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.741523+00:00"
+                  },
+                  {
+                      "id":  "dongyichen",
+                      "name":  "董一辰",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2026",
+                      "image":  "/team/董一辰.jpg",
+                      "bio":  "研究方向：低空具身智能",
+                      "research_interests":  [
+                                                 "低空具身智能"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.71562+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.572167+00:00"
+                  },
+                  {
+                      "id":  "chenxinyu",
+                      "name":  "陈新宇",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2026",
+                      "image":  "/team/陈欣宇.jpg",
+                      "bio":  "研究方向：低空世界模拟器",
+                      "research_interests":  [
+                                                 "低空世界模拟器"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.598172+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.456146+00:00"
+                  },
+                  {
+                      "id":  "zhaokejia",
+                      "name":  "赵柯嘉",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/赵柯嘉.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.471673+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.316522+00:00"
+                  },
+                  {
+                      "id":  "wanglesen",
+                      "name":  "王森",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/王森.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.349147+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.1889+00:00"
+                  },
+                  {
+                      "id":  "guozhoupeng",
+                      "name":  "郭周鹏",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/郭周鹏.jpg",
+                      "bio":  "研究方向：低空智能感知",
+                      "research_interests":  [
+                                                 "低空智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:14.233133+00:00",
+                      "updated_at":  "2026-03-19T15:33:17.056776+00:00"
+                  },
+                  {
+                      "id":  "zhaoruipu",
+                      "name":  "赵睿朴",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/赵睿朴.jpg",
+                      "bio":  "研究方向：协同进化学习",
+                      "research_interests":  [
+                                                 "协同进化学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://ruipuzhao.github.io/",
+                      "created_at":  "2026-03-19T13:19:14.115487+00:00",
+                      "updated_at":  "2026-03-19T15:33:16.923429+00:00"
+                  },
+                  {
+                      "id":  "yubeiming",
+                      "name":  "于北溟",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/于北溟.jpg",
+                      "bio":  "研究方向：大模型",
+                      "research_interests":  [
+                                                 "大模型"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://beimingyy.github.io/minimal-light/",
+                      "created_at":  "2026-03-19T13:19:14.000596+00:00",
+                      "updated_at":  "2026-03-19T15:33:16.747558+00:00"
+                  },
+                  {
+                      "id":  "wujiahe",
+                      "name":  "武嘉和",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/武嘉和.jpg",
+                      "bio":  "研究方向：大模型",
+                      "research_interests":  [
+                                                 "大模型"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://5jiahe.github.io/",
+                      "created_at":  "2026-03-19T13:19:13.885911+00:00",
+                      "updated_at":  "2026-03-19T15:33:16.333496+00:00"
+                  },
+                  {
+                      "id":  "fengjiekan",
+                      "name":  "冯杰康",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2025",
+                      "image":  "/team/冯杰康.jpg",
+                      "bio":  "研究方向：视觉基座模型",
+                      "research_interests":  [
+                                                 "视觉基座模型"
+                                             ],
+                      "email":  null,
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:13.666704+00:00",
+                      "updated_at":  "2026-03-19T15:33:16.192736+00:00"
+                  },
+                  {
+                      "id":  "taoboan",
+                      "name":  "陶柏安",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2024",
+                      "image":  "/team/陶柏安.jpg",
+                      "bio":  "研究方向：多智能体协同",
+                      "research_interests":  [
+                                                 "多智能体协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://taoboan1999.github.io/",
+                      "created_at":  "2026-03-19T13:19:13.54804+00:00",
+                      "updated_at":  "2026-03-19T15:33:16.065794+00:00"
+                  },
+                  {
+                      "id":  "liweihao",
+                      "name":  "李维浩",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2024",
+                      "image":  "/team/李维浩.jpg",
+                      "bio":  "研究方向：多智能体协同",
+                      "research_interests":  [
+                                                 "多智能体协同"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://major-moku.github.io/",
+                      "created_at":  "2026-03-19T13:19:13.321021+00:00",
+                      "updated_at":  "2026-03-19T15:33:15.949184+00:00"
+                  },
+                  {
+                      "id":  "gaoxiyuan",
+                      "name":  "高西远",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2024",
+                      "image":  "/team/高西远.jpg",
+                      "bio":  "研究方向：动态多模态学习",
+                      "research_interests":  [
+                                                 "动态多模态学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://gao-xiyuan.github.io/gxy.github.io/",
+                      "created_at":  "2026-03-19T13:19:13.200993+00:00",
+                      "updated_at":  "2026-03-19T15:33:15.829244+00:00"
+                  },
+                  {
+                      "id":  "xuxingxin",
+                      "name":  "徐兴歆",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2023",
+                      "image":  "/team/徐兴歆.jpeg",
+                      "bio":  "研究方向：大模型",
+                      "research_interests":  [
+                                                 "大模型"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://jehovahxu.github.io/",
+                      "created_at":  "2026-03-19T13:19:13.057576+00:00",
+                      "updated_at":  "2026-03-19T15:33:15.69855+00:00"
+                  },
+                  {
+                      "id":  "lijialu",
+                      "name":  "李佳璐",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2023",
+                      "image":  "/team/李佳璐.png",
+                      "bio":  "研究方向：协同进化学习",
+                      "research_interests":  [
+                                                 "协同进化学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://jillian555.github.io/",
+                      "created_at":  "2026-03-19T13:19:12.927707+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.990049+00:00"
+                  },
+                  {
+                      "id":  "caohaifang",
+                      "name":  "曹海芳",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2022",
+                      "image":  "/team/曹海芳.jpg",
+                      "bio":  "研究方向：非欧表示学习",
+                      "research_interests":  [
+                                                 "非欧表示学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://caohaifang123.github.io/",
+                      "created_at":  "2026-03-19T13:19:12.818024+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.803856+00:00"
+                  },
+                  {
+                      "id":  "litiming",
+                      "name":  "李体明",
+                      "name_en":  null,
+                      "role":  "PhD",
+                      "title":  "博士生",
+                      "year":  "2021",
+                      "image":  "/team/李体明.jpg",
+                      "bio":  "研究方向：多模态协同学习",
+                      "research_interests":  [
+                                                 "多模态协同学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://timoleego.github.io/timingli108.github.io/",
+                      "created_at":  "2026-03-19T13:19:12.556695+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.67619+00:00"
+                  },
+                  {
+                      "id":  "yaoxinjie",
+                      "name":  "姚鑫杰",
+                      "name_en":  null,
+                      "role":  "Professor",
+                      "title":  "昆明理工大学 副教授",
+                      "year":  null,
+                      "image":  "/team/姚鑫杰.jpg",
+                      "bio":  "研究方向：低空社会模拟器",
+                      "research_interests":  [
+                                                 "低空社会模拟器"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://yxjdarren.github.io/",
+                      "created_at":  "2026-03-19T13:19:12.291039+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.56412+00:00"
+                  },
+                  {
+                      "id":  "fanyan",
+                      "name":  "范妍",
+                      "name_en":  null,
+                      "role":  "Professor",
+                      "title":  "国防科技大学 博士后",
+                      "year":  null,
+                      "image":  "/team/范妍.jpg",
+                      "bio":  "研究方向：低空环境智能感知",
+                      "research_interests":  [
+                                                 "低空环境智能感知"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://fanyan0411.github.io/",
+                      "created_at":  "2026-03-19T13:19:12.122817+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.440321+00:00"
+                  },
+                  {
+                      "id":  "zhumengping",
+                      "name":  "朱梦萍",
+                      "name_en":  null,
+                      "role":  "Professor",
+                      "title":  "科研助理",
+                      "year":  null,
+                      "image":  "/team/朱梦萍.jpg",
+                      "bio":  "科研助理",
+                      "research_interests":  [
+
+                                             ],
+                      "email":  null,
+                      "homepage":  "#",
+                      "created_at":  "2026-03-19T13:19:11.963839+00:00",
+                      "updated_at":  "2026-03-19T15:33:14.210515+00:00"
+                  },
+                  {
+                      "id":  "sunyiming",
+                      "name":  "孙一铭",
+                      "name_en":  null,
+                      "role":  "Professor",
+                      "title":  "助理研究员 / 至善博士后",
+                      "year":  null,
+                      "image":  "/team/孙一铭.jpg",
+                      "bio":  "研究方向：无人机具身智能、多模态协同学习",
+                      "research_interests":  [
+                                                 "无人机具身智能",
+                                                 "多模态协同学习"
+                                             ],
+                      "email":  null,
+                      "homepage":  "https://sunym2020.github.io/yimingsun.github.io/",
+                      "created_at":  "2026-03-19T13:19:11.843011+00:00",
+                      "updated_at":  "2026-03-19T15:33:13.817274+00:00"
+                  },
+                  {
+                      "id":  "zhupengfei",
+                      "name":  "朱鹏飞",
+                      "name_en":  "Pengfei Zhu",
+                      "role":  "PI",
+                      "title":  "教授 / 博士生导师",
+                      "year":  null,
+                      "image":  "/team/朱鹏飞.jpg",
+                      "bio":  "VisDrone 团队负责人，东南大学教授，博士生导师。研究方向为低空智能。",
+                      "research_interests":  [
+                                                 "低空智能"
+                                             ],
+                      "email":  "zhupengfei@tju.edu.cn",
+                      "homepage":  null,
+                      "created_at":  "2026-03-19T13:19:11.72517+00:00",
+                      "updated_at":  "2026-03-19T15:33:13.692824+00:00"
+                  }
+              ],
+    "Count":  51
+}

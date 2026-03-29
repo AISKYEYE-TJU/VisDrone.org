@@ -1,0 +1,86 @@
+name: Sync Data to Supabase
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/data/visdrone/**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate JSON files from TypeScript
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const configs = [
+              { file: 'news', table: 'visdrone_news', exportName: 'news' },
+              { file: 'datasets', table: 'visdrone_datasets', exportName: 'datasets' },
+              { file: 'models', table: 'visdrone_models', exportName: 'models' },
+              { file: 'papers', table: 'visdrone_papers', exportName: 'papers' },
+              { file: 'patents', table: 'visdrone_patents', exportName: 'patents' },
+              { file: 'awards', table: 'visdrone_awards', exportName: 'awards' },
+              { file: 'team', table: 'visdrone_team', exportName: 'teamMembers' },
+            ];
+
+            configs.forEach(cfg => {
+              try {
+                const data = require('./src/data/visdrone/' + cfg.file + '.ts');
+                const items = data[cfg.exportName];
+                if (items) {
+                  fs.writeFileSync(cfg.table + '.json', JSON.stringify(items, null, 2));
+                  console.log('Exported ' + items.length + ' items from ' + cfg.file);
+                }
+              } catch (e) {
+                console.log('Error exporting ' + cfg.file + ': ' + e.message);
+              }
+            });
+          "
+
+      - name: Upload to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+        run: |
+          for table in visdrone_news visdrone_datasets visdrone_models visdrone_papers visdrone_patents visdrone_awards visdrone_team; do
+            if [ -f "$table.json" ]; then
+              echo "Syncing $table..."
+              content=$(cat "$table.json")
+              # Delete all existing records
+              curl -X DELETE "https://${SUPABASE_PROJECT_ID}.supabase.co/rest/v1/${table}" \
+                -H "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+                -H "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+                -H "Range: 0-0"
+              # Insert all records
+              curl -X POST "https://${SUPABASE_PROJECT_ID}.supabase.co/rest/v1/${table}" \
+                -H "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+                -H "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+                -H "Content-Type: application/json" \
+                -H "Prefer: batch" \
+                -d "$content"
+              echo "Synced $table"
+            fi
+          done
+
+      - name: Log completion
+        run: echo "Supabase sync completed"

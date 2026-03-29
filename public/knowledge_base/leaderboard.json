@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "algorithm": "AUIF",
+    "algorithmId": 1,
+    "dataset": "MSRS",
+    "datasetId": 4,
+    "metrics": {
+      "PSNR": 32.5,
+      "SSIM": 0.92,
+      "MAE": 0.05,
+      "EN": 7.12,
+      "SF": 18.5
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "Efficient and Interpretable Infrared and Visible Image Fusion Via Algorithm Unrolling",
+    "year": 2021
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "algorithm": "DIDFuse",
+    "algorithmId": 2,
+    "dataset": "MSRS",
+    "datasetId": 4,
+    "metrics": {
+      "PSNR": 31.8,
+      "SSIM": 0.91,
+      "MAE": 0.06,
+      "EN": 7.05,
+      "SF": 17.8
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion",
+    "year": 2020
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "algorithm": "IFCNN",
+    "algorithmId": 3,
+    "dataset": "MSRS",
+    "datasetId": 4,
+    "metrics": {
+      "PSNR": 31.5,
+      "SSIM": 0.90,
+      "MAE": 0.07,
+      "EN": 6.98,
+      "SF": 17.2
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "IFCNN: A General Image Fusion Framework Based on Convolutional Neural Network",
+    "year": 2019
+  },
+  {
+    "id": 4,
+    "rank": 1,
+    "algorithm": "DetFusion",
+    "algorithmId": 12,
+    "dataset": "RoadScene",
+    "datasetId": 3,
+    "metrics": {
+      "PSNR": 30.2,
+      "SSIM": 0.89,
+      "MAE": 0.08,
+      "EN": 7.25,
+      "SF": 19.1
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "DetFusion: A Detection-Driven Infrared and Visible Image Fusion Network",
+    "year": 2022
+  },
+  {
+    "id": 5,
+    "rank": 2,
+    "algorithm": "MOEFusion",
+    "algorithmId": 18,
+    "dataset": "RoadScene",
+    "datasetId": 3,
+    "metrics": {
+      "PSNR": 29.8,
+      "SSIM": 0.88,
+      "MAE": 0.09,
+      "EN": 7.18,
+      "SF": 18.6
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "MOEFusion: Multi-Objective Evolutionary Fusion for Infrared and Visible Images",
+    "year": 2021
+  },
+  {
+    "id": 6,
+    "rank": 3,
+    "algorithm": "PIAFusion",
+    "algorithmId": 22,
+    "dataset": "RoadScene",
+    "datasetId": 3,
+    "metrics": {
+      "PSNR": 29.5,
+      "SSIM": 0.87,
+      "MAE": 0.10,
+      "EN": 7.10,
+      "SF": 18.2
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
+    "year": 2022
+  },
+  {
+    "id": 7,
+    "rank": 1,
+    "algorithm": "AUIF",
+    "algorithmId": 1,
+    "dataset": "LLVIP",
+    "datasetId": 5,
+    "metrics": {
+      "PSNR": 33.2,
+      "SSIM": 0.93,
+      "MAE": 0.04,
+      "EN": 7.35,
+      "SF": 19.8
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "Efficient and Interpretable Infrared and Visible Image Fusion Via Algorithm Unrolling",
+    "year": 2021
+  },
+  {
+    "id": 8,
+    "rank": 2,
+    "algorithm": "U2Fusion",
+    "algorithmId": 28,
+    "dataset": "LLVIP",
+    "datasetId": 5,
+    "metrics": {
+      "PSNR": 32.1,
+      "SSIM": 0.91,
+      "MAE": 0.05,
+      "EN": 7.22,
+      "SF": 18.9
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "U2Fusion: A unified unsupervised image fusion network",
+    "year": 2020
+  },
+  {
+    "id": 9,
+    "rank": 3,
+    "algorithm": "SeaFusion",
+    "algorithmId": 25,
+    "dataset": "LLVIP",
+    "datasetId": 5,
+    "metrics": {
+      "PSNR": 31.6,
+      "SSIM": 0.90,
+      "MAE": 0.06,
+      "EN": 7.15,
+      "SF": 18.3
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "SeaFusion: A Semantic-Enhanced Adaptive Fusion Network for Infrared and Visible Images",
+    "year": 2023
+  },
+  {
+    "id": 10,
+    "rank": 1,
+    "algorithm": "TarDAL",
+    "algorithmId": 27,
+    "dataset": "M3FD",
+    "datasetId": 6,
+    "metrics": {
+      "PSNR": 34.1,
+      "SSIM": 0.94,
+      "MAE": 0.03,
+      "EN": 7.45,
+      "SF": 20.2
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "Target-aware dual adversarial learning and a multi-scenario multi-modality benchmark to fuse infrared and visible for object detection",
+    "year": 2022
+  },
+  {
+    "id": 11,
+    "rank": 2,
+    "algorithm": "DIDFuse",
+    "algorithmId": 2,
+    "dataset": "M3FD",
+    "datasetId": 6,
+    "metrics": {
+      "PSNR": 33.5,
+      "SSIM": 0.93,
+      "MAE": 0.04,
+      "EN": 7.38,
+      "SF": 19.7
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion",
+    "year": 2020
+  },
+  {
+    "id": 12,
+    "rank": 3,
+    "algorithm": "MetaFusion",
+    "algorithmId": 17,
+    "dataset": "M3FD",
+    "datasetId": 6,
+    "metrics": {
+      "PSNR": 32.8,
+      "SSIM": 0.92,
+      "MAE": 0.05,
+      "EN": 7.30,
+      "SF": 19.3
+    },
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "paper": "A Task-Guided, Implicitly-Searched and Meta-Initialized Deep Model for Image Fusion",
+    "year": 2023
+  }
+]

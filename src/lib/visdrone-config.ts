@@ -1,0 +1,112 @@
+export const VISDRONE_ROUTES = {
+  HOME: '/visdrone',
+  RESEARCH: '/visdrone/research',
+  TEAM: '/visdrone/team',
+  PUBLICATIONS: '/visdrone/publications',
+  DATA_BASE: '/visdrone/data-base',
+  KNOWLEDGE_BASE: '/visdrone/knowledge-base',
+  MODEL_BASE: '/visdrone/model-base',
+  TOOLS: '/visdrone/tools',
+  NEWS: '/visdrone/news',
+  SEMINAR: '/visdrone/seminar',
+  CONTACT: '/visdrone/contact',
+  ADMIN: '/visdrone/admin',
+} as const;
+
+export const VISDRONE_INFO = {
+  name: 'VisDrone团队',
+  nameEn: 'VisDrone Team',
+  institution: '东南大学、天津大学、国防科技大学、雄安国创中心',
+  shortInstitution: '',
+  location: '东南大学四牌楼校区李文正楼',
+  contactEmail: 'zhupengfei@tju.edu.cn',
+  principal: '朱鹏飞',
+  logo: '/visdrone-logo.png',
+  description: 'VisDrone团队面向低空经济国家战略需求，构建低空数据基座和知识基座，攻关低空智能感知、低空具身智能和低空群体智能技术难题，研发低空智巡平台和空中具身机器人，并在雄安新区等地开展应用示范。',
+  mapUrl: 'https://api.map.baidu.com/marker?location=32.0508,118.7925&title=东南大学四牌楼校区李文正楼&content=VisDrone团队实验室&output=html&src=visdrone',
+  mapCoordinates: {
+    lat: 32.0508,
+    lng: 118.7925,
+  },
+  features: [
+    '构建了世界上规模最大的低空视觉数据平台',
+    '超过2000万图像/视频帧以及2000万目标标注',
+    '自建百卡计算集群',
+    '自研低空视觉基座模型',
+  ],
+  stats: {
+    datasets: '10+',
+    models: '56+',
+    papers: '97',
+    patents: '34',
+    awards: '28',
+    images: '2000万+',
+    annotations: '2000万+',
+  },
+};
+
+export const RESEARCH_AREAS = [
+  {
+    id: 'perception',
+    title: '低空智能感知',
+    titleEn: 'Low-Altitude Intelligent Perception',
+    icon: 'Eye',
+    description: '面向无人机视角的目标检测、追踪、计数等核心感知任务，构建大规模数据集和高效算法。',
+    keywords: ['目标检测', '目标追踪', '人群计数', '多模态融合'],
+  },
+  {
+    id: 'embodied',
+    title: '低空具身智能',
+    titleEn: 'Low-Altitude Embodied Intelligence',
+    icon: 'Plane',
+    description: '研发空中具身机器人，实现低空环境下的自主导航、交互与作业能力。',
+    keywords: ['具身智能', '自主导航', '空中机器人', '环境交互'],
+  },
+  {
+    id: 'swarm',
+    title: '低空群体智能',
+    titleEn: 'Low-Altitude Swarm Intelligence',
+    icon: 'Users',
+    description: '研究多无人机协同感知、决策与执行，实现复杂任务的群体智能涌现。',
+    keywords: ['多机协同', '群体智能', '分布式决策', '任务分配'],
+  },
+];
+
+export const TOOLS_PLATFORMS = [
+  {
+    id: 'ai4r',
+    name: 'AI4R平台',
+    description: 'AI for Research · 第五范式 - 自动科学研究系统，集成多类核心智能体，实现从文献调研、假设生成、实验设计到论文生成的研究闭环',
+    url: 'https://haiseu.com/autosota',
+    icon: 'Brain',
+    status: 'online',
+    features: ['论文检索', '算法评测', '知识图谱', '自动研究'],
+  },
+  {
+    id: 'world-simulator',
+    name: '低空世界模拟器',
+    description: '低空世界模拟器，为低空智能研究提供仿真环境',
+    url: '#',
+    icon: 'Globe',
+    status: 'developing',
+    features: ['环境仿真', '场景生成', '数据标注'],
+  },
+  {
+    id: 'social-simulator',
+    name: '低空社会模拟器',
+    description: '低空社会模拟器，模拟低空经济应用场景',
+    url: '#',
+    icon: 'Network',
+    status: 'developing',
+    features: ['社会仿真', '场景模拟', '应用示范'],
+  },
+  {
+    id: 'visdrone-platform',
+    name: '低空智能开放平台',
+    description: 'VisDrone数据集和模型开放平台，实现低空数据-模型-场景的联动',
+    url: 'https://visdrone.net',
+    icon: 'Database',
+    status: 'online',
+    features: ['数据下载', '模型评测', '在线演示'],
+  },
+];

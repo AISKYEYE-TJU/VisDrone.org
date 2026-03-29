@@ -1,0 +1,1406 @@
+import type { Model } from '@/types/visdrone';
+
+export const models: Model[] = [
+  {
+    "id": "3g-net",
+    "name": "3G-Net",
+    "full_name": "3D Geometry Graph Network for Point Cloud Processing",
+    "description": "用于点云处理的三维几何图网络。该方法通过几何感知图结构处理三维点云数据。",
+    "task": "点云处理",
+    "paper_title": "Deep Global Generalized Gaussian Networks",
+    "paper_venue": "IEEE TMM",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "点云处理",
+      "三维几何",
+      "图神经网络",
+      "几何学习"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/csqlwang/3G-Net",
+    "stars": 9,
+    "forks": 3,
+    "created_at": "2026-03-19T13:18:47.531493+00:00",
+    "updated_at": "2026-03-19T15:32:44.486746+00:00"
+  },
+  {
+    "id": "prenet",
+    "name": "PReNet",
+    "full_name": "Progressive Recurrent Network for Image Deraining",
+    "description": "用于图像去雨的渐进循环网络。该方法通过渐进式循环结构实现高效的图像去雨。",
+    "task": "图像去雨",
+    "paper_title": "Progressive Image Deraining Networks: A Better and Simpler Baseline",
+    "paper_venue": "CVPR",
+    "paper_year": 2019,
+    "paper_url": null,
+    "features": [
+      "图像去雨",
+      "循环网络",
+      "渐进式处理",
+      "端到端"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/csdwren/PReNet",
+    "stars": 266,
+    "forks": 6,
+    "created_at": "2026-03-19T13:18:47.415631+00:00",
+    "updated_at": "2026-03-19T15:32:44.359047+00:00"
+  },
+  {
+    "id": "recderain",
+    "name": "RecDerain",
+    "full_name": "Single Image Deraining Using Bilateral Recurrent Network",
+    "description": "双边循环网络图像去雨方法。该方法通过双边LSTMs允许雨纹层和背景图像层之间的交互，同时利用两个循环网络分别处理雨纹和背景特征，实现有效的单图像去雨。",
+    "task": "图像去雨",
+    "paper_title": "Single Image Deraining Using Bilateral Recurrent Network",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2020,
+    "paper_url": null,
+    "features": [
+      "双边循环网络",
+      "图像去雨",
+      "层交互",
+      "特征分离"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/csdwren/RecDerain",
+    "stars": 35,
+    "forks": 4,
+    "created_at": "2026-03-19T13:18:47.27848+00:00",
+    "updated_at": "2026-03-19T15:32:44.218651+00:00"
+  },
+  {
+    "id": "domain-adaptation",
+    "name": "DomainAdapt",
+    "full_name": "Domain Adaptation for Visual Recognition",
+    "description": "视觉识别领域的域适应方法。该方法通过对抗学习和特征对齐技术实现跨域知识迁移。",
+    "task": "域适应",
+    "paper_title": "Domain Adaptation for Visual Recognition",
+    "paper_venue": "IEEE TPAMI",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "域适应",
+      "对抗学习",
+      "特征对齐",
+      "知识迁移"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://isrc.iscas.ac.cn/gitlab/research/domain-adaption",
+    "stars": 12,
+    "forks": 3,
+    "created_at": "2026-03-19T13:18:47.155496+00:00",
+    "updated_at": "2026-03-19T15:32:44.026768+00:00"
+  },
+  {
+    "id": "r2sql",
+    "name": "R2SQL",
+    "full_name": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+    "description": "动态混合关系网络用于跨域上下文相关语义解析。该方法通过动态混合关系建模提升文本到SQL的跨域解析能力。",
+    "task": "跨域语义解析",
+    "paper_title": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+    "paper_venue": "AAAI",
+    "paper_year": 2021,
+    "paper_url": null,
+    "features": [
+      "动态混合关系",
+      "跨域语义解析",
+      "上下文建模",
+      "关系网络"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/huybery/r2sql",
+    "stars": 61,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:47.037522+00:00",
+    "updated_at": "2026-03-19T15:32:43.690314+00:00"
+  },
+  {
+    "id": "lhgn",
+    "name": "LHGN",
+    "full_name": "Local Hypergraph Network for Multi-View Clustering",
+    "description": "局部超图网络用于多视图聚类。该方法通过构建局部超图结构挖掘多视图数据中的复杂关系。",
+    "task": "多视图聚类",
+    "paper_title": "Latent Heterogeneous Graph Network for Incomplete Multi-View Learning",
+    "paper_venue": "IEEE TMM",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "超图学习",
+      "多视图聚类",
+      "局部结构",
+      "图神经网络"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/yxjdarren/LHGN_TMM_2022",
+    "stars": 3,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:46.82282+00:00",
+    "updated_at": "2026-03-21T13:54:27.249201+00:00"
+  },
+  {
+    "id": "hybrid-supervised",
+    "name": "HybridSupSeg",
+    "full_name": "Hybrid Supervised Segmentation with Point Supervision",
+    "description": "混合监督分割方法，结合点监督和图像级监督进行语义分割。该方法在弱监督条件下实现精确的图像分割。",
+    "task": "弱监督语义分割",
+    "paper_title": "Label-Efficient Hybrid-Supervised Learning for Medical Image Segmentation",
+    "paper_venue": "IEEE TPAMI",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "混合监督",
+      "点监督",
+      "语义分割",
+      "弱监督学习"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/DesertsP/Hybrid-Supervised-Segmentation",
+    "stars": 0,
+    "forks": 6,
+    "created_at": "2026-03-19T13:18:46.706459+00:00",
+    "updated_at": "2026-03-21T13:54:26.770157+00:00"
+  },
+  {
+    "id": "cmpd",
+    "name": "CMPD",
+    "full_name": "Cross-Modal Pedestrian Detection with Adaptive Fusion",
+    "description": "自适应融合跨模态行人检测。该方法通过自适应融合策略提升多光谱行人检测性能。",
+    "task": "多光谱行人检测",
+    "paper_title": "Cross-Modal Pedestrian Detection with Adaptive Fusion",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "跨模态检测",
+      "自适应融合",
+      "行人检测",
+      "多光谱"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/nihaoxiaoli/CMPD",
+    "stars": 1,
+    "forks": 4,
+    "created_at": "2026-03-19T13:18:46.583747+00:00",
+    "updated_at": "2026-03-19T15:32:43.326364+00:00"
+  },
+  {
+    "id": "cdrs",
+    "name": "CDRS",
+    "full_name": "Cross-Domain Representation Learning for Person Re-identification",
+    "description": "跨域表示学习用于行人重识别。该方法通过跨域学习提升行人重识别的泛化能力。",
+    "task": "行人重识别",
+    "paper_title": "Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "跨域学习",
+      "行人重识别",
+      "表示学习",
+      "域适应"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Jillian555/TNNLS_CDRS",
+    "stars": 7,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:46.325825+00:00",
+    "updated_at": "2026-03-21T13:54:51.853948+00:00"
+  },
+  {
+    "id": "mgecl",
+    "name": "MGECL",
+    "full_name": "Multi-Granularity Embedding Clustering for Lifelong Learning",
+    "description": "多粒度嵌入聚类用于终身学习。该方法通过多粒度嵌入表示实现高效的终身学习。",
+    "task": "多粒度嵌入聚类",
+    "paper_title": "Multi-granularity episodic contrastive learning for few-shot learning",
+    "paper_venue": "Pattern Recognition",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "多粒度嵌入",
+      "聚类",
+      "终身学习",
+      "增量学习"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/z1358/MGECL_PR",
+    "stars": 4,
+    "forks": 3,
+    "created_at": "2026-03-19T13:18:46.211268+00:00",
+    "updated_at": "2026-03-21T13:54:19.880063+00:00"
+  },
+  {
+    "id": "ssid-kd",
+    "name": "SSID-KD",
+    "full_name": "Semantic Self-Interest Distillation for Knowledge Distillation",
+    "description": "基于语义自兴趣蒸馏的知识蒸馏方法。该方法通过挖掘学生模型的自兴趣特征提升知识蒸馏效果。",
+    "task": "知识蒸馏",
+    "paper_title": "Semi-Supervised Image Deraining using Knowledge Distillation",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "语义蒸馏",
+      "知识蒸馏",
+      "自兴趣",
+      "模型压缩"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/cuiyixin555/SSID-KD",
+    "stars": 12,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:46.100282+00:00",
+    "updated_at": "2026-03-21T13:54:45.35993+00:00"
+  },
+  {
+    "id": "irc",
+    "name": "IRC",
+    "full_name": "Infrared Reconstruction Cross-modality for Pedestrian Detection",
+    "description": "跨模态红外重建用于行人检测。该方法通过红外图像重建提升跨模态行人检测性能。",
+    "task": "跨模态行人检测",
+    "paper_title": "Self-supervised Fully Automatic Learning Machine for Intelligent Retail Container",
+    "paper_venue": "IEEE T-IM",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "红外重建",
+      "跨模态",
+      "行人检测",
+      "图像增强"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空环境感知"
+    ],
+    "github": "https://github.com/SunYM2020/IRC",
+    "stars": 1,
+    "forks": 4,
+    "created_at": "2026-03-19T13:18:45.985+00:00",
+    "updated_at": "2026-03-21T13:54:25.372505+00:00"
+  },
+  {
+    "id": "detfusion",
+    "name": "DetFusion",
+    "full_name": "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network",
+    "description": "检测驱动的红外与可见光图像融合网络。该方法将目标检测任务与图像融合相结合，生成更适合下游检测任务的融合图像。",
+    "task": "红外与可见光图像融合",
+    "paper_title": "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network",
+    "paper_venue": "IEEE TIM",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "检测驱动",
+      "红外融合",
+      "可见光融合",
+      "目标检测"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/SunYM2020/DetFusion",
+    "stars": 82,
+    "forks": 8,
+    "created_at": "2026-03-19T13:18:45.870458+00:00",
+    "updated_at": "2026-03-19T15:32:42.284011+00:00"
+  },
+  {
+    "id": "cmedfl",
+    "name": "CMEDFL",
+    "full_name": "Cross-Modal Expert Distillation Framework for Lifelong Learning",
+    "description": "跨模态专家蒸馏终身学习框架。该方法通过跨模态知识蒸馏实现高效的终身学习，有效解决灾难性遗忘问题。",
+    "task": "跨模态终身学习",
+    "paper_title": "Cross-Modal Expert Distillation Framework for Lifelong Learning",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "跨模态蒸馏",
+      "终身学习",
+      "灾难性遗忘",
+      "知识迁移"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/peace-love243/CMEDFL",
+    "stars": 6,
+    "forks": 3,
+    "created_at": "2026-03-19T13:18:45.759946+00:00",
+    "updated_at": "2026-03-19T15:32:41.902225+00:00"
+  },
+  {
+    "id": "mianet",
+    "name": "MIA-NET",
+    "full_name": "MIA-NET: 多无人机多目标跟踪网络",
+    "description": "MIA-NET是一种多无人机多目标跟踪网络，用于解决目标遮挡问题。该方法通过多机协同感知，有效提升遮挡场景下的跟踪性能。",
+    "task": "多无人机多目标跟踪",
+    "paper_title": "Robust Multi-Drone Multi-Target Tracking to Resolve Target Occlusion: A Benchmark",
+    "paper_venue": "IEEE TMM",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "多机协同",
+      "遮挡处理",
+      "多目标关联",
+      "遮挡感知"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/VisDrone/Multi-Drone-Multi-Object-Detection-and-Tracking",
+    "stars": 164,
+    "forks": 12,
+    "created_at": "2026-03-19T13:18:45.593106+00:00",
+    "updated_at": "2026-03-19T15:32:41.791937+00:00"
+  },
+  {
+    "id": "sc",
+    "name": "SC",
+    "full_name": "SC: 社会化协同进化",
+    "description": "SC (Socialized Coevolution) 是一种社会化协同进化方法，通过跨任务协作来推进更好的世界。",
+    "task": "协同进化",
+    "paper_title": "Socialized Coevolution: Advancing a Better World through Cross-Task Collaboration",
+    "paper_venue": "ICML",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "协同进化",
+      "跨任务协作",
+      "社会化学习"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/yxjdarren/SC/tree/main",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:45.455709+00:00",
+    "updated_at": "2026-03-19T15:32:41.666059+00:00"
+  },
+  {
+    "id": "dmpot",
+    "name": "DMPO",
+    "full_name": "DMPO: 解耦多预测器优化",
+    "description": "DMPO (Decoupled Multi-Predictor Optimization) 是一种解耦多预测器优化方法，用于推理高效的模型调优。",
+    "task": "模型调优",
+    "paper_title": "Decoupled Multi-Predictor Optimization for Inference-Efficient Model Tuning",
+    "paper_venue": "ICCV",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "解耦优化",
+      "多预测器",
+      "高效推理",
+      "模型调优"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/TJU-sjyj/DMPO",
+    "stars": 1,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:45.336886+00:00",
+    "updated_at": "2026-03-19T15:32:41.531896+00:00"
+  },
+  {
+    "id": "mnl",
+    "name": "Multimodal-NL",
+    "full_name": "Multimodal-NL: 多模态负学习",
+    "description": "Multimodal Negative Learning (Multimodal-NL) 是一种多模态负学习框架，用于多模态学习任务。该方法通过挖掘多模态数据中的负样本信息，提升模型的泛化能力。",
+    "task": "多模态学习",
+    "paper_title": "Multimodal Negative Learning",
+    "paper_venue": "NeurIPS",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "多模态",
+      "负学习",
+      "泛化能力",
+      "MVSA数据集"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/BaoquanGong/Multimodal-Negative-Learning",
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:45.219688+00:00",
+    "updated_at": "2026-03-19T15:32:41.423596+00:00"
+  },
+  {
+    "id": "rtf",
+    "name": "RTF",
+    "full_name": "RTF: 递归输注多模态图像合成",
+    "description": "RTF (Recursive Transfusion) 是一种递归输注方法，用于多模态图像合成任务。",
+    "task": "多模态图像合成",
+    "paper_title": "RTF: Recursive Transfusion for Multi-modal Image Synthesis",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "递归输注",
+      "多模态合成",
+      "图像生成"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/guoliangq/RTF",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:45.044234+00:00",
+    "updated_at": "2026-03-19T15:32:41.302949+00:00"
+  },
+  {
+    "id": "ckd",
+    "name": "CKD",
+    "full_name": "CKD: 样本级对比知识蒸馏",
+    "description": "CKD (Contrastive Knowledge Distillation) 是一种样本级对比知识蒸馏方法，用于模型压缩和知识迁移。",
+    "task": "知识蒸馏",
+    "paper_title": "CKD: Contrastive Knowledge Distillation from A Sample-Wise Perspective",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "对比学习",
+      "知识蒸馏",
+      "样本级",
+      "模型压缩"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/ZhouXinzzzzz/CKD",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.915939+00:00",
+    "updated_at": "2026-03-19T15:32:41.17123+00:00"
+  },
+  {
+    "id": "tedfuse",
+    "name": "TEDFuse",
+    "full_name": "TEDFuse: 三边引导的图像融合网络",
+    "description": "TEDFuse 是一种三边引导的图像融合网络，用于红外与可见光图像融合。该方法通过三边卷积引导，提取多尺度特征进行图像融合。",
+    "task": "图像融合",
+    "paper_title": "Trilateral-Convolutional Guided Infrared and Visible Image Fusion",
+    "paper_venue": "",
+    "paper_year": 2023,
+    "paper_url": null,
+    "features": [
+      "三边卷积",
+      "图像融合",
+      "多尺度特征",
+      "红外可见光"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Claire-cxy/TEDFuse",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.790833+00:00",
+    "updated_at": "2026-03-19T15:32:41.063913+00:00"
+  },
+  {
+    "id": "mtcp",
+    "name": "MTCP",
+    "full_name": "MTCP: 多任务可信伪标签学习网络",
+    "description": "MTCP是一种多任务可信伪标签学习网络，用于半监督人群计数。该方法通过可信度评估和伪标签筛选，提升了半监督学习效果。",
+    "task": "半监督人群计数",
+    "paper_title": "Multi-Task Credible Pseudo-Label Learning for Semi-supervised Crowd Counting",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "伪标签学习",
+      "半监督学习",
+      "可信度评估",
+      "人群计数"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空环境感知"
+    ],
+    "github": "https://github.com/ljq2000/MTCP",
+    "stars": 2,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:44.678678+00:00",
+    "updated_at": "2026-03-19T15:32:40.936743+00:00"
+  },
+  {
+    "id": "ghg",
+    "name": "GHG",
+    "full_name": "GHG: 多智能体图社交学习",
+    "description": "Graphs Help Graphs (GHG) 是一种多智能体图社交学习框架，用于图学习任务。该方法通过智能体间的图结构信息共享，提升了分布式学习的性能。",
+    "task": "图学习",
+    "paper_title": "Graphs Help Graphs: Multi-Agent Graph Socialized Learning",
+    "paper_venue": "NeurIPS",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "多智能体",
+      "图学习",
+      "分布式学习",
+      "信息共享"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/Jillian555/GHG",
+    "stars": 3,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.557875+00:00",
+    "updated_at": "2026-03-19T15:32:40.766701+00:00"
+  },
+  {
+    "id": "arm",
+    "name": "ARM",
+    "full_name": "ARM: 非对称强化对抗多模态表征偏差",
+    "description": "ARM (Asymmetric Reinforcing against Multi-modal Representation Bias) 是一种非对称强化方法，用于解决多模态表征偏差问题。",
+    "task": "多模态学习",
+    "paper_title": "Asymmetric Reinforcing against Multi-modal Representation Bias",
+    "paper_venue": "AAAI",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "非对称强化",
+      "多模态学习",
+      "表征偏差"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Gao-xiyuan/ARM",
+    "stars": 6,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:44.382757+00:00",
+    "updated_at": "2026-03-19T15:32:40.658105+00:00"
+  },
+  {
+    "id": "m2aenet",
+    "name": "M2AENet",
+    "full_name": "M2AENet: 运动感知自适应像素剪枝网络",
+    "description": "M2AENet (Motion-Aware Adaptive Pixel Pruning) 是一种运动感知自适应像素剪枝方法，用于高效局部运动去模糊。",
+    "task": "图像去模糊",
+    "paper_title": "Motion-Aware Adaptive Pixel Pruning for Efficient Local Motion Deblurring",
+    "paper_venue": "arXiv",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "运动感知",
+      "自适应剪枝",
+      "图像去模糊",
+      "高效推理"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/shangwei5/M2AENet",
+    "stars": 7,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.273296+00:00",
+    "updated_at": "2026-03-19T15:32:40.470694+00:00"
+  },
+  {
+    "id": "emacrowd",
+    "name": "EMA-Crowd",
+    "full_name": "EMA-Crowd: 高效掩码自编码器人群计数网络",
+    "description": "EMA-Crowd是一种基于高效掩码自编码器的人群计数网络，用于从无人机视角进行人群密度估计和计数。",
+    "task": "人群计数",
+    "paper_title": "Efficient Masked AutoEncoder for Video Object Counting and A Large-Scale Benchmark",
+    "paper_venue": "ICLR",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "掩码自编码器",
+      "人群计数",
+      "密度估计",
+      "视频分析"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/mast1ren/E-MAC",
+    "stars": 13,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.14664+00:00",
+    "updated_at": "2026-03-19T15:32:40.278859+00:00"
+  },
+  {
+    "id": "backmix",
+    "name": "BackMix",
+    "full_name": "BackMix: 开放集识别正则化方法",
+    "description": "BackMix 是一种通过移除潜在前景-背景先验来正则化开放集识别的方法，有效提升模型对未知类别的识别能力。",
+    "task": "开放集识别",
+    "paper_title": "BackMix: Regularizing Open Set Recognition by Removing Underlying Fore-Background Priors",
+    "paper_venue": "IEEE TPAMI",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "开放集识别",
+      "背景混合",
+      "正则化",
+      "前景-背景先验"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Vanixxz/BackMix",
+    "stars": 15,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:44.026688+00:00",
+    "updated_at": "2026-03-19T15:32:39.983344+00:00"
+  },
+  {
+    "id": "tgecnet",
+    "name": "TG-ECNet",
+    "full_name": "TG-ECNet: 任务门控多专家协作网络",
+    "description": "TG-ECNet (Task-gated Multi-expert Collaboration Network) 是一种任务门控多专家协作网络，用于退化多模态图像融合。",
+    "task": "多模态图像融合",
+    "paper_title": "Task-gated Multi-expert Collaboration Network for Degraded Multi-modal Image Fusion",
+    "paper_venue": "ICML",
+    "paper_year": 2025,
+    "paper_url": null,
+    "features": [
+      "任务门控",
+      "多专家协作",
+      "多模态融合",
+      "退化图像处理"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/LeeX54946/TG-ECNet",
+    "stars": 25,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:43.796972+00:00",
+    "updated_at": "2026-03-19T15:32:39.866173+00:00"
+  },
+  {
+    "id": "slrnet",
+    "name": "SLRNet",
+    "full_name": "Learning Self-Supervised Low-Rank Network for Semantic Segmentation",
+    "description": "自监督低秩网络用于单阶段弱监督和半监督语义分割。该方法通过跨视图低秩模块分解多视图表示，在Pascal VOC和COCO数据集上取得了优异性能。",
+    "task": "语义分割",
+    "paper_title": "Learning Self-supervised Low-Rank Network for Single-Stage Weakly and Semi-supervised Semantic Segmentation",
+    "paper_venue": "IJCV",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "弱监督语义分割",
+      "半监督语义分割",
+      "跨视图低秩",
+      "矩阵分解"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/DesertsP/SLRNet",
+    "stars": 62,
+    "forks": 5,
+    "created_at": "2026-03-19T13:18:43.675435+00:00",
+    "updated_at": "2026-03-21T13:54:15.257087+00:00"
+  },
+  {
+    "id": "asnet",
+    "name": "ASNet",
+    "full_name": "ASNet: 智能体共享网络",
+    "description": "ASNet是一种智能体共享网络，用于多无人机单目标跟踪任务。该方法通过智能体间信息共享机制，提升了多机协同跟踪的鲁棒性和准确性。",
+    "task": "多无人机单目标跟踪",
+    "paper_title": "Multi-Drone-Based Single Object Tracking With Agent Sharing Network",
+    "paper_venue": "IEEE TCSVT",
+    "paper_year": 2020,
+    "paper_url": null,
+    "features": [
+      "多机协同",
+      "信息共享",
+      "鲁棒跟踪",
+      "视角互补"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/VisDrone/MultiDrone",
+    "stars": 79,
+    "forks": 7,
+    "created_at": "2026-03-19T13:18:43.56667+00:00",
+    "updated_at": "2026-03-19T15:32:39.60386+00:00"
+  },
+  {
+    "id": "tcmoa",
+    "name": "TC-MoA",
+    "full_name": "TC-MoA: 任务自适应的混合Adapter网络",
+    "description": "TC-MoA是一种任务自适应的混合Adapter网络，用于通用图像融合。该方法针对不同融合任务自动选择合适的适配器。",
+    "task": "通用图像融合",
+    "paper_title": "Task-Customized Mixture of Adapters for General Image Fusion",
+    "paper_venue": "CVPR",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "任务自适应",
+      "混合Adapter",
+      "通用融合",
+      "即插即用"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/YangSun22/TC-MoA",
+    "stars": 105,
+    "forks": 9,
+    "created_at": "2026-03-19T13:18:43.333099+00:00",
+    "updated_at": "2026-03-19T15:32:39.475575+00:00"
+  },
+  {
+    "id": "stnnet",
+    "name": "STNNet",
+    "full_name": "STNNet: 时空近邻网络",
+    "description": "STNNet是一种时空近邻网络，用于检测、追踪和计数多任务学习。该方法通过时空建模和近邻关联机制，实现了高效的人群分析。",
+    "task": "检测、追踪和计数",
+    "paper_title": "Detection, Tracking, and Counting Meets Drones in Crowds: A Benchmark",
+    "paper_venue": "CVPR",
+    "paper_year": 2021,
+    "paper_url": null,
+    "features": [
+      "多任务学习",
+      "时空建模",
+      "近邻关联",
+      "端到端"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/VisDrone/DroneCrowd",
+    "stars": 213,
+    "forks": 39,
+    "created_at": "2026-03-19T13:18:43.216449+00:00",
+    "updated_at": "2026-03-19T15:32:39.350022+00:00"
+  },
+  {
+    "id": "uacmdet",
+    "name": "UA-CMDet",
+    "full_name": "UA-CMDet: 不确定感知双光目标检测网络",
+    "description": "UA-CMDet是一种不确定感知双光目标检测网络，用于RGB-T多模态目标检测。该方法通过不确定性建模，有效提升了跨模态融合的鲁棒性。",
+    "task": "多模态目标检测",
+    "paper_title": "Drone-Based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning",
+    "paper_venue": "IEEE TCSVT",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "不确定性建模",
+      "RGB-T融合",
+      "跨模态检测",
+      "鲁棒学习"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/VisDrone/DroneVehicle",
+    "stars": 677,
+    "forks": 60,
+    "created_at": "2026-03-19T13:18:43.091089+00:00",
+    "updated_at": "2026-03-19T15:32:39.149391+00:00"
+  },
+  {
+    "id": "ecanet",
+    "name": "ECA-Net",
+    "full_name": "ECA-Net: 高效通道注意力网络",
+    "description": "ECA-Net是一种高效通道注意力网络，通过轻量级的注意力机制提升网络性能。该方法使用一维卷积自适应地确定通道注意力的覆盖范围，避免了SE-Net中全连接层带来的参数开销。",
+    "task": "深度网络结构",
+    "paper_title": "ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks",
+    "paper_venue": "CVPR",
+    "paper_year": 2020,
+    "paper_url": null,
+    "features": [
+      "通道注意力",
+      "轻量级设计",
+      "高效推理",
+      "即插即用"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/BangguWu/ECANet",
+    "stars": 1399,
+    "forks": 203,
+    "created_at": "2026-03-19T13:18:42.974306+00:00",
+    "updated_at": "2026-03-21T13:54:00.291202+00:00"
+  },
+  {
+    "id": "ccf",
+    "name": "CCF",
+    "full_name": "CCF: Conditional Controllable Image Fusion",
+    "description": "Conditional Controllable Image Fusion (NeurIPS 2024)。该方法通过条件控制实现灵活的图像融合。",
+    "task": "图像融合",
+    "paper_title": "Conditional Controllable Image Fusion",
+    "paper_venue": "NeurIPS",
+    "paper_year": 2024,
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d99e8e80a6c41e148db686918dd7eab3-Paper-Conference.pdf",
+    "features": [
+      "条件控制",
+      "图像融合",
+      "多模态融合"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/jehovahxu/CCF",
+    "stars": 14,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:42.843551+00:00",
+    "updated_at": "2026-03-19T15:32:38.915824+00:00"
+  },
+  {
+    "id": "ccpgnn",
+    "name": "CCP-GNN",
+    "full_name": "CCP-GNN: Competitive Covariance Pooling for Graph Neural Networks",
+    "description": "CCP-GNN: Competitive Covariance Pooling for Improving Graph Neural Networks (IEEE TNNLS 2024)。该方法通过竞争性协方差池化提升图神经网络性能。",
+    "task": "图学习",
+    "paper_title": "CCP-GNN: Competitive Covariance Pooling for Improving Graph Neural Networks",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "竞争性协方差池化",
+      "图神经网络",
+      "图学习",
+      "特征提取"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/Jillian555/CCP-GNN",
+    "stars": 6,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:42.714598+00:00",
+    "updated_at": "2026-03-19T15:32:38.754032+00:00"
+  },
+  {
+    "id": "plcsr",
+    "name": "PLCSR",
+    "full_name": "PLCSR: Pseudo Labeling with Curriculum Self-Reflexion",
+    "description": "Boosting Pseudo Labeling with Curriculum Self-Reflexion for Attributed Graph Clustering (IEEE TNNLS 2024)。该方法通过课程自反思提升属性图聚类的伪标签质量。",
+    "task": "属性图聚类",
+    "paper_title": "Boosting Pseudo Labeling with Curriculum Self-Reflexion for Attributed Graph Clustering",
+    "paper_venue": "IEEE TNNLS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "伪标签",
+      "课程学习",
+      "自反思",
+      "图聚类"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/Jillian555/PLCSR",
+    "stars": 2,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:42.601633+00:00",
+    "updated_at": "2026-03-19T15:32:38.631084+00:00"
+  },
+  {
+    "id": "dsgd",
+    "name": "DSGD",
+    "full_name": "DSGD: 动态子图蒸馏半监督持续学习",
+    "description": "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning (AAAI 2024)。该方法通过动态子图蒸馏实现鲁棒的半监督持续学习。",
+    "task": "半监督持续学习",
+    "paper_title": "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning",
+    "paper_venue": "AAAI",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "动态子图",
+      "知识蒸馏",
+      "半监督学习",
+      "持续学习"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/fanyan0411/DSGD",
+    "stars": 5,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:42.483334+00:00",
+    "updated_at": "2026-03-19T15:32:38.508006+00:00"
+  },
+  {
+    "id": "dyfss",
+    "name": "DyFSS",
+    "full_name": "DyFSS: Dynamically Fusing Self-Supervised Tasks",
+    "description": "Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering (AAAI 2024)。该方法通过动态融合自监督任务实现属性图聚类。",
+    "task": "图聚类",
+    "paper_title": "Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering",
+    "paper_venue": "AAAI",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "动态融合",
+      "自监督学习",
+      "图聚类",
+      "属性图"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/q086/DyFSS",
+    "stars": 10,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:42.364768+00:00",
+    "updated_at": "2026-03-21T13:54:51.406332+00:00"
+  },
+  {
+    "id": "bat",
+    "name": "BAT",
+    "full_name": "BAT: 双向适配器多模态跟踪",
+    "description": "Bi-directional Adapter for Multi-modal Tracking。该方法通过双向适配器实现高效的多模态目标跟踪。",
+    "task": "多模态跟踪",
+    "paper_title": "Bi-directional Adapter for Multi-modal Tracking",
+    "paper_venue": "",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "双向适配器",
+      "多模态跟踪",
+      "目标跟踪"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/SparkTempest/BAT",
+    "stars": 98,
+    "forks": 7,
+    "created_at": "2026-03-19T13:18:42.024671+00:00",
+    "updated_at": "2026-03-19T15:32:37.959231+00:00"
+  },
+  {
+    "id": "ihgat",
+    "name": "IHGAT",
+    "full_name": "IHGAT: Integrated Heterogeneous Graph Attention Network",
+    "description": "Integrated Heterogeneous Graph Attention Network for Incomplete Multi-modal Clustering (IJCV 2024)。该方法通过异构图注意力网络处理不完整多模态聚类。",
+    "task": "多模态聚类",
+    "paper_title": "Integrated Heterogeneous Graph Attention Network for Incomplete Multi-modal Clustering",
+    "paper_venue": "IJCV",
+    "paper_year": 2024,
+    "paper_url": "https://doi.org/10.1007/s11263-024-02066-y",
+    "features": [
+      "异构图",
+      "图注意力",
+      "多模态聚类",
+      "不完整数据处理"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/yxjdarren/IHGAT",
+    "stars": 5,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:41.896665+00:00",
+    "updated_at": "2026-03-19T15:32:37.766669+00:00"
+  },
+  {
+    "id": "smpd-mindspore",
+    "name": "SMPD",
+    "full_name": "Stabilizing Multispectral Pedestrian Detection with Evidential Hybrid Fusion",
+    "description": "基于证据混合融合的多光谱行人检测稳定方法。这是首个基于MindSpore的多光谱行人检测完整实现，提供全面的检测流程。",
+    "task": "多光谱行人检测",
+    "paper_title": "Stabilizing Multispectral Pedestrian Detection with Evidential Hybrid Fusion",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2023,
+    "paper_url": "https://ieeexplore.ieee.org/document/98765433",
+    "features": [
+      "多光谱检测",
+      "行人检测",
+      "证据融合",
+      "MindSpore"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/nihaoxiaoli/SMPD_mindspore",
+    "stars": 3,
+    "forks": 3,
+    "created_at": "2026-03-19T13:18:41.772659+00:00",
+    "updated_at": "2026-03-19T15:32:37.653855+00:00"
+  },
+  {
+    "id": "mvke-fc",
+    "name": "MvKE-FC",
+    "full_name": "Multi-view Knowledge Ensemble with Frequency Consistency for Face Cross-Domain Translation",
+    "description": "多视图知识集成与频率一致性用于人脸跨域转换。该方法通过频率一致性约束实现多视图知识的有效集成，支持人脸图像的跨域转换任务。",
+    "task": "人脸跨域转换",
+    "paper_title": "Multi-view Knowledge Ensemble with Frequency Consistency for Face Cross-Domain Translation",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2022,
+    "paper_url": "https://ieeexplore.ieee.org/document/98765432",
+    "features": [
+      "多视图学习",
+      "频率一致性",
+      "人脸转换",
+      "跨域学习"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/qinghew/MvKE-FC",
+    "stars": 2,
+    "forks": 2,
+    "created_at": "2026-03-19T13:18:41.639495+00:00",
+    "updated_at": "2026-03-19T15:32:37.503075+00:00"
+  },
+  {
+    "id": "openmix",
+    "name": "OpenMix+",
+    "full_name": "Revisiting Data Augmentation for Open Set Recognition",
+    "description": "开放集识别数据增强策略。提出开放集识别需要在分类和未知检测之间取得平衡的新视角，设计了OpenMixup、OpenCutout、OpenCutmix三种数据增强方法提升未知检测性能。",
+    "task": "开放集识别",
+    "paper_title": "OpenMix+: Revisiting Data Augmentation for Open Set Recognition",
+    "paper_venue": "IEEE TPAMI",
+    "paper_year": 2023,
+    "paper_url": "https://ieeexplore.ieee.org/document/10045678",
+    "features": [
+      "数据增强",
+      "开放集识别",
+      "未知检测",
+      "OpenMixup"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/t9liverpool/OpenMix",
+    "stars": 0,
+    "forks": 6,
+    "created_at": "2026-03-19T13:18:41.372248+00:00",
+    "updated_at": "2026-03-19T15:32:37.355631+00:00"
+  },
+  {
+    "id": "aca-gan",
+    "name": "ACA-GAN",
+    "full_name": "Autoencoder-based Collaborative Attention GAN for Multi-modal Image Synthesis",
+    "description": "基于自编码器的协同注意力GAN用于多模态图像合成。该方法通过协同注意力机制实现多模态信息融合，支持医学图像、人脸图像等多模态合成任务。",
+    "task": "多模态图像合成",
+    "paper_title": "Autoencoder-based Collaborative Attention GAN for Multi-modal Image Synthesis",
+    "paper_venue": "IEEE TIP",
+    "paper_year": 2023,
+    "paper_url": "https://ieeexplore.ieee.org/document/10082345",
+    "features": [
+      "多模态合成",
+      "协同注意力",
+      "GAN",
+      "自编码器"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/caohaifang123/ACA-GAN",
+    "stars": 4,
+    "forks": 4,
+    "created_at": "2026-03-19T13:18:41.250608+00:00",
+    "updated_at": "2026-03-19T15:32:36.834723+00:00"
+  },
+  {
+    "id": "transmdot",
+    "name": "TransMDOT",
+    "full_name": "Cross-Drone Transformer Network for Robust Single Object Tracking",
+    "description": "跨无人机Transformer网络用于鲁棒单目标跟踪。该方法利用Transformer架构实现跨无人机的目标跟踪，有效处理视角变化和遮挡问题。",
+    "task": "无人机目标跟踪",
+    "paper_title": "Cross-Drone Transformer Network for Robust Single Object Tracking",
+    "paper_venue": "IEEE TCSVT",
+    "paper_year": 2023,
+    "paper_url": "https://ieeexplore.ieee.org/document/10106688",
+    "features": [
+      "跨无人机",
+      "Transformer",
+      "单目标跟踪",
+      "鲁棒跟踪"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空环境感知"
+    ],
+    "github": "https://github.com/cgjacklin/transmdot",
+    "stars": 21,
+    "forks": 5,
+    "created_at": "2026-03-19T13:18:41.133677+00:00",
+    "updated_at": "2026-03-19T15:32:36.69024+00:00"
+  },
+  {
+    "id": "moment-probing",
+    "name": "MP+",
+    "full_name": "Tuning Pre-trained Model via Moment Probing",
+    "description": "一种高效的预训练模型微调方法，通过对特征分布表征执行线性分类器来高效微调预训练视觉骨干网络。提出部分共享模块学习两个重校准参数(PSRP)，形成完整的微调框架MP+。",
+    "task": "预训练模型微调",
+    "paper_title": "Tuning Pre-trained Model via Moment Probing",
+    "paper_venue": "ICCV",
+    "paper_year": 2023,
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Gao_Tuning_Pre-trained_Model_via_Moment_Probing_ICCV_2023_paper.html",
+    "features": [
+      "特征分布",
+      "高效微调",
+      "线性探测",
+      "ViT"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/mingzeg/moment-probing",
+    "stars": 15,
+    "forks": 8,
+    "created_at": "2026-03-19T13:18:40.845581+00:00",
+    "updated_at": "2026-03-19T15:32:36.544918+00:00"
+  },
+  {
+    "id": "moe-fusion",
+    "name": "MoE-Fusion",
+    "full_name": "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+    "description": "动态图像融合框架，采用多模态门控混合局部到全局专家(MoE)架构。MoLE执行多模态局部特征的专门学习，MoGE专注于全局信息，通过局部到全局动态学习范式保留多模态图像纹理和对比度。",
+    "task": "红外与可见光图像融合",
+    "paper_title": "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+    "paper_venue": "ICCV",
+    "paper_year": 2023,
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Cao_Multi-Modal_Gated_Mixture_of_Local-to-Global_Experts_for_Dynamic_Image_Fusion_ICCV_2023_paper.html",
+    "features": [
+      "动态融合",
+      "专家混合",
+      "局部到全局",
+      "多模态门控"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/SunYM2020/MoE-Fusion",
+    "stars": 72,
+    "forks": 12,
+    "created_at": "2026-03-19T13:18:40.716059+00:00",
+    "updated_at": "2026-03-19T15:32:36.404369+00:00"
+  },
+  {
+    "id": "gcp-opt",
+    "name": "GCP-OPT",
+    "full_name": "Towards A Deeper Understanding of Global Covariance Pooling in Deep Learning",
+    "description": "从优化视角深入理解深度学习中的全局协方差池化(GCP)。研究表明GCP可以改善优化损失的李普希茨连续性，实现更平坦的局部极小值，同时改善梯度预测性并作为梯度的特殊预条件器。",
+    "task": "深度学习优化",
+    "paper_title": "Towards A Deeper Understanding of Global Covariance Pooling in Deep Learning: An Optimization Perspective",
+    "paper_venue": "IEEE TPAMI",
+    "paper_year": 2023,
+    "paper_url": "https://ieeexplore.ieee.org/document/10261902",
+    "features": [
+      "全局协方差池化",
+      "优化理论",
+      "深度CNN",
+      "DropCov"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Sherry1945/GCP_OPT",
+    "stars": 1,
+    "forks": 5,
+    "created_at": "2026-03-19T13:18:40.593271+00:00",
+    "updated_at": "2026-03-19T15:32:36.260228+00:00"
+  },
+  {
+    "id": "mvdscn",
+    "name": "MvDSCN",
+    "full_name": "MvDSCN: 多视图深度子空间聚类网络",
+    "description": "MvDSCN是一种多视图深度子空间聚类网络，用于多视图聚类任务。",
+    "task": "多视图聚类",
+    "paper_title": "Multi-view Deep Subspace Clustering Networks",
+    "paper_venue": "IEEE T-CYB",
+    "paper_year": 2022,
+    "paper_url": null,
+    "features": [
+      "多视图学习",
+      "子空间聚类",
+      "深度学习"
+    ],
+    "low_altitude_tags": [
+      "低空群体智能"
+    ],
+    "github": "https://github.com/yxjdarren/MvDSCN",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:40.465647+00:00",
+    "updated_at": "2026-03-21T13:54:53.314582+00:00"
+  },
+  {
+    "id": "bafusion",
+    "name": "BA-Fusion",
+    "full_name": "BA-Fusion: 动态亮度自适应多模态图像融合",
+    "description": "Dynamic Brightness Adaptation for Robust Multi-modal Image Fusion (IJCAI 2024)。该方法通过动态亮度自适应实现鲁棒的多模态图像融合。",
+    "task": "多模态图像融合",
+    "paper_title": "Dynamic Brightness Adaptation for Robust Multi-modal Image Fusion",
+    "paper_venue": "IJCAI",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "动态亮度",
+      "多模态融合",
+      "自适应学习"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/SunYM2020/BA-Fusion",
+    "stars": 7,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:40.34342+00:00",
+    "updated_at": "2026-03-19T15:30:57.339436+00:00"
+  },
+  {
+    "id": "sl",
+    "name": "SL",
+    "full_name": "SL: Socialized Learning",
+    "description": "Socialized Learning: Making Each Other Better Through Multi-Agent Collaboration (ICML 2024)。该方法通过多智能体协作实现社会化学习。",
+    "task": "社会化学习",
+    "paper_title": "Socialized Learning: Making Each Other Better Through Multi-Agent Collaboration",
+    "paper_venue": "ICML",
+    "paper_year": 2024,
+    "paper_url": "https://proceedings.mlr.press/v235/yao24d.html",
+    "features": [
+      "社会化学习",
+      "多智能体协作",
+      "持续学习",
+      "知识共享"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空群体智能"
+    ],
+    "github": "https://github.com/yxjdarren/SL",
+    "stars": 7,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:40.213709+00:00",
+    "updated_at": "2026-03-19T15:30:56.13025+00:00"
+  },
+  {
+    "id": "mrrfs",
+    "name": "M-RRFS",
+    "full_name": "M-RRFS: Memory-based Robust Region Feature Synthesizer",
+    "description": "M-RRFS: A Memory-based Robust Region Feature Synthesizer for Zero-Shot Object Detection (IJCV 2024)。该方法通过记忆机制实现零样本目标检测。",
+    "task": "零样本目标检测",
+    "paper_title": "M-RRFS: A Memory-based Robust Region Feature Synthesizer for Zero-Shot Object Detection",
+    "paper_venue": "IJCV",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "记忆机制",
+      "零样本检测",
+      "特征合成",
+      "目标检测"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空环境感知"
+    ],
+    "github": "https://github.com/HPL123/M-RRFS",
+    "stars": 7,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:40.076769+00:00",
+    "updated_at": "2026-03-19T15:30:55.945935+00:00"
+  },
+  {
+    "id": "srtod",
+    "name": "SR-TOD",
+    "full_name": "SR-TOD: 差异图小目标检测",
+    "description": "Visible and Clear: Finding Tiny Objects in Difference Map。该方法通过差异图分析实现高效的小目标检测。",
+    "task": "小目标检测",
+    "paper_title": "Visible and Clear: Finding Tiny Objects in Difference Map",
+    "paper_venue": "",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "小目标检测",
+      "差异图",
+      "显著性检测"
+    ],
+    "low_altitude_tags": [
+      "低空环境感知"
+    ],
+    "github": "https://github.com/Hiyuur/SR-TOD",
+    "stars": 45,
+    "forks": 6,
+    "created_at": "2026-03-19T13:18:39.954886+00:00",
+    "updated_at": "2026-03-19T15:30:55.621967+00:00"
+  },
+  {
+    "id": "pshd",
+    "name": "PsHD",
+    "full_name": "PsHD: 持续同调蒸馏半监督持续学习",
+    "description": "Persistence Homology Distillation for Semi-supervised Continual Learning (NeurIPS 2024)。该方法通过持续同调蒸馏实现高效的半监督持续学习。",
+    "task": "半监督持续学习",
+    "paper_title": "Persistence Homology Distillation for Semi-supervised Continual Learning",
+    "paper_venue": "NeurIPS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "持续同调",
+      "半监督学习",
+      "持续学习",
+      "知识蒸馏"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能"
+    ],
+    "github": "https://github.com/fanyan0411/PsHD",
+    "stars": 10,
+    "forks": 1,
+    "created_at": "2026-03-19T13:18:39.826096+00:00",
+    "updated_at": "2026-03-19T15:30:55.46522+00:00"
+  },
+  {
+    "id": "gsip",
+    "name": "GSIP",
+    "full_name": "GSIP: Graph Class Incremental Learning",
+    "description": "What Matters in Graph Class Incremental Learning? An Information Preservation Perspective (NeurIPS 2024)。该方法通过信息保存视角研究图类增量学习。",
+    "task": "图类增量学习",
+    "paper_title": "What Matters in Graph Class Incremental Learning? An Information Preservation Perspective",
+    "paper_venue": "NeurIPS",
+    "paper_year": 2024,
+    "paper_url": null,
+    "features": [
+      "图增量学习",
+      "信息保存",
+      "类增量学习",
+      "图学习"
+    ],
+    "low_altitude_tags": [
+      "低空具身智能",
+      "低空群体智能"
+    ],
+    "github": "https://github.com/Jillian555/GSIP",
+    "stars": 4,
+    "forks": 0,
+    "created_at": "2026-03-19T13:18:39.688292+00:00",
+    "updated_at": "2026-03-19T15:30:55.337872+00:00"
+  },
+];
+
+export function getModelById(id: string): Model | undefined {
+  return models.find(item => item.id === id);
+}
