@@ -273,6 +273,17 @@ export default function DatasetsAdmin() {
               />
             </FormField>
 
+            <FormField label="特性标签">
+              <Input
+                value={formData.features?.join(', ')}
+                onChange={(e) => setFormData({
+                  ...formData,
+                  features: e.target.value.split(',').map(s => s.trim()).filter(Boolean)
+                })}
+                placeholder="用逗号分隔多个特性"
+              />
+            </FormField>
+
             <FormRow>
               <FormField label="关联论文标题">
                 <Input

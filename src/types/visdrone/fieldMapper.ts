@@ -81,6 +81,7 @@ export interface DbModel {
   stars: number;
   forks: number;
   image?: string;
+  low_altitude_tags?: string[];
 }
 
 export interface DbTeamMember {
@@ -178,6 +179,7 @@ export function mapDbToModel(db: DbModel): Model {
     stars: db.stars,
     forks: db.forks,
     image: db.image || undefined,
+    low_altitude_tags: Array.isArray(db.low_altitude_tags) ? db.low_altitude_tags as string[] : [],
   };
 }
 

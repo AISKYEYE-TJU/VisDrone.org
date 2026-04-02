@@ -125,6 +125,7 @@ export default function ModelsAdmin() {
       paper_year: new Date().getFullYear(),
       paper_url: '',
       features: [],
+      low_altitude_tags: [],
       github: '',
       stars: 0,
       forks: 0,
@@ -133,7 +134,52 @@ export default function ModelsAdmin() {
     setDialogOpen(true);
   };
 
-  const handleEdit = (item: Model) => {
+  const autoTagModel = (model: Partial<Model>): string[] => {
+    const tags: string[] = [];
+    const text = [
+      model.name || '',
+      model.description || '',
+      model.task || '',
+      (model.features || []).join(' ')
+    ].join(' ').toLowerCase();
+
+    if (text.includes('检测') || text.includes('detection') || text.includes('yolo') || text.includes('r-cnn')) {
+      tags.push('detection');
+    }
+    if (text.includes('跟踪') || text.includes('tracking') || text.includes('track')) {
+      tags.push('tracking');
+    }
+    if (text.includes('计数') || text.includes('counting') || text.includes('crowd')) {
+      tags.push('counting');
+    }
+    if (text.includes('去雨') || text.includes('去噪') || text.includes('去模糊') || text.includes('超分辨率') || text.includes('derain') || text.includes('denoise') || text.includes('super-resolution')) {
+      tags.push('low-level');
+    }
+    if (text.includes('图') || text.includes('graph')) {
+      tags.push('graph');
+    }
+    if (text.includes('多视角') || text.includes('multi-view') || text.includes('跨视角')) {
+      tags.push('multi-view');
+    }
+    if (text.includes('多模态') || text.includes('rgb-红外') || text.includes('跨模态') || text.includes('multimodal') || text.includes('infrared') || text.includes('thermal')) {
+      tags.push('multimodal');
+    }
+    if (text.includes('多机') || text.includes('多无人机') || text.includes('swarm') || text.includes('multi-drone')) {
+      tags.push('multi-drone');
+    }
+    if (text.includes('持续学习') || text.includes('增量学习') || text.includes('continual') || text.includes('incremental')) {
+      tags.push('continual');
+    }
+    if (text.includes('半监督') || text.includes('semi-supervised')) {
+      tags.push('semi-supervised');
+    }
+    if (text.includes('网络') || text.includes('架构') || text.includes('backbone') || text.includes('transformer') || text.includes('resnet') || text.includes('vit')) {
+      tags.push('architecture');
+    }
+    return tags;
+  };
+
+  const handleSave = async () => {
     setEditingItem(item);
     setFormData({ ...item });
     setDialogOpen(true);
@@ -275,11 +321,26 @@ export default function ModelsAdmin() {
             <FormField label="特性">
               <Input
                 value={formData.features?.join(', ')}
+                onChange={(e) => {
+                  const newFeatures = e.target.value.split(',').map(s => s.trim()).filter(Boolean);
+                  setFormData({
+                    ...formData,
+                    features: newFeatures,
+                    low_altitude_tags: autoTagModel({ ...formData, features: newFeatures })
+                  });
+                }}
+                placeholder="用逗号分隔多个特性"
+              />
+            </FormField>
+
+            <FormField label="低空智能标签（自动生成）">
+              <Input
+                value={formData.low_altitude_tags?.join(', ') || ''}
                 onChange={(e) => setFormData({
                   ...formData,
-                  features: e.target.value.split(',').map(s => s.trim()).filter(Boolean)
+                  low_altitude_tags: e.target.value.split(',').map(s => s.trim()).filter(Boolean)
                 })}
-                placeholder="用逗号分隔多个特性"
+                placeholder="根据名称、描述自动生成，也可手动编辑"
               />
             </FormField>
 

@@ -67,6 +67,7 @@ export interface Model {
   stars?: number;
   forks?: number;
   image?: string;
+  low_altitude_tags?: string[];
 }
 
 export interface Paper {
