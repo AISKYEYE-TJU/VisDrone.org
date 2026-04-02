@@ -69,6 +69,8 @@ dist
 .out
 .storybook-out
 
-# Temporary folders
-tmp/
-temp/
+# VisDrone static files (too large for git)
+VisDrone*.html
+*_files/
+毕业*.html
+毕业生信息/
