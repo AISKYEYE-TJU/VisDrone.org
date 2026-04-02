@@ -34,12 +34,24 @@ export type DatasetCategory = typeof DATASET_CATEGORIES[number];
 
 export const MODEL_TASKS = [
   '目标检测',
-  '目标追踪',
-  '人群计数',
-  '图像融合',
-  '语义分割',
+  '目标跟踪',
+  '目标计数',
+  '底层视觉',
+  '图学习',
+  '多模态学习',
+  '多机协同',
+  '持续学习',
+  '半监督学习',
+  '模型架构',
 ] as const;
 export type ModelTask = typeof MODEL_TASKS[number];
+
+export const MODEL_LOW_ALTITUDE_TAGS = [
+  '低空智能感知',
+  '低空具身智能',
+  '低空群体智能',
+] as const;
+export type ModelLowAltitudeTag = typeof MODEL_LOW_ALTITUDE_TAGS[number];
 
 export const SEMINAR_GROUP_OPTIONS = ['learning', 'multimodal', 'embodied'] as const;
 export type SeminarGroup = typeof SEMINAR_GROUP_OPTIONS[number];

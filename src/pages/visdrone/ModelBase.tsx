@@ -32,32 +32,37 @@ const ModelBase: React.FC = () => {
   const loadModels = async () => {
     try {
       const data = await visdroneService.getModels();
-      const modelsWithImages = data.map((model: any) => ({
-        ...model,
-        image: model.image || getModelImage(model.name, model.task),
-        commonTags: COMMON_TAGS
-          .filter(tag => {
-            const taskLower = (model.task || '').toLowerCase();
-            const featuresLower = (model.features || []).map((f: string) => f.toLowerCase());
-            const nameLower = (model.name || '').toLowerCase();
-            switch (tag.id) {
-              case 'detection': return taskLower.includes('检测') || featuresLower.some(f => f.includes('检测'));
-              case 'tracking': return taskLower.includes('跟踪') || featuresLower.some(f => f.includes('跟踪')) || nameLower.includes('transmdot');
-              case 'counting': return taskLower.includes('计数') || featuresLower.some(f => f.includes('计数'));
-              case 'low-level': return featuresLower.some(f => f.includes('去雨') || f.includes('去噪') || f.includes('去模糊') || f.includes('增强') || f.includes('超分辨率') || f.includes('去雾'));
-              case 'graph': return featuresLower.some(f => f.includes('图学习') || f.includes('graph'));
-              case 'multi-view': return featuresLower.some(f => f.includes('多视角') || f.includes('multi-view') || f.includes('跨视角'));
-              case 'multimodal': return featuresLower.some(f => f.includes('多模态') || f.includes('rgb-红外') || f.includes('跨模态'));
-              case 'continual': return featuresLower.some(f => f.includes('持续学习') || f.includes('增量学习') || f.includes(' continual'));
-              case 'semi-supervised': return featuresLower.some(f => f.includes('半监督'));
-              case 'multi-drone': return featuresLower.some(f => f.includes('多机协同') || f.includes('多无人机')) || nameLower.includes('transmdot');
-              case 'architecture': return featuresLower.some(f => f.includes('网络') || f.includes('架构') || f.includes(' backbone') || f.includes('transformer'));
-              default: return false;
-            }
-          })
-          .map(tag => tag.id),
-        uniqueTags: (model.features || []).slice(0, 3),
-      }));
+      const modelsWithImages = data.map((model: any) => {
+        const taskArray = Array.isArray(model.task) ? model.task : [model.task].filter(Boolean);
+        const taskString = taskArray.join(' ');
+        return {
+          ...model,
+          task: taskArray,
+          image: model.image || getModelImage(model.name, taskString),
+          commonTags: COMMON_TAGS
+            .filter(tag => {
+              const taskLower = taskString.toLowerCase();
+              const featuresLower = (model.features || []).map((f: string) => f.toLowerCase());
+              const nameLower = (model.name || '').toLowerCase();
+              switch (tag.id) {
+                case 'detection': return taskLower.includes('检测') || featuresLower.some(f => f.includes('检测'));
+                case 'tracking': return taskLower.includes('跟踪') || featuresLower.some(f => f.includes('跟踪')) || nameLower.includes('transmdot');
+                case 'counting': return taskLower.includes('计数') || featuresLower.some(f => f.includes('计数'));
+                case 'low-level': return featuresLower.some(f => f.includes('去雨') || f.includes('去噪') || f.includes('去模糊') || f.includes('增强') || f.includes('超分辨率') || f.includes('去雾'));
+                case 'graph': return featuresLower.some(f => f.includes('图学习') || f.includes('graph'));
+                case 'multi-view': return featuresLower.some(f => f.includes('多视角') || f.includes('multi-view') || f.includes('跨视角'));
+                case 'multimodal': return featuresLower.some(f => f.includes('多模态') || f.includes('rgb-红外') || f.includes('跨模态'));
+                case 'continual': return featuresLower.some(f => f.includes('持续学习') || f.includes('增量学习') || f.includes(' continual'));
+                case 'semi-supervised': return featuresLower.some(f => f.includes('半监督'));
+                case 'multi-drone': return featuresLower.some(f => f.includes('多机协同') || f.includes('多无人机')) || nameLower.includes('transmdot');
+                case 'architecture': return featuresLower.some(f => f.includes('网络') || f.includes('架构') || f.includes(' backbone') || f.includes('transformer'));
+                default: return false;
+              }
+            })
+            .map(tag => tag.id),
+          uniqueTags: (model.features || []).slice(0, 3),
+        };
+      });
       const sortedData = modelsWithImages.sort((a: any, b: any) => (b.stars || 0) - (a.stars || 0));
       setModels(sortedData);
     } catch (error) {
@@ -349,13 +354,8 @@ const ModelBase: React.FC = () => {
                     <img
                       src={model.image}
                       alt={model.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-contain bg-slate-100 group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <h3 className="text-xl font-bold text-white">{model.name}</h3>
-                      <span className="text-sm text-white/80">{model.task}</span>
-                    </div>
                     <div className="absolute top-4 right-4 flex items-center gap-1 px-2 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm">
                       <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                       <span>{model.stars || 0}</span>
@@ -364,43 +364,60 @@ const ModelBase: React.FC = () => {
 
                   {/* Content */}
                   <div className="p-6">
-                    {/* Description */}
-                    <p className="text-muted-foreground text-sm mb-3 line-clamp-2">{model.description}</p>
+                    {/* 模型名称 */}
+                    <h3 className="text-lg font-bold mb-2">{model.name}</h3>
 
-                    {/* Common Tags */}
-                    <div className="flex flex-wrap gap-1 mb-2">
-                      {model.commonTags?.map((tagId: string) => {
-                        const tag = COMMON_TAGS.find(t => t.id === tagId);
-                        if (!tag) return null;
-                        return (
-                          <span
-                            key={tagId}
-                            onClick={() => toggleTag(tagId)}
-                            className="px-2 py-0.5 text-xs bg-primary/10 text-primary rounded-full cursor-pointer hover:bg-primary/20 transition-colors"
-                          >
-                            {tag.icon} {tag.label}
-                          </span>
-                        );
-                      })}
-                    </div>
-
-                    {/* Unique Tags */}
+                    {/* 任务类型 */}
                     <div className="flex flex-wrap gap-1 mb-3">
-                      {model.uniqueTags?.map((tag: string, i: number) => (
-                        <span key={i} className="px-2 py-0.5 text-xs bg-muted text-muted-foreground rounded-full">
-                          {tag}
+                      {Array.isArray(model.task) && model.task.length > 0 ? (
+                        model.task.map((task: string, i: number) => (
+                          <span
+                            key={i}
+                            className="px-2 py-0.5 text-xs bg-primary/10 text-primary rounded-full"
+                          >
+                            {task}
+                          </span>
+                        ))
+                      ) : model.task ? (
+                        <span className="px-2 py-0.5 text-xs bg-primary/10 text-primary rounded-full">
+                          {model.task}
                         </span>
-                      ))}
+                      ) : null}
                     </div>
 
-                    {/* Paper Info */}
-                    <div className="pt-4 border-t text-sm mb-4">
-                      <p className="text-muted-foreground line-clamp-1">{model.paper_title}</p>
-                      <div className="flex items-center gap-2 mt-1">
-                        <span className="text-primary font-medium">{model.paper_venue}</span>
-                        <span className="text-muted-foreground">{model.paper_year}</span>
+                    {/* 低空智能标签 */}
+                    {model.low_altitude_tags && model.low_altitude_tags.length > 0 && (
+                      <div className="flex flex-wrap gap-1 mb-3">
+                        {model.low_altitude_tags.map((tag: string, i: number) => (
+                          <span
+                            key={i}
+                            className="px-2 py-0.5 text-xs bg-emerald-100 text-emerald-700 rounded-full"
+                          >
+                            {tag}
+                          </span>
+                        ))}
                       </div>
-                    </div>
+                    )}
+
+                    {/* 论文名称 */}
+                    {model.paper_title && (
+                      <div className="pt-3 border-t text-sm mb-4">
+                        <p className="text-muted-foreground line-clamp-2 text-xs">
+                          <span className="font-medium text-foreground">论文：</span>
+                          {model.paper_title}
+                        </p>
+                        {(model.paper_venue || model.paper_year) && (
+                          <div className="flex items-center gap-2 mt-1 text-xs">
+                            {model.paper_venue && (
+                              <span className="text-primary font-medium">{model.paper_venue}</span>
+                            )}
+                            {model.paper_year && (
+                              <span className="text-muted-foreground">{model.paper_year}</span>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    )}
 
                     {/* Actions */}
                     <div className="flex gap-3">

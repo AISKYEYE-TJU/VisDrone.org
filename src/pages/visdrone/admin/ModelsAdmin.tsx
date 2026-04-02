@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { toast } from 'sonner';
 import { Brain, Plus, Github, Star } from 'lucide-react';
 import type { Model } from '@/types/visdrone';
-import { MODEL_TASKS } from '@/types/visdrone/constants';
+import { MODEL_TASKS, MODEL_LOW_ALTITUDE_TAGS } from '@/types/visdrone/constants';
 import { fetchAllModels, createModel, updateModel, deleteModel } from '@/services/adminCrudService';
 import { DataTable, StatsCard, ConfirmDialog, FormField, FormRow } from '@/components/admin/AdminComponents';
 import { Button } from '@/components/ui/button';
@@ -85,12 +85,13 @@ export default function ModelsAdmin() {
     name: '',
     full_name: '',
     description: '',
-    task: '',
+    task: [],
     paper_title: '',
     paper_venue: '',
     paper_year: new Date().getFullYear(),
     paper_url: '',
     features: [],
+    low_altitude_tags: [],
     github: '',
     stars: 0,
     forks: 0,
@@ -179,9 +180,18 @@ export default function ModelsAdmin() {
     return tags;
   };
 
-  const handleSave = async () => {
+  const handleEdit = (item: Model) => {
     setEditingItem(item);
-    setFormData({ ...item });
+    // 兼容旧数据：将字符串 task 转换为数组
+    const normalizedItem = {
+      ...item,
+      task: Array.isArray(item.task) 
+        ? item.task 
+        : item.task 
+          ? [item.task] 
+          : []
+    };
+    setFormData(normalizedItem);
     setDialogOpen(true);
   };
 
@@ -275,20 +285,32 @@ export default function ModelsAdmin() {
             </FormRow>
 
             <FormRow>
-              <FormField label="任务类型" required>
-                <Select
-                  value={formData.task}
-                  onValueChange={(v) => setFormData({ ...formData, task: v })}
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder="选择任务" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {MODEL_TASKS.map((task) => (
-                      <SelectItem key={task} value={task}>{task}</SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+              <FormField label="任务类型（可多选）" required>
+                <div className="flex flex-wrap gap-2">
+                  {MODEL_TASKS.map((task) => {
+                    const tasks = Array.isArray(formData.task) ? formData.task : [];
+                    const isSelected = tasks.includes(task);
+                    return (
+                      <button
+                        key={task}
+                        type="button"
+                        onClick={() => {
+                          const newTasks = isSelected
+                            ? tasks.filter(t => t !== task)
+                            : [...tasks, task];
+                          setFormData({ ...formData, task: newTasks });
+                        }}
+                        className={`px-3 py-1.5 rounded-full text-sm transition-all ${
+                          isSelected
+                            ? 'bg-primary text-primary-foreground'
+                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                        }`}
+                      >
+                        {task}
+                      </button>
+                    );
+                  })}
+                </div>
               </FormField>
               <FormField label="GitHub">
                 <Input
@@ -325,23 +347,33 @@ export default function ModelsAdmin() {
                   const newFeatures = e.target.value.split(',').map(s => s.trim()).filter(Boolean);
                   setFormData({
                     ...formData,
-                    features: newFeatures,
-                    low_altitude_tags: autoTagModel({ ...formData, features: newFeatures })
+                    features: newFeatures
                   });
                 }}
                 placeholder="用逗号分隔多个特性"
               />
             </FormField>
 
-            <FormField label="低空智能标签（自动生成）">
-              <Input
-                value={formData.low_altitude_tags?.join(', ') || ''}
-                onChange={(e) => setFormData({
-                  ...formData,
-                  low_altitude_tags: e.target.value.split(',').map(s => s.trim()).filter(Boolean)
+            <FormField label="低空智能标签（单选）">
+              <div className="flex flex-wrap gap-2">
+                {MODEL_LOW_ALTITUDE_TAGS.map((tag) => {
+                  const isSelected = formData.low_altitude_tags?.[0] === tag;
+                  return (
+                    <button
+                      key={tag}
+                      type="button"
+                      onClick={() => setFormData({ ...formData, low_altitude_tags: [tag] })}
+                      className={`px-3 py-1.5 rounded-full text-sm transition-all ${
+                        isSelected
+                          ? 'bg-emerald-500 text-white'
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                      }`}
+                    >
+                      {tag}
+                    </button>
+                  );
                 })}
-                placeholder="根据名称、描述自动生成，也可手动编辑"
-              />
+              </div>
             </FormField>
 
             <div className="border-t pt-4">

@@ -71,7 +71,7 @@ export interface DbModel {
   name: string;
   full_name: string;
   description: string;
-  task: string;
+  task: string | string[];
   paper_title: string;
   paper_venue: string;
   paper_year: number;
@@ -164,12 +164,32 @@ export function mapDbToDataset(db: DbDataset): Dataset {
 }
 
 export function mapDbToModel(db: DbModel): Model {
+  let taskValue: string[] = [];
+  if (Array.isArray(db.task)) {
+    taskValue = db.task as string[];
+  } else if (typeof db.task === 'string' && db.task) {
+    // 尝试解析 JSON 字符串（如 '["点云处理","模型架构"]'）
+    if (db.task.startsWith('[') && db.task.endsWith(']')) {
+      try {
+        const parsed = JSON.parse(db.task);
+        if (Array.isArray(parsed)) {
+          taskValue = parsed;
+        } else {
+          taskValue = [db.task];
+        }
+      } catch {
+        taskValue = [db.task];
+      }
+    } else {
+      taskValue = [db.task];
+    }
+  }
   return {
     id: db.id,
     name: db.name,
     full_name: db.full_name,
     description: db.description,
-    task: db.task,
+    task: taskValue,
     paper_title: db.paper_title,
     paper_venue: db.paper_venue,
     paper_year: db.paper_year,

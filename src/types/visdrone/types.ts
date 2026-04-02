@@ -57,7 +57,7 @@ export interface Model {
   name: string;
   full_name: string;
   description: string;
-  task: ModelTask | string;
+  task: ModelTask[] | string[];
   paper_title: string;
   paper_venue: string;
   paper_year: number;
