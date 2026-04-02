@@ -63,6 +63,7 @@ export interface DbDataset {
   stats: unknown;
   github?: string;
   github_info?: unknown;
+  image?: string;
 }
 
 export interface DbModel {
@@ -79,6 +80,7 @@ export interface DbModel {
   github?: string;
   stars: number;
   forks: number;
+  image?: string;
 }
 
 export interface DbTeamMember {
@@ -156,6 +158,7 @@ export function mapDbToDataset(db: DbDataset): Dataset {
     stats: (db.stats as Dataset['stats']) || {},
     github: db.github,
     github_info: (db.github_info as Dataset['github_info']) || undefined,
+    image: db.image || undefined,
   };
 }
 
@@ -174,6 +177,7 @@ export function mapDbToModel(db: DbModel): Model {
     github: db.github,
     stars: db.stars,
     forks: db.forks,
+    image: db.image || undefined,
   };
 }
 

@@ -35,6 +35,7 @@ export interface Dataset {
   github?: string;
   stars?: number;
   github_info?: GithubInfo;
+  image?: string;
 }
 
 export interface DatasetStats {
@@ -65,6 +66,7 @@ export interface Model {
   github?: string;
   stars?: number;
   forks?: number;
+  image?: string;
 }
 
 export interface Paper {
