@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, Database, Brain, Star, BookOpen, Award, ChevronRight, FileText, Lightbulb, Trophy, Quote } from 'lucide-react';
+import { ArrowRight, Sparkles, Database, Brain, Star, BookOpen, Award, ChevronRight, FileText, Lightbulb, Trophy, Quote, Code2 } from 'lucide-react';
 import { VISDRONE_INFO, RESEARCH_AREAS } from '@/lib/visdrone-config';
 import visdroneService from '@/services/visdroneService';
 import { getHeroImage } from '@/utils/aiImageGenerator';
@@ -17,6 +17,7 @@ const Home: React.FC = () => {
     patents: 0,
     awards: 0,
     datasets: 0,
+    models: 0,
   });
 
   useEffect(() => {
@@ -50,6 +51,7 @@ const Home: React.FC = () => {
         patents: patentsData.length,
         awards: awardsData.length,
         datasets: datasetsData.length,
+        models: modelsData.length,
       });
     } catch (error) {
       console.error('Failed to load data:', error);
@@ -61,7 +63,7 @@ const Home: React.FC = () => {
     { value: stats.datasets > 0 ? stats.datasets : VISDRONE_INFO.stats.datasets, label: '数据集', icon: <Database className="w-5 h-5" /> },
     { value: stats.papers > 0 ? stats.papers : VISDRONE_INFO.stats.papers, label: '发表论文', icon: <FileText className="w-5 h-5" /> },
     { value: stats.patents > 0 ? stats.patents : VISDRONE_INFO.stats.patents, label: '授权专利', icon: <Lightbulb className="w-5 h-5" /> },
-    { value: stats.awards > 0 ? stats.awards : VISDRONE_INFO.stats.awards, label: '获奖荣誉', icon: <Trophy className="w-5 h-5" /> },
+    { value: stats.models > 0 ? stats.models : VISDRONE_INFO.stats.models, label: '开源模型', icon: <Code2 className="w-5 h-5" /> },
     { value: 26157, label: '引用次数', icon: <Quote className="w-5 h-5" /> },
   ];
 

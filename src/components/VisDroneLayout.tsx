@@ -142,9 +142,9 @@ const VisDroneLayout: React.FC = () => {
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            {/* Logo & Description */}
-            <div className="md:col-span-2">
+          <div className="grid md:grid-cols-12 gap-8 mb-8">
+            {/* Logo & Description - 左侧 */}
+            <div className="md:col-span-4">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center">
                   <img
@@ -158,42 +158,73 @@ const VisDroneLayout: React.FC = () => {
                 </div>
                 <span className="font-bold text-xl">{VISDRONE_INFO.name}</span>
               </div>
-              <p className="text-slate-400 text-sm leading-relaxed max-w-md">
+              <p className="text-slate-400 text-sm leading-relaxed">
                 {VISDRONE_INFO.description}
               </p>
             </div>
 
-            {/* Quick Links */}
-            <div>
+            {/* Quick Links - 中间 */}
+            <div className="md:col-span-2">
               <h3 className="font-semibold mb-4">快速链接</h3>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><Link to={VISDRONE_ROUTES.RESEARCH} className="hover:text-white transition-colors">研究方向</Link></li>
                 <li><Link to={VISDRONE_ROUTES.TEAM} className="hover:text-white transition-colors">团队成员</Link></li>
                 <li><Link to={VISDRONE_ROUTES.PUBLICATIONS} className="hover:text-white transition-colors">研究成果</Link></li>
                 <li><Link to={VISDRONE_ROUTES.DATA_BASE} className="hover:text-white transition-colors">数据基座</Link></li>
-              </ul>
-            </div>
-
-            {/* Admin */}
-            <div>
-              <h3 className="font-semibold mb-4">管理</h3>
-              <ul className="space-y-2 text-sm text-slate-400">
+                <li><Link to={VISDRONE_ROUTES.MODEL_BASE} className="hover:text-white transition-colors">模型基座</Link></li>
                 <li><Link to="/visdrone/admin/login" className="hover:text-white transition-colors">管理员登录</Link></li>
               </ul>
             </div>
 
-            {/* Contact */}
-            <div>
+            {/* Contact - 右侧 */}
+            <div className="md:col-span-4">
               <h3 className="font-semibold mb-4">联系我们</h3>
-              <ul className="space-y-2 text-sm text-slate-400">
-                <li>{VISDRONE_INFO.location}</li>
-                <li>负责人: {VISDRONE_INFO.principal}</li>
-                <li>
-                  <a href={`mailto:${VISDRONE_INFO.contactEmail}`} className="hover:text-white transition-colors">
-                    {VISDRONE_INFO.contactEmail}
-                  </a>
-                </li>
-              </ul>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-start gap-2">
+                  <span className="text-slate-500 w-16 shrink-0">东南大学</span>
+                  <div>
+                    <span className="text-slate-300">孙一铭 老师</span>
+                    <a href="mailto:sunyiming@seu.edu.cn" className="text-slate-400 hover:text-white transition-colors block text-xs">
+                      sunyiming@seu.edu.cn
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-slate-500 w-16 shrink-0">天津大学</span>
+                  <div>
+                    <span className="text-slate-300">朱文成 老师</span>
+                    <a href="mailto:zhu1992719@foxmail.com" className="text-slate-400 hover:text-white transition-colors block text-xs">
+                      zhu1992719@foxmail.com
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-slate-500 w-16 shrink-0">国防科大</span>
+                  <div>
+                    <span className="text-slate-300">范妍 老师</span>
+                    <a href="mailto:fyan_0411@tju.edu.cn" className="text-slate-400 hover:text-white transition-colors block text-xs">
+                      fyan_0411@tju.edu.cn
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* WeChat QR Code - 最右侧 */}
+            <div className="md:col-span-2">
+              <h3 className="font-semibold mb-4">微信公众号</h3>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="/qrcode_for_gh_d80f2d26792c_258.jpg" 
+                  alt="VisDrone团队公众号" 
+                  className="w-24 h-24 rounded-lg border border-slate-700 object-cover mb-2"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }}
+                />
+                <span className="text-slate-400 text-xs text-center">VisDrone团队</span>
+                <span className="text-slate-500 text-xs text-center">扫码关注</span>
+              </div>
             </div>
           </div>
 

@@ -43,7 +43,7 @@ const Research: React.FC = () => {
         { title: '分布式决策', desc: '去中心化的群体决策算法' },
         { title: '任务分配', desc: '动态任务分配与调度优化' },
       ],
-      datasets: ['VisDrone-Swarm', 'MDMT'],
+      datasets: ['MultiDrone', 'MDMT'],
     },
   ];
 
@@ -141,45 +141,6 @@ const Research: React.FC = () => {
                     <div className="absolute -bottom-4 -left-4 w-32 h-32 rounded-full bg-primary/5 blur-3xl" />
                   </div>
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Research Impact */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl font-bold mb-4">研究影响力</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              VisDrone团队在低空智能领域取得了国际领先的研究成果
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-4 gap-6">
-            {[
-              { value: '10+', label: '公开数据集', desc: '世界最大规模低空视觉数据集' },
-              { value: '56+', label: '开源模型', desc: '覆盖检测、跟踪、计数等任务' },
-              { value: '97+', label: '学术论文', desc: '发表于顶级期刊和会议' },
-              { value: '2000万+', label: '数据标注', desc: '图像/视频帧与目标标注' },
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="text-center p-6 rounded-2xl bg-card border"
-              >
-                <div className="text-4xl font-bold text-primary mb-2">{stat.value}</div>
-                <div className="font-medium mb-1">{stat.label}</div>
-                <div className="text-sm text-muted-foreground">{stat.desc}</div>
               </motion.div>
             ))}
           </div>
