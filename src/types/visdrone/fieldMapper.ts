@@ -108,13 +108,21 @@ export interface DbPartner {
   display_order: number;
 }
 
+function normalizeDate(dateStr: string): string {
+  if (!dateStr) return '';
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) return dateStr;
+  const yearMatch = dateStr.match(/(\d{4})/);
+  if (yearMatch) return `${yearMatch[1]}-01-01`;
+  return dateStr;
+}
+
 export function mapDbToPatent(db: DbPatent): Patent {
   return {
     id: db.id,
     title: db.title,
     inventors: db.inventors ? db.inventors.split('，') : [],
-    number: db.patent_no,
-    date: db.date,
+    patent_no: db.patent_no,
+    date: normalizeDate(db.date),
     type: '发明',
     pdf_url: db.pdf_url,
   };

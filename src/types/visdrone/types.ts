@@ -103,7 +103,7 @@ export interface Patent {
   id: string;
   title: string;
   inventors: string[];
-  number: string;
+  patent_no: string;
   date: string;
   type: PatentType;
   pdf_url?: string;

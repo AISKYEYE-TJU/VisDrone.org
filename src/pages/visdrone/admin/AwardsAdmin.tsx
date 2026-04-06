@@ -103,8 +103,11 @@ export default function AwardsAdmin() {
     }
 
     const dataToSave = {
-      ...formData,
       id: editingItem?.id || generateId(formData.title),
+      title: formData.title,
+      winners: Array.isArray(formData.authors) ? formData.authors.join('，') : (formData.authors || ''),
+      year: formData.date ? parseInt(formData.date) : new Date().getFullYear(),
+      pdf_url: formData.pdf_url,
     };
 
     let result;

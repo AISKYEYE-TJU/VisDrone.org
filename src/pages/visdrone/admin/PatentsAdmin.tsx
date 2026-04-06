@@ -38,7 +38,7 @@ const columns = [
       <div className="max-w-xs truncate text-slate-600">{item.inventors?.slice(0, 3).join(', ')}{item.inventors?.length > 3 ? '...' : ''}</div>
     ),
   },
-  { key: 'number', label: '专利号' },
+  { key: 'patent_no', label: '专利号' },
   { key: 'date', label: '日期' },
   {
     key: 'type',
@@ -60,7 +60,7 @@ export default function PatentsAdmin() {
   const [formData, setFormData] = useState<Partial<Patent>>({
     title: '',
     inventors: [],
-    number: '',
+    patent_no: '',
     date: '',
     type: '发明',
     pdf_url: '',
@@ -87,7 +87,7 @@ export default function PatentsAdmin() {
       id: '',
       title: '',
       inventors: [],
-      number: '',
+      patent_no: '',
       date: '',
       type: '发明',
       pdf_url: '',
@@ -116,14 +116,18 @@ export default function PatentsAdmin() {
   };
 
   const handleSave = async () => {
-    if (!formData.title || !formData.number || !formData.inventors?.length) {
+    if (!formData.title || !formData.patent_no || !formData.inventors?.length) {
       toast.error('请填写必填项');
       return;
     }
 
     const dataToSave = {
-      ...formData,
       id: editingItem?.id || generateId(formData.title),
+      title: formData.title,
+      inventors: Array.isArray(formData.inventors) ? formData.inventors.join('，') : formData.inventors,
+      patent_no: formData.patent_no,
+      date: formData.date,
+      pdf_url: formData.pdf_url,
     };
 
     let result;
@@ -192,8 +196,8 @@ export default function PatentsAdmin() {
             <FormRow>
               <FormField label="专利号" required>
                 <Input
-                  value={formData.number}
-                  onChange={(e) => setFormData({ ...formData, number: e.target.value })}
+                  value={formData.patent_no}
+                  onChange={(e) => setFormData({ ...formData, patent_no: e.target.value })}
                   placeholder="如: ZL202310123456.7"
                 />
               </FormField>
