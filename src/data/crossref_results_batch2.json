@@ -1,0 +1,338 @@
+[
+  {
+    "id": "paper-37",
+    "title": "Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering",
+    "pdf_url": "https://doi.org/10.1609/aaai.v38i15.29664",
+    "status": "success"
+  },
+  {
+    "id": "paper-38",
+    "title": "Exploring Diverse Representations for Open Set Recognition",
+    "pdf_url": "https://doi.org/10.1609/aaai.v38i6.28385",
+    "status": "success"
+  },
+  {
+    "id": "paper-39",
+    "title": "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning",
+    "pdf_url": "https://doi.org/10.1609/aaai.v38i11.29079",
+    "status": "success"
+  },
+  {
+    "id": "paper-40",
+    "title": "Boosting Pseudo-Labeling With Curriculum Self-Reflection for Attributed Graph Clustering",
+    "pdf_url": "https://doi.org/10.1109/tnnls.2024.3416167",
+    "status": "success"
+  },
+  {
+    "id": "paper-41",
+    "title": "CCP-GNN: Competitive Covariance Pooling for Improving Graph Neural Networks",
+    "pdf_url": "https://doi.org/10.2139/ssrn.4623330",
+    "status": "success"
+  },
+  {
+    "id": "paper-42",
+    "title": "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+    "pdf_url": "https://doi.org/10.1109/iccv51070.2023.02153",
+    "status": "success"
+  },
+  {
+    "id": "paper-43",
+    "title": "Towards A Deeper Understanding of Global Covariance Pooling in Deep Learning: An Optimization Perspective",
+    "pdf_url": "https://doi.org/10.1109/tpami.2023.3321392/mm1",
+    "status": "success"
+  },
+  {
+    "id": "paper-44",
+    "title": "Cross-Drone Transformer Network for Robust Single Object Tracking",
+    "pdf_url": "https://doi.org/10.2139/ssrn.4671701",
+    "status": "success"
+  },
+  {
+    "id": "paper-45",
+    "title": "Multi-Task Credible Pseudo-Label Learning for Semi-supervised Crowd Counting",
+    "pdf_url": "https://doi.org/10.1109/tnnls.2023.3241211",
+    "status": "success"
+  },
+  {
+    "id": "paper-46",
+    "title": "OpenMix+: Revisiting Data Augmentation for Open Set Recognition",
+    "pdf_url": "https://doi.org/10.1109/tcsvt.2023.3268680",
+    "status": "success"
+  },
+  {
+    "id": "paper-47",
+    "title": "Autoencoder-based Collaborative Attention GAN for Multi-modal Image Synthesis",
+    "pdf_url": "https://doi.org/10.1109/tmm.2023.3274990/mm1",
+    "status": "success"
+  },
+  {
+    "id": "paper-48",
+    "title": "Robust Multi-Drone Multi-Target Tracking to Resolve Target Occlusion: A Benchmark",
+    "pdf_url": "https://doi.org/10.1109/tmm.2023.3234822",
+    "status": "success"
+  },
+  {
+    "id": "paper-49",
+    "title": "Tuning Pre-trained Model via Moment Probing",
+    "pdf_url": "https://doi.org/10.1109/iccv51070.2023.01084",
+    "status": "success"
+  },
+  {
+    "id": "paper-50",
+    "title": "Multi-view Knowledge Ensemble with Frequency Consistency for Face Cross-Domain Translation",
+    "pdf_url": "https://doi.org/10.1109/tnnls.2023.3236486",
+    "status": "success"
+  },
+  {
+    "id": "paper-55",
+    "title": "Semi-supervised Image Deraining Using Knowledge Distillation",
+    "pdf_url": "https://doi.org/10.1109/tcsvt.2022.3190516",
+    "status": "success"
+  },
+  {
+    "id": "paper-56",
+    "title": "Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering",
+    "pdf_url": "https://doi.org/10.1109/tnnls.2022.3171583",
+    "status": "success"
+  },
+  {
+    "id": "paper-57",
+    "title": "Learning Self-supervised Low-Rank Network for Single-Stage Weakly and Semi-supervised Semantic Segmentation",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11263-022-01590-z.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-58",
+    "title": "Drone-Based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning",
+    "pdf_url": "https://doi.org/10.1109/tcsvt.2022.3168279",
+    "status": "success"
+  },
+  {
+    "id": "paper-59",
+    "title": "Confidence-aware Fusion using Dempster-Shafer Theory for Multispectral Pedestrian Detection",
+    "pdf_url": "https://doi.org/10.1109/tmm.2022.3160589",
+    "status": "success"
+  },
+  {
+    "id": "paper-61",
+    "title": "Latent Heterogeneous Graph Network for Incomplete Multi-View Learning",
+    "pdf_url": "https://doi.org/10.1021/acs.jcim.5c03158.s001",
+    "status": "success"
+  },
+  {
+    "id": "paper-62",
+    "title": "Detection and Tracking Meet Drones Challenge",
+    "pdf_url": "https://doi.org/10.3390/drones7030195",
+    "status": "success"
+  },
+  {
+    "id": "paper-63",
+    "title": "Graph Regularized Flow Attention Network for Video Animal Counting From Drones",
+    "pdf_url": "https://doi.org/10.1109/iscas45731.2020.9181234/video",
+    "status": "success"
+  },
+  {
+    "id": "paper-64",
+    "title": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+    "pdf_url": "https://doi.org/10.1609/aaai.v35i14.17550",
+    "status": "success"
+  },
+  {
+    "id": "paper-65",
+    "title": "Multi-View Information-Bottleneck Representation Learning",
+    "pdf_url": "https://doi.org/10.2139/ssrn.4930520",
+    "status": "success"
+  },
+  {
+    "id": "paper-66",
+    "title": "Evolving Fully Automated Machine Learning via Life-Long Knowledge Anchors",
+    "pdf_url": "https://doi.org/10.3233/978-1-58603-900-4-59",
+    "status": "success"
+  },
+  {
+    "id": "paper-68",
+    "title": "Latent Multi-view Subspace Clustering",
+    "pdf_url": "https://doi.org/10.1109/ijcnn52387.2021.9534298",
+    "status": "success"
+  },
+  {
+    "id": "paper-69",
+    "title": "Adaptive and Robust Partition Learning for Person Retrieval With Policy Gradient",
+    "pdf_url": "https://doi.org/10.1109/tmm.2020.3023272",
+    "status": "success"
+  },
+  {
+    "id": "paper-70",
+    "title": "Multi-Drone-Based Single Object Tracking With Agent Sharing Network",
+    "pdf_url": "https://doi.org/10.33969/j-nana.2022.020103",
+    "status": "success"
+  },
+  {
+    "id": "paper-71",
+    "title": "SPL-MLL: Selecting Predictable Landmarks for Multi-Label Learning",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-58545-7_45.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-72",
+    "title": "Spatial Attention Pyramid Network for Unsupervised Domain Adaptation",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-58601-0_29.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-73",
+    "title": "Semisupervised Laplace-Regularized Multimodality Metric Learning",
+    "pdf_url": "https://doi.org/10.1109/tcyb.2020.3022277",
+    "status": "success"
+  },
+  {
+    "id": "paper-74",
+    "title": "Single Image Deraining Using Bilateral Recurrent Network",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-023-15276-2.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-75",
+    "title": "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning",
+    "pdf_url": "https://doi.org/10.1609/aaai.v34i04.5843",
+    "status": "success"
+  },
+  {
+    "id": "paper-53",
+    "title": "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network",
+    "pdf_url": "https://doi.org/10.1145/3503161.3547902",
+    "status": "success"
+  },
+  {
+    "id": "paper-54",
+    "title": "Self-Supervised Fully Automatic Learning Machine for Intelligent Retail Container",
+    "pdf_url": "https://doi.org/10.1109/tim.2022.3204080",
+    "status": "success"
+  },
+  {
+    "id": "paper-79",
+    "title": "Hybrid Noise-Oriented Multilabel Learning",
+    "pdf_url": "https://doi.org/10.1109/access.2020.3001274",
+    "status": "success"
+  },
+  {
+    "id": "paper-80",
+    "title": "Flexible Multi-View Representation Learning for Subspace Clustering",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2019/404",
+    "status": "success"
+  },
+  {
+    "id": "paper-81",
+    "title": "Deep Fuzzy Tree for Large-Scale Hierarchical Visual Classification",
+    "pdf_url": "https://doi.org/10.1109/tfuzz.2019.2936801",
+    "status": "success"
+  },
+  {
+    "id": "paper-82",
+    "title": "Fuzzy Rough Set Based Feature Selection for Large-Scale Hierarchical Classification",
+    "pdf_url": "https://doi.org/10.5373/jardcs/v12sp4/20201492",
+    "status": "success"
+  },
+  {
+    "id": "paper-85",
+    "title": "Latent Semantic Aware Multi-View Multi-Label Classification",
+    "pdf_url": "https://doi.org/10.1609/aaai.v32i1.11722",
+    "status": "success"
+  },
+  {
+    "id": "paper-86",
+    "title": "FISH-MML: Fisher-HSIC Multi-View Metric Learning",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2018/424",
+    "status": "success"
+  },
+  {
+    "id": "paper-87",
+    "title": "Beyond Similar and Dissimilar Relations: A Kernel Regression Formulation for Metric Learning",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2018/450",
+    "status": "success"
+  },
+  {
+    "id": "paper-88",
+    "title": "Towards Generalized and Efficient Metric Learning on Riemannian Manifold",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2018/449",
+    "status": "success"
+  },
+  {
+    "id": "paper-89",
+    "title": "Flexible Multi-View Dimensionality Co-Reduction",
+    "pdf_url": "https://doi.org/10.1109/tip.2016.2627806",
+    "status": "success"
+  },
+  {
+    "id": "paper-90",
+    "title": "Hierarchical Feature Selection with Recursive Regularization",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2017/487",
+    "status": "success"
+  },
+  {
+    "id": "paper-91",
+    "title": "Data-Distribution-Aware Fuzzy Rough Set Model and its Application to Robust Classification",
+    "pdf_url": "https://doi.org/10.1109/tcyb.2015.2496425",
+    "status": "success"
+  },
+  {
+    "id": "paper-93",
+    "title": "Coupled Dictionary Learning for Unsupervised Feature Selection",
+    "pdf_url": "https://doi.org/10.1609/aaai.v30i1.10239",
+    "status": "success"
+  },
+  {
+    "id": "paper-94",
+    "title": "From Point to Set: Extend the Learning of Distance Metrics",
+    "pdf_url": "https://doi.org/10.1109/iccv.2013.331",
+    "status": "success"
+  },
+  {
+    "id": "paper-95",
+    "title": "Multi-scale Patch Based Collaborative Representation for Face Recognition with Margin Distribution Optimization",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-642-33718-5_59.pdf",
+    "status": "success"
+  },
+  {
+    "id": "paper-96",
+    "title": "A Linear Subspace Learning Approach via Sparse Coding",
+    "pdf_url": "https://doi.org/10.1109/iccv.2011.6126313",
+    "status": "success"
+  },
+  {
+    "id": "paper-97",
+    "title": "A Novel Algorithm for Finding Reducts With Fuzzy Rough Sets",
+    "pdf_url": "https://doi.org/10.1109/tfuzz.2011.2173695",
+    "status": "success"
+  },
+  {
+    "id": "paper-51",
+    "title": "Stabilizing Multispectral Pedestrian Detection with Evidential Hybrid Fusion",
+    "pdf_url": "https://doi.org/10.1109/tcsvt.2023.3306870",
+    "status": "success"
+  },
+  {
+    "id": "paper-77",
+    "title": "Unsupervised spectral feature selection with dynamic hyper-graph learning",
+    "pdf_url": "https://doi.org/10.1109/tkde.2020.3017250",
+    "status": "success"
+  },
+  {
+    "id": "paper-78",
+    "title": "A Recursive Regularization Based Feature Selection Framework for Hierarchical Classification",
+    "pdf_url": "https://doi.org/10.24963/ijcai.2017/487",
+    "status": "success"
+  },
+  {
+    "id": "paper-52",
+    "title": "Learning Dynamic Compact Memory Embedding for Deformable Visual Object Tracking",
+    "pdf_url": "https://doi.org/10.1109/tnnls.2022.3208605",
+    "status": "success"
+  },
+  {
+    "id": "paper-76",
+    "title": "ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks",
+    "pdf_url": "https://doi.org/10.1109/cvpr42600.2020.01155",
+    "status": "success"
+  }
+]

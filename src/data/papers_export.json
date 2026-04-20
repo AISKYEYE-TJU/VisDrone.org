@@ -1,0 +1,1804 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  "paper-2",
+                      "title":  "Dream-IF: Dynamic Relative EnhAnceMent for Image Fusion",
+                      "authors":  [
+                                      "Xingxin Xu",
+                                      "Bing Cao",
+                                      "Dongdong Li",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2026,
+                      "type":  "conference",
+                      "doi":  "10.48550/ARXIV.2503.10109",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:47.854898+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.170657+00:00"
+                  },
+                  {
+                      "id":  "paper-3",
+                      "title":  "VTD-CLIP: Video-to-Text Discretization via Prompting CLIP",
+                      "authors":  [
+                                      "Wencheng Zhu",
+                                      "Yuexin Wang",
+                                      "Hongxuan Li",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2026,
+                      "type":  "conference",
+                      "doi":  "10.48550/ARXIV.2503.18407",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:47.982828+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.326741+00:00"
+                  },
+                  {
+                      "id":  "paper-4",
+                      "title":  "Point Cloud Quantization through Multimodal Prompting for 3D Understanding",
+                      "authors":  [
+                                      "Hongxuan Li",
+                                      "Wencheng Zhu",
+                                      "Huiying Xu",
+                                      "Xinzhong Zhu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2026,
+                      "type":  "conference",
+                      "doi":  "10.48550/ARXIV.2511.12079",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:48.119536+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.525205+00:00"
+                  },
+                  {
+                      "id":  "paper-5",
+                      "title":  "CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Yuan Ruan",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2026,
+                      "type":  "conference",
+                      "doi":  "10.48550/ARXIV.2601.08619",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:48.233251+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.66186+00:00"
+                  },
+                  {
+                      "id":  "paper-1",
+                      "title":  "Reconcile Gradient Modulation for Harmony Multimodal Learning",
+                      "authors":  [
+                                      "Xiyuan Gao",
+                                      "Bing Cao",
+                                      "Baoquan Gong",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2026,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://ojs.aaai.org/index.php/AAAI/article/view/39267/43228",
+                      "created_at":  "2026-03-19T13:18:47.723087+00:00",
+                      "updated_at":  "2026-03-19T15:32:44.699916+00:00"
+                  },
+                  {
+                      "id":  "paper-6",
+                      "title":  "Multimodal Negative Learning",
+                      "authors":  [
+                                      "Baoquan Gong",
+                                      "Xiyuan Gao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Bing Cao"
+                                  ],
+                      "venue":  "Neural Information Processing Systems",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openreview.net/pdf?id=OeXukLC6SK",
+                      "created_at":  "2026-03-19T13:18:48.347558+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.808652+00:00"
+                  },
+                  {
+                      "id":  "paper-7",
+                      "title":  "Decoupled Multi-Predictor Optimization for Inference-Efficient Model Tuning",
+                      "authors":  [
+                                      "Liwei Luo",
+                                      "Shuaitengyuan Li",
+                                      "Dongwei Ren",
+                                      "Qilong Wang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF International Conference on Computer Vision",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  "10.48550/ARXIV.2511.03245",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:48.461343+00:00",
+                      "updated_at":  "2026-03-19T15:32:45.933313+00:00"
+                  },
+                  {
+                      "id":  "paper-8",
+                      "title":  "Multi-granularity Superpoint Graph Learning for Weakly Supervised 3D Semantic Segmentation",
+                      "authors":  [
+                                      "Yan Fan",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Le Hui",
+                                      "Jin Xie",
+                                      "Bin Xiao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2024.3374321",
+                      "pdf_url":  "https://ieeexplore.ieee.org/document/11372214",
+                      "created_at":  "2026-03-19T13:18:48.580833+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.073781+00:00"
+                  },
+                  {
+                      "id":  "paper-9",
+                      "title":  "TEDFuse: Task-Driven Equivariant Consistency Decomposition Network for Multi-Modal Image Fusion",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Xinyu Cui",
+                                      "Zhen Wang",
+                                      "Hao Cheng",
+                                      "Yongfeng Dong",
+                                      "Pengfei Zhu",
+                                      "Kai Li"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2025.3522102",
+                      "pdf_url":  "https://ieeexplore.ieee.org/abstract/document/11355938",
+                      "created_at":  "2026-03-19T13:18:48.707408+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.217938+00:00"
+                  },
+                  {
+                      "id":  "paper-10",
+                      "title":  "Motion-Aware Adaptive Pixel Pruning for Efficient Local Motion Deblurring",
+                      "authors":  [
+                                      "Wei Shang",
+                                      "Dongwei Ren",
+                                      "Wanying Zhang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Wangmeng Zuo"
+                                  ],
+                      "venue":  "ACM International Conference on Multimedia",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  "10.1145/3746027.3755062",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:48.823118+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.419064+00:00"
+                  },
+                  {
+                      "id":  "paper-11",
+                      "title":  "CKD: Contrastive Knowledge Distillation from A Sample-Wise Perspective",
+                      "authors":  [
+                                      "Wencheng Zhu",
+                                      "Xin Zhou",
+                                      "Pengfei Zhu",
+                                      "Yu Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Image Processing",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIP.2025.3573474",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:48.943187+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.534416+00:00"
+                  },
+                  {
+                      "id":  "paper-12",
+                      "title":  "Socialized Coevolution: Advancing a Better World Through Cross-Task Collaboration",
+                      "authors":  [
+                                      "Xinjie Yao",
+                                      "Yu wang",
+                                      "Pengfei Zhu",
+                                      "Wanyu Lin",
+                                      "Ruipu Zhao",
+                                      "Zhoupeng Guo",
+                                      "Weihao Li",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Conference on Machine Learning",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yao25e/yao25e.pdf",
+                      "created_at":  "2026-03-19T13:18:49.076296+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.721126+00:00"
+                  },
+                  {
+                      "id":  "paper-13",
+                      "title":  "Graphs Help Graphs: Multi-Agent Graph Socialized Learning",
+                      "authors":  [
+                                      "Jialu Li",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Wanyu Lin",
+                                      "Xinjie Yao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "Neural Information Processing Systems",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openreview.net/pdf?id=lkw2WJLdbh",
+                      "created_at":  "2026-03-19T13:18:49.194477+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.839278+00:00"
+                  },
+                  {
+                      "id":  "paper-14",
+                      "title":  "Task-Gated Multi-Expert Collaboration Network for Degraded Multi-Modal Image Fusion",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Xin Li",
+                                      "Pengfei Zhu",
+                                      "Qinghua hu",
+                                      "Dongwei Ren",
+                                      "Huiying Xu",
+                                      "Xinzhong Zhu"
+                                  ],
+                      "venue":  "International Conference on Machine Learning",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25k/sun25k.pdf",
+                      "created_at":  "2026-03-19T13:18:49.318965+00:00",
+                      "updated_at":  "2026-03-19T15:32:46.978401+00:00"
+                  },
+                  {
+                      "id":  "paper-15",
+                      "title":  "RTF: Recursive TransFusion for Multi-Modal Image Synthesis",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Guoliang Qi",
+                                      "Jiaming Zhao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Xinbo Gao"
+                                  ],
+                      "venue":  "IEEE Transactions on Image Processing",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIP.2025.3541877",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:49.439665+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.101284+00:00"
+                  },
+                  {
+                      "id":  "paper-16",
+                      "title":  "BackMix: Regularizing Open Set Recognition by Removing Underlying Fore-Background Priors",
+                      "authors":  [
+                                      "Yu Wang",
+                                      "Junxian Mu",
+                                      "Hongzhi Huang",
+                                      "Qilong Wang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TPAMI.2025.3550703",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:49.632804+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.209121+00:00"
+                  },
+                  {
+                      "id":  "paper-17",
+                      "title":  "Uncertainty-aware Superpoint Graph Transformer for Weakly Supervised 3D Semantic Segmentation",
+                      "authors":  [
+                                      "Yan Fan",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Le Hui",
+                                      "Jin Xie",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Fuzzy Systems",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1109/TFUZZ.2024.3496413",
+                      "pdf_url":  "https://ieeexplore.ieee.org/document/10904869",
+                      "created_at":  "2026-03-19T13:18:49.753047+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.330653+00:00"
+                  },
+                  {
+                      "id":  "paper-18",
+                      "title":  "Unknown Support Prototype Set for Open Set Recognition",
+                      "authors":  [
+                                      "Guosong Jiang",
+                                      "Pengfei Zhu",
+                                      "Bing Cao",
+                                      "Dongyue Chen",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Journal of Computer Vision",
+                      "year":  2025,
+                      "type":  "journal",
+                      "doi":  "10.1007/S11263-025-02384-9",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:49.888837+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.450022+00:00"
+                  },
+                  {
+                      "id":  "paper-19",
+                      "title":  "Hyperbolic-Euclidean Deep Mutual Learning",
+                      "authors":  [
+                                      "Haifang Cao",
+                                      "Yu Wang",
+                                      "Jialu Li",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "The International World Wide Web Conference",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  "10.1145/3696410.3714659",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:50.008325+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.642741+00:00"
+                  },
+                  {
+                      "id":  "paper-20",
+                      "title":  "Efficient Masked AutoEncoder for Video object Counting and A LargeScale Benchmark",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Quanhao Lu",
+                                      "Jiekang feng",
+                                      "Qilong Wan",
+                                      "Pengfei zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Conference on Learning Representations",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openreview.net/pdf?id=sY3anJ8C68",
+                      "created_at":  "2026-03-19T13:18:50.126689+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.774253+00:00"
+                  },
+                  {
+                      "id":  "paper-21",
+                      "title":  "Asymmetric Factorized Bilinear operation for Vision Transformer",
+                      "authors":  [
+                                      "Junjie Wu",
+                                      "Qilong Wang",
+                                      "Jiangtao Xie",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Conference on Learning Representations",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openreview.net/pdf?id=MJyqwBVgMs",
+                      "created_at":  "2026-03-19T13:18:50.246966+00:00",
+                      "updated_at":  "2026-03-19T15:32:47.902736+00:00"
+                  },
+                  {
+                      "id":  "paper-22",
+                      "title":  "Asymmetric Reinforcing against Multi modal Representation Bias",
+                      "authors":  [
+                                      "Xiyuan Gao",
+                                      "Bing Cao",
+                                      "Pengfei Zhu",
+                                      "Nannan Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2025,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V39I16.33841",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:50.364754+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.01995+00:00"
+                  },
+                  {
+                      "id":  "paper-23",
+                      "title":  "One-Step Multi-View Spectral Clustering",
+                      "authors":  [
+                                      "Xiaofeng Zhu",
+                                      "Shichao Zhang",
+                                      "Wei He",
+                                      "Rongyao Hu",
+                                      "Cong Lei",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Knowledge and Data Engineering",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1016/J.SIGPRO.2024.109729",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:50.488753+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.136497+00:00"
+                  },
+                  {
+                      "id":  "paper-24",
+                      "title":  "Conditional Controllable Image Fusion",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Xingxin Xu",
+                                      "Pengfei Zhu",
+                                      "Qilong Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "Neural Information Processing Systems",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://papers.nips.cc/paper_files/paper/2024/file/d99e8e80a6c41e148db686918dd7eab3-Paper-Conference.pdf",
+                      "created_at":  "2026-03-19T13:18:50.602586+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.251596+00:00"
+                  },
+                  {
+                      "id":  "paper-25",
+                      "title":  "What Matters in Graph Class Incremental Learning? An Information Preservation Perspective",
+                      "authors":  [
+                                      "Jialu Li",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Wanyu Lin",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "Neural Information Processing Systems",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://papers.nips.cc/paper_files/paper/2024/file/2e32d3a10985fc94c7e11ee6ea165cca-Paper-Conference.pdf",
+                      "created_at":  "2026-03-19T13:18:50.72789+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.368818+00:00"
+                  },
+                  {
+                      "id":  "paper-27",
+                      "title":  "Visible and Clear: Finding Tiny Objects in Difference Map",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Haiyu Yao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "European Conference on Computer Vision",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1007/978-3-031-72643-9_1",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:51.05113+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.676809+00:00"
+                  },
+                  {
+                      "id":  "paper-28",
+                      "title":  "M-RRFS: A Memory-Based Robust Region Feature Synthesizer for Zero-Shot Object Detection",
+                      "authors":  [
+                                      "Peiliang Huang",
+                                      "Dingwen Zhang",
+                                      "De Cheng",
+                                      "Longfei Han",
+                                      "Pengfei Zhu",
+                                      "Junwei Han"
+                                  ],
+                      "venue":  "International Journal of Computer Vision",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1007/S11263-024-02112-9",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:51.165424+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.784074+00:00"
+                  },
+                  {
+                      "id":  "paper-29",
+                      "title":  "M2FNet: Multi-modal fusion network for object detection from visible and thermal infrared images",
+                      "authors":  [
+                                      "Chenchen Jiang",
+                                      "Huazhong Ren",
+                                      "Hong Yang",
+                                      "Hongtao Huo",
+                                      "Pengfei Zhu",
+                                      "Zhaoyuan Yao",
+                                      "Jing Li",
+                                      "Min Sun",
+                                      "Shihao Yang"
+                                  ],
+                      "venue":  "ISPRS Journal of Geo-Information",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1016/J.JAG.2024.103918",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:51.289053+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.913191+00:00"
+                  },
+                  {
+                      "id":  "paper-30",
+                      "title":  "Socialized Learning: Making Each Other Better Through Multi-Agent Collaboration",
+                      "authors":  [
+                                      "Xinjie Yao",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Wanyu Lin",
+                                      "Jialu Li",
+                                      "Weihao Li",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Conference on Machine Learning",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yao24d/yao24d.pdf",
+                      "created_at":  "2026-03-19T13:18:51.412586+00:00",
+                      "updated_at":  "2026-03-19T15:32:49.230077+00:00"
+                  },
+                  {
+                      "id":  "paper-31",
+                      "title":  "Dynamic Brightness Adaptation for Robust Multi-modal Image Fusion",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Bing Cao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://www.ijcai.org/proceedings/2024/0146.pdf",
+                      "created_at":  "2026-03-19T13:18:51.536492+00:00",
+                      "updated_at":  "2026-03-19T15:32:49.371266+00:00"
+                  },
+                  {
+                      "id":  "paper-32",
+                      "title":  "Integrated Heterogeneous Graph Attention Network for Incomplete Multi-Modal Clustering",
+                      "authors":  [
+                                      "Yu Wang",
+                                      "Xinjie Yao",
+                                      "Pengfei Zhu",
+                                      "Weihao Li",
+                                      "Meng Cao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Journal of Computer Vision",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1007/S11263-024-02066-Y",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:51.783815+00:00",
+                      "updated_at":  "2026-03-19T15:32:49.491077+00:00"
+                  },
+                  {
+                      "id":  "paper-33",
+                      "title":  "Task-Customized Mixture of Adapters for General Image Fusion",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Yang Sun",
+                                      "Bing Cao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1109/CVPR52733.2024.00678",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:51.901278+00:00",
+                      "updated_at":  "2026-03-19T15:32:49.662721+00:00"
+                  },
+                  {
+                      "id":  "paper-34",
+                      "title":  "AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning",
+                      "authors":  [
+                                      "Yuwei Tang",
+                                      "Zhenyi Lin",
+                                      "Qilong Wang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1109/CVPR52733.2024.02201",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:52.02087+00:00",
+                      "updated_at":  "2026-03-19T15:32:49.938724+00:00"
+                  },
+                  {
+                      "id":  "paper-35",
+                      "title":  "Multi-View Deep Subspace Clustering Networks",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Xinjie Yao",
+                                      "Yu Wang",
+                                      "Binyuan Hui",
+                                      "Dawei Du",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Cybernetics",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCYB.2024.3494125",
+                      "pdf_url":  "https://ieeexplore.ieee.org/document/10478097",
+                      "created_at":  "2026-03-19T13:18:52.250912+00:00",
+                      "updated_at":  "2026-03-19T15:32:50.082889+00:00"
+                  },
+                  {
+                      "id":  "paper-36",
+                      "title":  "Bi-directional Adapter for Multimodal Tracking",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Junliang Guo",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V38I2.27852",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:52.371596+00:00",
+                      "updated_at":  "2026-03-19T15:32:50.205287+00:00"
+                  },
+                  {
+                      "id":  "paper-37",
+                      "title":  "Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Qian Wang",
+                                      "Yu Wang",
+                                      "Jialu Li",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V38I15.29664",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:52.485983+00:00",
+                      "updated_at":  "2026-03-19T15:32:50.666601+00:00"
+                  },
+                  {
+                      "id":  "paper-38",
+                      "title":  "Exploring Diverse Representations for Open Set Recognition",
+                      "authors":  [
+                                      "Yu Wang",
+                                      "Junxian Mu",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V38I6.28385",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:53.45117+00:00",
+                      "updated_at":  "2026-03-19T15:32:50.82224+00:00"
+                  },
+                  {
+                      "id":  "paper-39",
+                      "title":  "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning",
+                      "authors":  [
+                                      "Yan Fan",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V38I11.29079",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:53.581879+00:00",
+                      "updated_at":  "2026-03-19T15:32:50.953914+00:00"
+                  },
+                  {
+                      "id":  "paper-40",
+                      "title":  "Boosting Pseudo-Labeling With Curriculum Self-Reflection for Attributed Graph Clustering",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Jialu Li",
+                                      "Yu Wang",
+                                      "Bin Xiao",
+                                      "Jinglin Zhang",
+                                      "Wanyu Lin",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2024.3416167",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:53.699466+00:00",
+                      "updated_at":  "2026-03-19T15:32:51.299423+00:00"
+                  },
+                  {
+                      "id":  "paper-41",
+                      "title":  "CCP-GNN: Competitive Covariance Pooling for Improving Graph Neural Networks",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Jialu Li",
+                                      "Zhe Dong",
+                                      "Qinghua Hu",
+                                      "Xiao Wang",
+                                      "Qilong Wang"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2024,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2024.3390249",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:53.815797+00:00",
+                      "updated_at":  "2026-03-19T15:32:51.432119+00:00"
+                  },
+                  {
+                      "id":  "paper-26",
+                      "title":  "Persistence Homology Distillation for Semi-supervised Continual Learning",
+                      "authors":  [
+                                      "Yan Fan",
+                                      "Yu Wang",
+                                      "Pengfei Zhu",
+                                      "Dongyue Chen",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "Neural Information Processing Systems",
+                      "year":  2024,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://papers.nips.cc/paper_files/paper/2024/file/8bd31288ad8e9a31d519fdeede7ee47d-Paper-Conference.pdf",
+                      "created_at":  "2026-03-19T13:18:50.844406+00:00",
+                      "updated_at":  "2026-03-19T15:32:48.490412+00:00"
+                  },
+                  {
+                      "id":  "paper-42",
+                      "title":  "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Yiming Sun",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF International Conference on Computer Vision",
+                      "year":  2023,
+                      "type":  "conference",
+                      "doi":  "10.1109/ICCV51070.2023.02153",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:53.940789+00:00",
+                      "updated_at":  "2026-03-19T15:32:51.605335+00:00"
+                  },
+                  {
+                      "id":  "paper-43",
+                      "title":  "Towards A Deeper Understanding of Global Covariance Pooling in Deep Learning: An Optimization Perspective",
+                      "authors":  [
+                                      "Qilong Wang",
+                                      "Zhaolin Zhang",
+                                      "Mingze Gao",
+                                      "Jiangtao Xie",
+                                      "Pengfei Zhu#",
+                                      "Peihua Li",
+                                      "Wangmeng Zuo",
+                                      "Qinghua hu#"
+                                  ],
+                      "venue":  "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TPAMI.2023.3321392",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.060271+00:00",
+                      "updated_at":  "2026-03-19T15:32:51.753368+00:00"
+                  },
+                  {
+                      "id":  "paper-44",
+                      "title":  "Cross-Drone Transformer Network for Robust Single Object Tracking",
+                      "authors":  [
+                                      "Guanlin Chen",
+                                      "Pengfei Zhu",
+                                      "Bing Cao",
+                                      "Xing Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2023.3281557",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.178684+00:00",
+                      "updated_at":  "2026-03-19T15:32:52.50863+00:00"
+                  },
+                  {
+                      "id":  "paper-45",
+                      "title":  "Multi-Task Credible Pseudo-Label Learning for Semi-supervised Crowd Counting",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Jingqing Li",
+                                      "Bing Cao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2023.3241211",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.300217+00:00",
+                      "updated_at":  "2026-03-19T15:32:52.689949+00:00"
+                  },
+                  {
+                      "id":  "paper-46",
+                      "title":  "OpenMix+: Revisiting Data Augmentation for Open Set Recognition",
+                      "authors":  [
+                                      "Guosong Jiang",
+                                      "Pengfei Zhu",
+                                      "Yu Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2023.3268680",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.418906+00:00",
+                      "updated_at":  "2026-03-19T15:32:52.811237+00:00"
+                  },
+                  {
+                      "id":  "paper-47",
+                      "title":  "Autoencoder-based Collaborative Attention GAN for Multi-modal Image Synthesis",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Haifang Cao",
+                                      "Jiaxu Liu",
+                                      "Pengfei Zhu",
+                                      "Changqing Zhang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2023.3274990",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.540004+00:00",
+                      "updated_at":  "2026-03-19T15:32:52.953848+00:00"
+                  },
+                  {
+                      "id":  "paper-48",
+                      "title":  "Robust Multi-Drone Multi-Target Tracking to Resolve Target Occlusion: A Benchmark",
+                      "authors":  [
+                                      "Zhihao Liu",
+                                      "Yuanyuan Shang",
+                                      "Timing Li",
+                                      "Guanlin Chen",
+                                      "Yu Wang",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2023.3234822",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.659867+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.063356+00:00"
+                  },
+                  {
+                      "id":  "paper-49",
+                      "title":  "Tuning Pre-trained Model via Moment Probing",
+                      "authors":  [
+                                      "Mingze Gao",
+                                      "Qilong Wang",
+                                      "Zhenyi Lin",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF International Conference on Computer Vision",
+                      "year":  2023,
+                      "type":  "conference",
+                      "doi":  "10.1109/ICCV51070.2023.01084",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.779055+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.193555+00:00"
+                  },
+                  {
+                      "id":  "paper-50",
+                      "title":  "Multi-view Knowledge Ensemble with Frequency Consistency for Face Cross-Domain Translation",
+                      "authors":  [
+                                      "Bing Cao",
+                                      "Qinghe Wang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Dongwei Ren",
+                                      "Wangmeng Zuo",
+                                      "Xinbo Gao"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2023.3236486",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:54.894257+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.31926+00:00"
+                  },
+                  {
+                      "id":  "paper-51",
+                      "title":  "Stabilizing Multispectral Pedestrian Detection with Evidential Hybrid Fusion",
+                      "authors":  [
+                                      "Qing Li",
+                                      "Changqing Zhang",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Huazhu Fu",
+                                      "Lei Chen"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2023,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2023.3306870",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:55.025336+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.431697+00:00"
+                  },
+                  {
+                      "id":  "paper-53",
+                      "title":  "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Bing Cao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "ACM International Conference on Multimedia",
+                      "year":  2022,
+                      "type":  "conference",
+                      "doi":  "10.1145/3503161.3547902",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:55.258482+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.721671+00:00"
+                  },
+                  {
+                      "id":  "paper-54",
+                      "title":  "Self-Supervised Fully Automatic Learning Machine for Intelligent Retail Container",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Yiming Sun",
+                                      "Bing Cao",
+                                      "Xiaoyu Liu",
+                                      "Xin Liu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Instrumentation and Measurement",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIM.2022.3204080",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:55.381293+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.865884+00:00"
+                  },
+                  {
+                      "id":  "paper-55",
+                      "title":  "Semi-supervised Image Deraining Using Knowledge Distillation",
+                      "authors":  [
+                                      "Xin Cui",
+                                      "Cong Wang",
+                                      "Dongwei Ren",
+                                      "Yunjin Chen",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2022.3190516",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:55.498491+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.002281+00:00"
+                  },
+                  {
+                      "id":  "paper-56",
+                      "title":  "Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Jialu Li",
+                                      "Yu Wang",
+                                      "Bin Xiao",
+                                      "Shuai Zhao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2022.3171583",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:56.086297+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.126427+00:00"
+                  },
+                  {
+                      "id":  "paper-57",
+                      "title":  "Learning Self-supervised Low-Rank Network for Single-Stage Weakly and Semi-supervised Semantic Segmentation",
+                      "authors":  [
+                                      "Junwen Pan",
+                                      "Pengfei Zhu",
+                                      "Kaihua Zhang",
+                                      "Bing Cao",
+                                      "Yu Wang",
+                                      "Dingwen Zhang",
+                                      "Junwei Han",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Journal of Computer Vision",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1007/S11263-022-01656-4",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:56.202917+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.296103+00:00"
+                  },
+                  {
+                      "id":  "paper-58",
+                      "title":  "Drone-Based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning",
+                      "authors":  [
+                                      "Yiming Sun",
+                                      "Bing Cao",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2022.3168279",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:56.315987+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.415192+00:00"
+                  },
+                  {
+                      "id":  "paper-59",
+                      "title":  "Confidence-aware Fusion using Dempster-Shafer Theory for Multispectral Pedestrian Detection",
+                      "authors":  [
+                                      "Qing Li",
+                                      "Changqing Zhang",
+                                      "Qinghua Hu",
+                                      "Huazhu Fu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2022.3160589",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:56.428663+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.536587+00:00"
+                  },
+                  {
+                      "id":  "paper-60",
+                      "title":  "Label-Effcient Hybrid-Supervised Learning for Medical Image Segmentation",
+                      "authors":  [
+                                      "Junwen Pan",
+                                      "Qi Bi",
+                                      "Yanzhan Yang",
+                                      "Pengfei Zhu",
+                                      "Cheng Bian"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2022,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://ojs.aaai.org/index.php/AAAI/article/view/20098/19857",
+                      "created_at":  "2026-03-19T13:18:56.78336+00:00",
+                      "updated_at":  "2026-03-19T15:32:54.654166+00:00"
+                  },
+                  {
+                      "id":  "paper-61",
+                      "title":  "Latent Heterogeneous Graph Network for Incomplete Multi-View Learning",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Xinjie Yao",
+                                      "Yu Wang",
+                                      "Meng Cao",
+                                      "Binyuan Hui",
+                                      "Shuai Zhao",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2022.3154592",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:56.892617+00:00",
+                      "updated_at":  "2026-03-19T15:32:55.337144+00:00"
+                  },
+                  {
+                      "id":  "paper-52",
+                      "title":  "Learning Dynamic Compact Memory Embedding for Deformable Visual Object Tracking",
+                      "authors":  [
+                                      "Hongtao Yu",
+                                      "Pengfei Zhu",
+                                      "Kaihua Zhang",
+                                      "Yu Wang",
+                                      "Shuai Zhao",
+                                      "Lei Wang",
+                                      "Tianzhu Zhang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Neural Networks and Learning Systems",
+                      "year":  2022,
+                      "type":  "journal",
+                      "doi":  "10.1109/TNNLS.2022.3208605",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:55.142715+00:00",
+                      "updated_at":  "2026-03-19T15:32:53.5859+00:00"
+                  },
+                  {
+                      "id":  "paper-62",
+                      "title":  "Detection and Tracking Meet Drones Challenge",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Longyin Wen",
+                                      "Dawei Du",
+                                      "Xiao Bian",
+                                      "Heng Fan",
+                                      "Qinghua Hu",
+                                      "Haibin Ling"
+                                  ],
+                      "venue":  "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                      "year":  2021,
+                      "type":  "journal",
+                      "doi":  "10.1109/TPAMI.2021.3119563",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.010638+00:00",
+                      "updated_at":  "2026-03-19T15:32:55.460243+00:00"
+                  },
+                  {
+                      "id":  "paper-63",
+                      "title":  "Graph Regularized Flow Attention Network for Video Animal Counting From Drones",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Tao Peng",
+                                      "Dawei Du",
+                                      "Hongtao Yu",
+                                      "Libo Zhang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Image Processing",
+                      "year":  2021,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIP.2021.3082297",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.13061+00:00",
+                      "updated_at":  "2026-03-19T15:32:55.841139+00:00"
+                  },
+                  {
+                      "id":  "paper-64",
+                      "title":  "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+                      "authors":  [
+                                      "Binyuan Hui",
+                                      "Ruiying Geng",
+                                      "Qiyu Ren",
+                                      "Binhua Li",
+                                      "Yongbin Li",
+                                      "Jian Sun",
+                                      "Fei Huang",
+                                      "Luo Si",
+                                      "Pengfei Zhu",
+                                      "Xiaodan Zhu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2021,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V35I14.17550",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.245473+00:00",
+                      "updated_at":  "2026-03-19T15:32:55.966142+00:00"
+                  },
+                  {
+                      "id":  "paper-65",
+                      "title":  "Multi-View Information-Bottleneck Representation Learning",
+                      "authors":  [
+                                      "Zhibin Wan",
+                                      "Changqing Zhang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2021,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V35I11.17210",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.368693+00:00",
+                      "updated_at":  "2026-03-19T15:32:56.09265+00:00"
+                  },
+                  {
+                      "id":  "paper-66",
+                      "title":  "Evolving Fully Automated Machine Learning via Life-Long Knowledge Anchors",
+                      "authors":  [
+                                      "Xiawu Zheng",
+                                      "Yang Zhang",
+                                      "Sirui Hong",
+                                      "Huixia Li",
+                                      "Lang Tang",
+                                      "Youcheng Xiong",
+                                      "Jin Zhou",
+                                      "Yan Wang",
+                                      "Xiaoshuai Sun",
+                                      "Pengfei Zhu",
+                                      "Chenglin Wu",
+                                      "Rongrong Ji"
+                                  ],
+                      "venue":  "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                      "year":  2021,
+                      "type":  "journal",
+                      "doi":  "10.1109/TPAMI.2021.3069250",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.49008+00:00",
+                      "updated_at":  "2026-03-19T15:32:56.209592+00:00"
+                  },
+                  {
+                      "id":  "paper-67",
+                      "title":  "Detection, Tracking, and Counting Meets Drones in Crowds: A Benchmark, Proceedings of the IEEE/CVF Conference on",
+                      "authors":  [
+                                      "Longyin Wen",
+                                      "Dawei Du",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Qilong Wang",
+                                      "Liefeng Bo",
+                                      "Siwei Lyu"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2021,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openaccess.thecvf.com/content/CVPR2021/papers/Wen_Detection_Tracking_and_Counting_Meets_Drones_in_Crowds_A_Benchmark_CVPR_2021_paper.pdf",
+                      "created_at":  "2026-03-19T13:18:57.603993+00:00",
+                      "updated_at":  "2026-03-19T15:32:56.361147+00:00"
+                  },
+                  {
+                      "id":  "paper-68",
+                      "title":  "Latent Multi-view Subspace Clustering",
+                      "authors":  [
+                                      "Changqing Zhang",
+                                      "Qinghua Hu",
+                                      "Huazhu Fu",
+                                      "Pengfei Zhu",
+                                      "Xiaochun Cao"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2021,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:57.714032+00:00",
+                      "updated_at":  "2026-03-19T15:32:56.751642+00:00"
+                  },
+                  {
+                      "id":  "paper-69",
+                      "title":  "Adaptive and Robust Partition Learning for Person Retrieval With Policy Gradient",
+                      "authors":  [
+                                      "Yuxuan Shi",
+                                      "Zhen Wei",
+                                      "Hefei Ling",
+                                      "Ziyang Wang",
+                                      "Pengfei Zhu",
+                                      "Jialie Shen",
+                                      "Ping Li"
+                                  ],
+                      "venue":  "IEEE Transactions on Multimedia",
+                      "year":  2020,
+                      "type":  "journal",
+                      "doi":  "10.1109/TMM.2020.3023272",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.039254+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.180401+00:00"
+                  },
+                  {
+                      "id":  "paper-70",
+                      "title":  "Multi-Drone-Based Single Object Tracking With Agent Sharing Network",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Jiayu Zheng",
+                                      "Dawei Du",
+                                      "Longyin Wen",
+                                      "Yiming Sun",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Circuits and Systems for Video Technology",
+                      "year":  2020,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCSVT.2020.3045747",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.146419+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.32987+00:00"
+                  },
+                  {
+                      "id":  "paper-71",
+                      "title":  "SPL-MLL: Selecting Predictable Landmarks for Multi-Label Learning",
+                      "authors":  [
+                                      "Junbing Li",
+                                      "Changqing Zhang",
+                                      "Pengfei Zhu",
+                                      "Baoyuan Wu",
+                                      "Lei Chen",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "European Conference on Computer Vision",
+                      "year":  2020,
+                      "type":  "conference",
+                      "doi":  "10.1007/978-3-030-58545-7_45",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.261773+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.474997+00:00"
+                  },
+                  {
+                      "id":  "paper-72",
+                      "title":  "Spatial Attention Pyramid Network for Unsupervised Domain Adaptation",
+                      "authors":  [
+                                      "Congcong Li",
+                                      "Dawei Du",
+                                      "Libo Zhang",
+                                      "Longyin Wen",
+                                      "Tiejian Luo",
+                                      "Yanjun Wu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "European Conference on Computer Vision",
+                      "year":  2020,
+                      "type":  "conference",
+                      "doi":  "10.1007/978-3-030-58601-0_29",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.407949+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.671304+00:00"
+                  },
+                  {
+                      "id":  "paper-73",
+                      "title":  "Semisupervised Laplace-Regularized Multimodality Metric Learning",
+                      "authors":  [
+                                      "Jianqing Liang",
+                                      "Pengfei Zhu",
+                                      "Chuangyin Dang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Cybernetics",
+                      "year":  2020,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCYB.2020.3022277",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.546768+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.805896+00:00"
+                  },
+                  {
+                      "id":  "paper-74",
+                      "title":  "Single Image Deraining Using Bilateral Recurrent Network",
+                      "authors":  [
+                                      "Dongwei Ren",
+                                      "Wei Shang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Deyu Meng",
+                                      "Wangmeng Zuo"
+                                  ],
+                      "venue":  "IEEE Transactions on Image Processing",
+                      "year":  2020,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIP.2020.2994443",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.663609+00:00",
+                      "updated_at":  "2026-03-19T15:32:57.928748+00:00"
+                  },
+                  {
+                      "id":  "paper-75",
+                      "title":  "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning",
+                      "authors":  [
+                                      "Binyuan Hui",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2020,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V34I04.5843",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:58.905926+00:00",
+                      "updated_at":  "2026-03-19T15:32:58.036426+00:00"
+                  },
+                  {
+                      "id":  "paper-77",
+                      "title":  "Unsupervised spectral feature selection with dynamic hyper-graph learning",
+                      "authors":  [
+                                      "Xiaofeng Zhu",
+                                      "Shichao Zhang",
+                                      "Yonghua Zhu",
+                                      "Pengfei Zhu",
+                                      "Yue Gao"
+                                  ],
+                      "venue":  "IEEE Transactions on Knowledge and Data Engineering",
+                      "year":  2020,
+                      "type":  "journal",
+                      "doi":  "10.1109/TKDE.2020.3017250",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.141441+00:00",
+                      "updated_at":  "2026-03-19T15:32:58.397557+00:00"
+                  },
+                  {
+                      "id":  "paper-76",
+                      "title":  "ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks",
+                      "authors":  [
+                                      "Qilong Wang",
+                                      "Banggu Wu",
+                                      "Pengfei Zhu",
+                                      "Peihua Li",
+                                      "Wangmeng Zuo",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2020,
+                      "type":  "conference",
+                      "doi":  "10.1109/CVPR42600.2020.01155",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.023402+00:00",
+                      "updated_at":  "2026-03-19T15:32:58.157053+00:00"
+                  },
+                  {
+                      "id":  "paper-78",
+                      "title":  "A Recursive Regularization Based Feature Selection Framework for Hierarchical Classification",
+                      "authors":  [
+                                      "Hong Zhao",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Yu Wang",
+                                      "Ping Wang"
+                                  ],
+                      "venue":  "IEEE Transactions on Knowledge and Data Engineering",
+                      "year":  2019,
+                      "type":  "journal",
+                      "doi":  "10.1109/TKDE.2019.2960251",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.435759+00:00",
+                      "updated_at":  "2026-03-19T15:32:58.792943+00:00"
+                  },
+                  {
+                      "id":  "paper-79",
+                      "title":  "Hybrid Noise-Oriented Multilabel Learning",
+                      "authors":  [
+                                      "Changqing Zhang",
+                                      "Ziwei Yu",
+                                      "Huazhu Fu",
+                                      "Pengfei Zhu",
+                                      "Lei Chen",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "IEEE Transactions on Cybernetics",
+                      "year":  2019,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCYB.2019.2894985",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.548681+00:00",
+                      "updated_at":  "2026-03-19T15:32:58.916231+00:00"
+                  },
+                  {
+                      "id":  "paper-80",
+                      "title":  "Flexible Multi-View Representation Learning for Subspace Clustering",
+                      "authors":  [
+                                      "Ruihuang Li",
+                                      "Changqing Zhang",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Zheng Wang"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2019,
+                      "type":  "conference",
+                      "doi":  "10.24963/IJCAI.2019/404",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.683321+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.036589+00:00"
+                  },
+                  {
+                      "id":  "paper-81",
+                      "title":  "Deep Fuzzy Tree for Large-Scale Hierarchical Visual Classification",
+                      "authors":  [
+                                      "Yu Wang",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Linhao Li",
+                                      "Bingxu Lu"
+                                  ],
+                      "venue":  "IEEE Transactions on Fuzzy Systems",
+                      "year":  2019,
+                      "type":  "journal",
+                      "doi":  "10.1109/TFUZZ.2019.2936801",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.813087+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.191035+00:00"
+                  },
+                  {
+                      "id":  "paper-82",
+                      "title":  "Fuzzy Rough Set Based Feature Selection for Large-Scale Hierarchical Classification",
+                      "authors":  [
+                                      "Hong Zhao",
+                                      "Ping Wang",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Fuzzy Systems",
+                      "year":  2019,
+                      "type":  "journal",
+                      "doi":  "10.1109/TFUZZ.2019.2892349",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:18:59.931425+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.316122+00:00"
+                  },
+                  {
+                      "id":  "paper-83",
+                      "title":  "Deep Global Generalized Gaussian Networks",
+                      "authors":  [
+                                      "Qilong Wang",
+                                      "Peihua Li",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Wangmeng Zuo"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2019,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Deep_Global_Generalized_Gaussian_Networks_CVPR_2019_paper.pdf",
+                      "created_at":  "2026-03-19T13:19:00.055847+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.460241+00:00"
+                  },
+                  {
+                      "id":  "paper-84",
+                      "title":  "Progressive Image Deraining Networks: A Better and Simpler Baseline",
+                      "authors":  [
+                                      "Dongwei Ren",
+                                      "Wangmeng Zuo",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Deyu Meng"
+                                  ],
+                      "venue":  "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                      "year":  2019,
+                      "type":  "conference",
+                      "doi":  null,
+                      "pdf_url":  "https://openaccess.thecvf.com/content_CVPR_2019/papers/Ren_Progressive_Image_Deraining_Networks_A_Better_and_Simpler_Baseline_CVPR_2019_paper.pdf",
+                      "created_at":  "2026-03-19T13:19:00.176242+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.575706+00:00"
+                  },
+                  {
+                      "id":  "paper-85",
+                      "title":  "Latent Semantic Aware Multi-View Multi-Label Classification",
+                      "authors":  [
+                                      "Changqing Zhang",
+                                      "Ziwei Yu",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Xinwang Liu",
+                                      "Xiaobo Wang"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2018,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V32I1.11722",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:00.299964+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.734632+00:00"
+                  },
+                  {
+                      "id":  "paper-86",
+                      "title":  "FISH-MML: Fisher-HSIC Multi-View Metric Learning",
+                      "authors":  [
+                                      "Changqing Zhang",
+                                      "Yeqing Liu",
+                                      "Yue Liu",
+                                      "Qinghua Hu",
+                                      "Xinwang Liu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2018,
+                      "type":  "conference",
+                      "doi":  "10.24963/IJCAI.2018/424",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:00.447821+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.854828+00:00"
+                  },
+                  {
+                      "id":  "paper-87",
+                      "title":  "Beyond Similar and Dissimilar Relations: A Kernel Regression Formulation for Metric Learning",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Ren Qi",
+                                      "Qinghua Hu",
+                                      "Qilong Wang",
+                                      "Changqing Zhang",
+                                      "Liu Yang"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2018,
+                      "type":  "conference",
+                      "doi":  "10.24963/IJCAI.2018/450",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:00.56152+00:00",
+                      "updated_at":  "2026-03-19T15:32:59.96718+00:00"
+                  },
+                  {
+                      "id":  "paper-88",
+                      "title":  "Towards Generalized and Efficient Metric Learning on Riemannian Manifold",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Hao Cheng",
+                                      "Qinghua Hu",
+                                      "Qilong Wang",
+                                      "Changqing Zhang"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2018,
+                      "type":  "conference",
+                      "doi":  "10.24963/IJCAI.2018/449",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:00.829699+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.128778+00:00"
+                  },
+                  {
+                      "id":  "paper-89",
+                      "title":  "Flexible Multi-View Dimensionality Co-Reduction",
+                      "authors":  [
+                                      "Changqing Zhang",
+                                      "Huazhu Fu",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu",
+                                      "Xiaochun Cao"
+                                  ],
+                      "venue":  "IEEE Transactions on Image Processing",
+                      "year":  2017,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIP.2016.2627806",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.065045+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.255075+00:00"
+                  },
+                  {
+                      "id":  "paper-90",
+                      "title":  "Hierarchical Feature Selection with Recursive Regularization",
+                      "authors":  [
+                                      "Hong Zhao",
+                                      "Pengfei Zhu",
+                                      "Ping Wang",
+                                      "Qinghua Hu"
+                                  ],
+                      "venue":  "International Joint Conference on Artificial Intelligence",
+                      "year":  2017,
+                      "type":  "conference",
+                      "doi":  "10.24963/IJCAI.2017/487",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.179729+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.366597+00:00"
+                  },
+                  {
+                      "id":  "paper-91",
+                      "title":  "Data-Distribution-Aware Fuzzy Rough Set Model and its Application to Robust Classification",
+                      "authors":  [
+                                      "Shuang An",
+                                      "Qinghua Hu",
+                                      "Witold Pedrycz",
+                                      "Pengfei Zhu",
+                                      "Eric CC Tsang"
+                                  ],
+                      "venue":  "IEEE Transactions on Cybernetics",
+                      "year":  2017,
+                      "type":  "journal",
+                      "doi":  "10.1109/TCYB.2015.2496425",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.300016+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.496655+00:00"
+                  },
+                  {
+                      "id":  "paper-92",
+                      "title":  "Image Set based Collaborative Representation for Face Recognition with Margin Distribution Optimization",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Wangmeng Zuo",
+                                      "Lei Zhang",
+                                      "Simon Chi-Keung Shiu",
+                                      "David Zhang"
+                                  ],
+                      "venue":  "IEEE Transactions on Information Forensics and Security",
+                      "year":  2017,
+                      "type":  "journal",
+                      "doi":  "10.1109/TIFS.2014.2327217",
+                      "pdf_url":  "https://ieeexplore.ieee.org/abstract/document/6816042",
+                      "created_at":  "2026-03-19T13:19:01.420637+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.652516+00:00"
+                  },
+                  {
+                      "id":  "paper-93",
+                      "title":  "Coupled Dictionary Learning for Unsupervised Feature Selection",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "Changqing Zhang",
+                                      "Wangmeng Zuo"
+                                  ],
+                      "venue":  "AAAI Conference on Artificial Intelligence",
+                      "year":  2016,
+                      "type":  "conference",
+                      "doi":  "10.1609/AAAI.V30I1.10239",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.636123+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.768919+00:00"
+                  },
+                  {
+                      "id":  "paper-94",
+                      "title":  "From Point to Set: Extend the Learning of Distance Metrics",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Lei Zhang",
+                                      "Wangmeng Zuo",
+                                      "David Zhang"
+                                  ],
+                      "venue":  "IEEE/CVF International Conference on Computer Vision",
+                      "year":  2013,
+                      "type":  "conference",
+                      "doi":  "10.1109/ICCV.2013.331",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.755891+00:00",
+                      "updated_at":  "2026-03-19T15:33:00.890849+00:00"
+                  },
+                  {
+                      "id":  "paper-95",
+                      "title":  "Multi-scale Patch Based Collaborative Representation for Face Recognition with Margin Distribution Optimization",
+                      "authors":  [
+                                      "Pengfei Zhu",
+                                      "Lei Zhang",
+                                      "Qinghua Hu",
+                                      "Simon C.K. Shiu"
+                                  ],
+                      "venue":  "European Conference on Computer Vision",
+                      "year":  2012,
+                      "type":  "conference",
+                      "doi":  "10.1007/978-3-642-33718-5_59",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.868148+00:00",
+                      "updated_at":  "2026-03-19T15:33:01.019926+00:00"
+                  },
+                  {
+                      "id":  "paper-96",
+                      "title":  "A Linear Subspace Learning Approach via Sparse Coding",
+                      "authors":  [
+                                      "Lei Zhang",
+                                      "Pengfei Zhu",
+                                      "Qinghua Hu",
+                                      "David Zhang"
+                                  ],
+                      "venue":  "IEEE/CVF International Conference on Computer Vision",
+                      "year":  2011,
+                      "type":  "conference",
+                      "doi":  "10.1109/ICCV.2011.6126313",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:01.994666+00:00",
+                      "updated_at":  "2026-03-19T15:33:01.133686+00:00"
+                  },
+                  {
+                      "id":  "paper-97",
+                      "title":  "A Novel Algorithm for Finding Reducts With Fuzzy Rough Sets",
+                      "authors":  [
+                                      "Degang Chen",
+                                      "Lei Zhang",
+                                      "Suyun Zhao",
+                                      "Qinghua Hu",
+                                      "Pengfei Zhu"
+                                  ],
+                      "venue":  "IEEE Transactions on Fuzzy Systems",
+                      "year":  2011,
+                      "type":  "journal",
+                      "doi":  "10.1109/TFUZZ.2011.2173695",
+                      "pdf_url":  null,
+                      "created_at":  "2026-03-19T13:19:02.11308+00:00",
+                      "updated_at":  "2026-03-19T15:33:01.255271+00:00"
+                  }
+              ],
+    "Count":  97
+}
