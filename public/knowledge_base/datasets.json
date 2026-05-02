@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "TNO",
+    "paper": "The TNO multiband image data collection",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "多波段"]
+  },
+  {
+    "id": 2,
+    "name": "INO",
+    "paper": "INO Video Analytics Dataset",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://www.ino.ca/en/technologies/video-analytics-dataset/videos/",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "视频"]
+  },
+  {
+    "id": 3,
+    "name": "RoadScene",
+    "paper": "U2Fusion: A unified unsupervised image fusion network",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://github.com/hanna-xu/RoadScene",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "道路场景"]
+  },
+  {
+    "id": 4,
+    "name": "MSRS",
+    "paper": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://github.com/Linfeng-Tang/MSRS",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "多光谱"]
+  },
+  {
+    "id": 5,
+    "name": "LLVIP",
+    "paper": "LLVIP: A visible-infrared paired dataset for low-light vision",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://bupt-ai-cz.github.io/LLVIP/",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "低光照"]
+  },
+  {
+    "id": 6,
+    "name": "M3FD",
+    "paper": "Target-aware dual adversarial learning and a multi-scenario multi-modality benchmark to fuse infrared and visible for object detection",
+    "note": "红外和可见光图像融合数据集",
+    "downloadUrl": "https://github.com/JinyuanLiu-CV/TarDAL",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["红外", "可见光", "目标检测"]
+  },
+  {
+    "id": 7,
+    "name": "Harvard",
+    "paper": "Harvard Medical School MRI-CT Dataset",
+    "note": "医学图像融合数据集",
+    "downloadUrl": "http://www.med.harvard.edu/AANLIB/home.html",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["医学", "MRI", "CT"]
+  },
+  {
+    "id": 8,
+    "name": "MEF",
+    "paper": "Multi-Exposure Image Fusion Dataset",
+    "note": "多曝光图像融合数据集",
+    "downloadUrl": "https://github.com/csjcai/SICE",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["多曝光", "图像融合"]
+  },
+  {
+    "id": 9,
+    "name": "MEFB",
+    "paper": "MEFB: A New Dataset for Multi-Exposure Image Fusion",
+    "note": "多曝光图像融合数据集",
+    "downloadUrl": "https://github.com/xingchenzhang/MEFB",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["多曝光", "图像融合"]
+  },
+  {
+    "id": 10,
+    "name": "Lytro",
+    "paper": "Fusion from Decomposition: A Self-Supervised Decomposition Approach for Image Fusion",
+    "note": "多聚焦图像融合数据集",
+    "downloadUrl": "https://mansournejati.ece.iut.ac.ir/content/lytro-multi-focus-dataset",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["多聚焦", "光场相机"]
+  },
+  {
+    "id": 11,
+    "name": "MFI-WHU",
+    "paper": "Multi-focus image fusion: A survey of the state of the art",
+    "note": "多聚焦图像融合数据集",
+    "downloadUrl": "https://github.com/HaoZhang1018/MFI-WHU",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["多聚焦", "图像融合"]
+  },
+  {
+    "id": 12,
+    "name": "MFFW",
+    "paper": "MFFW: A new dataset for multi-focus image fusion",
+    "note": "多聚焦图像融合数据集",
+    "downloadUrl": "https://www.semanticscholar.org/paper/MFFW%3A-A-new-dataset-for-multi-focus-image-fusion-Xu-Wei/4c0658f338849284ee4251a69b3c323908e62b45",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["多聚焦", "图像融合"]
+  },
+  {
+    "id": 13,
+    "name": "GaoFen",
+    "paper": "GaoFen Satellite Imagery",
+    "note": "全色图像锐化数据集",
+    "downloadUrl": "https://directory.eoportal.org/web/eoportal/satellite-missions/g",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["卫星", "全色", "高分"]
+  },
+  {
+    "id": 14,
+    "name": "WorldView",
+    "paper": "NASA WorldView Satellite Imagery",
+    "note": "全色图像锐化数据集",
+    "downloadUrl": "https://worldview.earthdata.nasa.gov/",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["卫星", "全色", "NASA"]
+  },
+  {
+    "id": 15,
+    "name": "GeoEye",
+    "paper": "GeoEye-1 Satellite Imagery",
+    "note": "全色图像锐化数据集",
+    "downloadUrl": "https://earth.esa.int/eogateway/missions/geoeye-1",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["卫星", "全色", "GeoEye"]
+  },
+  {
+    "id": 16,
+    "name": "QuickBird",
+    "paper": "QuickBird Satellite Imagery",
+    "note": "全色图像锐化数据集",
+    "downloadUrl": "https://www.satimagingcorp.com/satellite-sensors/quickbird/",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": ["卫星", "全色", "QuickBird"]
+  },
+  {
+    "id": 17,
+    "name": "MathVision",
+    "paper": "Measuring Multimodal Mathematical Reasoning with MATH-Vision Dataset",
+    "note": "多模态数学推理数据集",
+    "downloadUrl": "https://huggingface.co/datasets/MathLLMs/MathVision",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["数学推理", "多模态", "VQA"]
+  },
+  {
+    "id": 18,
+    "name": "MathVista",
+    "paper": "MathVista: Evaluating Math Reasoning in Visual Contexts",
+    "note": "视觉上下文数学推理数据集",
+    "downloadUrl": "https://huggingface.co/datasets/AI4Math/MathVista",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["数学推理", "视觉", "VQA"]
+  },
+  {
+    "id": 19,
+    "name": "MMMU",
+    "paper": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+    "note": "多学科多模态理解与推理基准",
+    "downloadUrl": "https://huggingface.co/datasets/MMMU/MMMU",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["多学科", "推理", "基准测试"]
+  },
+  {
+    "id": 20,
+    "name": "MMMU-Pro",
+    "paper": "MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark",
+    "note": "更鲁棒的多学科多模态理解基准",
+    "downloadUrl": "https://huggingface.co/datasets/MMMU/MMMU_Pro",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["多学科", "鲁棒性", "基准测试"]
+  },
+  {
+    "id": 21,
+    "name": "VQA",
+    "paper": "Vqa: Visual question answering",
+    "note": "视觉问答数据集",
+    "downloadUrl": "https://visualqa.org/vqa_v1_download.html",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["VQA", "视觉问答", "基准测试"]
+  },
+  {
+    "id": 22,
+    "name": "VQA v2",
+    "paper": "Making the v in VQA Matter: Elevating the Role of Image Understanding in Visual Question Answering",
+    "note": "视觉问答数据集v2版本",
+    "downloadUrl": "https://visualqa.org/download.html",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["VQA", "视觉问答", "基准测试"]
+  },
+  {
+    "id": 23,
+    "name": "GQA",
+    "paper": "GQA: A New Dataset for Real-World Visual Reasoning and Question Answering",
+    "note": "真实世界视觉推理问答数据集",
+    "downloadUrl": "https://huggingface.co/datasets/lmms-lab/GQA",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["推理", "视觉问答", "基准测试"]
+  },
+  {
+    "id": 24,
+    "name": "POPE",
+    "paper": "Evaluating Object Hallucination in Large Vision-Language Models",
+    "note": "目标幻觉评估数据集",
+    "downloadUrl": "https://huggingface.co/datasets/lmms-lab/POPE",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["幻觉", "评估", "目标检测"]
+  },
+  {
+    "id": 25,
+    "name": "MME",
+    "paper": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+    "note": "多模态大语言模型综合评估基准",
+    "downloadUrl": "https://huggingface.co/datasets/lmms-lab/MME",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["评估", "基准测试", "MLLM"]
+  },
+  {
+    "id": 26,
+    "name": "SEED",
+    "paper": "Seed-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
+    "note": "多模态大语言模型生成理解基准",
+    "downloadUrl": "https://github.com/AILab-CVC/SEED-Bench",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["生成理解", "基准测试", "MLLM"]
+  },
+  {
+    "id": 27,
+    "name": "MM-Vet",
+    "paper": "MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities",
+    "note": "多模态大模型综合能力评估基准",
+    "downloadUrl": "https://huggingface.co/datasets/whyu/mm-vet",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["综合能力", "评估", "MLLM"]
+  },
+  {
+    "id": 28,
+    "name": "HR-Bench",
+    "paper": "Divide, Conquer and Combine: A Training-Free Framework for High-Resolution Image Perception in Multimodal Large Language Models",
+    "note": "高分辨率图像感知基准",
+    "downloadUrl": "https://github.com/DreamMr/HR-Bench",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["高分辨率", "图像感知", "MLLM"]
+  },
+  {
+    "id": 29,
+    "name": "Tree-Bench",
+    "paper": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology",
+    "note": "可追踪证据视觉推理基准",
+    "downloadUrl": "https://huggingface.co/datasets/HaochenWang/TreeBench",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["视觉推理", "可解释性", "基准测试"]
+  },
+  {
+    "id": 30,
+    "name": "V* Bench",
+    "paper": "V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs",
+    "note": "视觉搜索核心机制基准",
+    "downloadUrl": "https://huggingface.co/datasets/craigwu/vstar_bench",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["视觉搜索", "MLLM", "基准测试"]
+  },
+  {
+    "id": 31,
+    "name": "MMVP",
+    "paper": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+    "note": "多模态大模型视觉缺陷基准",
+    "downloadUrl": "https://huggingface.co/datasets/MMVP/MMVP",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["视觉缺陷", "评估", "MLLM"]
+  },
+  {
+    "id": 32,
+    "name": "MMStar",
+    "paper": "Are We on the Right Way for Evaluating Large Vision-Language Models?",
+    "note": "大规模视觉语言模型评估基准",
+    "downloadUrl": "https://huggingface.co/datasets/Lin-Chen/MMStar",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": ["评估", "LVLM", "基准测试"]
+  }
+]

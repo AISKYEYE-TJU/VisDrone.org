@@ -1,0 +1,236 @@
+[
+  {
+    "paper_id": "paper-62",
+    "paper_title": "Detection and Tracking Meet Drones Challenge",
+    "model_name": "ECA-Net",
+    "github": "https://github.com/BangguWu/ECANet"
+  },
+  {
+    "paper_id": "paper-58",
+    "paper_title": "Drone-Based RGB-Infrared Cross-Modality Vehicle Detection via Uncertainty-Aware Learning",
+    "model_name": "UA-CMDet",
+    "github": "https://github.com/VisDrone/DroneVehicle"
+  },
+  {
+    "paper_id": "paper-67",
+    "paper_title": "Detection, Tracking, and Counting Meets Drones in Crowds: A Benchmark, Proceedings of the IEEE/CVF Conference on",
+    "model_name": "STNNet",
+    "github": "https://github.com/VisDrone/DroneCrowd"
+  },
+  {
+    "paper_id": "paper-33",
+    "paper_title": "Task-Customized Mixture of Adapters for General Image Fusion",
+    "model_name": "TC-MoA",
+    "github": "https://github.com/YangSun22/TC-MoA"
+  },
+  {
+    "paper_id": "paper-42",
+    "paper_title": "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+    "model_name": "MoE-Fusion",
+    "github": "https://github.com/SunYM2020/MoE-Fusion"
+  },
+  {
+    "paper_id": "paper-70",
+    "paper_title": "Multi-Drone-Based Single Object Tracking With Agent Sharing Network",
+    "model_name": "ASNet",
+    "github": "https://github.com/VisDrone/MultiDrone"
+  },
+  {
+    "paper_id": "paper-43",
+    "paper_title": "Towards A Deeper Understanding of Global Covariance Pooling in Deep Learning: An Optimization Perspective",
+    "model_name": "GCP-OPT",
+    "github": "https://github.com/Sherry1945/GCP_OPT"
+  },
+  {
+    "paper_id": "paper-49",
+    "paper_title": "Tuning Pre-trained Model via Moment Probing",
+    "model_name": "MP+",
+    "github": "https://github.com/mingzeg/moment-probing"
+  },
+  {
+    "paper_id": "paper-48",
+    "paper_title": "Robust Multi-Drone Multi-Target Tracking to Resolve Target Occlusion: A Benchmark",
+    "model_name": "MIA-NET",
+    "github": "https://github.com/VisDrone/Multi-Drone-Multi-Object-Detection-and-Tracking"
+  },
+  {
+    "paper_id": "paper-27",
+    "paper_title": "Visible and Clear: Finding Tiny Objects in Difference Map",
+    "model_name": "SR-TOD",
+    "github": "https://github.com/Hiyuur/SR-TOD"
+  },
+  {
+    "paper_id": "paper-46",
+    "paper_title": "OpenMix+: Revisiting Data Augmentation for Open Set Recognition",
+    "model_name": "OpenMix+",
+    "github": "https://github.com/t9liverpool/OpenMix"
+  },
+  {
+    "paper_id": "paper-53",
+    "paper_title": "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network",
+    "model_name": "DetFusion",
+    "github": "https://github.com/SunYM2020/DetFusion"
+  },
+  {
+    "paper_id": "paper-44",
+    "paper_title": "Cross-Drone Transformer Network for Robust Single Object Tracking",
+    "model_name": "TransMDOT",
+    "github": "https://github.com/cgjacklin/transmdot"
+  },
+  {
+    "paper_id": "paper-47",
+    "paper_title": "Autoencoder-based Collaborative Attention GAN for Multi-modal Image Synthesis",
+    "model_name": "ACA-GAN",
+    "github": "https://github.com/caohaifang123/ACA-GAN"
+  },
+  {
+    "paper_id": "paper-14",
+    "paper_title": "Task-Gated Multi-Expert Collaboration Network for Degraded Multi-Modal Image Fusion",
+    "model_name": "TG-ECNet",
+    "github": "https://github.com/LeeX54946/TG-ECNet"
+  },
+  {
+    "paper_id": "paper-84",
+    "paper_title": "Progressive Image Deraining Networks: A Better and Simpler Baseline",
+    "model_name": "PReNet",
+    "github": "https://github.com/csdwren/PReNet"
+  },
+  {
+    "paper_id": "paper-51",
+    "paper_title": "Stabilizing Multispectral Pedestrian Detection with Evidential Hybrid Fusion",
+    "model_name": "SMPD",
+    "github": "https://github.com/nihaoxiaoli/SMPD_mindspore"
+  },
+  {
+    "paper_id": "paper-74",
+    "paper_title": "Single Image Deraining Using Bilateral Recurrent Network",
+    "model_name": "RecDerain",
+    "github": "https://github.com/csdwren/RecDerain"
+  },
+  {
+    "paper_id": "paper-50",
+    "paper_title": "Multi-view Knowledge Ensemble with Frequency Consistency for Face Cross-Domain Translation",
+    "model_name": "MvKE-FC",
+    "github": "https://github.com/qinghew/MvKE-FC"
+  },
+  {
+    "paper_id": "paper-16",
+    "paper_title": "BackMix: Regularizing Open Set Recognition by Removing Underlying Fore-Background Priors",
+    "model_name": "BackMix",
+    "github": "https://github.com/Vanixxz/BackMix"
+  },
+  {
+    "paper_id": "paper-24",
+    "paper_title": "Conditional Controllable Image Fusion",
+    "model_name": "CCF",
+    "github": "https://github.com/jehovahxu/CCF"
+  },
+  {
+    "paper_id": "paper-37",
+    "paper_title": "Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering",
+    "model_name": "DyFSS",
+    "github": "https://github.com/q086/DyFSS"
+  },
+  {
+    "paper_id": "paper-64",
+    "paper_title": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+    "model_name": "R2SQL",
+    "github": "https://github.com/huybery/r2sql"
+  },
+  {
+    "paper_id": "paper-26",
+    "paper_title": "Persistence Homology Distillation for Semi-supervised Continual Learning",
+    "model_name": "PsHD",
+    "github": "https://github.com/fanyan0411/PsHD"
+  },
+  {
+    "paper_id": "paper-31",
+    "paper_title": "Dynamic Brightness Adaptation for Robust Multi-modal Image Fusion",
+    "model_name": "BA-Fusion",
+    "github": "https://github.com/SunYM2020/BA-Fusion"
+  },
+  {
+    "paper_id": "paper-10",
+    "paper_title": "Motion-Aware Adaptive Pixel Pruning for Efficient Local Motion Deblurring",
+    "model_name": "M2AENet",
+    "github": "https://github.com/shangwei5/M2AENet"
+  },
+  {
+    "paper_id": "paper-28",
+    "paper_title": "M-RRFS: A Memory-Based Robust Region Feature Synthesizer for Zero-Shot Object Detection",
+    "model_name": "M-RRFS",
+    "github": "https://github.com/HPL123/M-RRFS"
+  },
+  {
+    "paper_id": "paper-30",
+    "paper_title": "Socialized Learning: Making Each Other Better Through Multi-Agent Collaboration",
+    "model_name": "SL",
+    "github": "https://github.com/yxjdarren/SL"
+  },
+  {
+    "paper_id": "paper-41",
+    "paper_title": "CCP-GNN: Competitive Covariance Pooling for Improving Graph Neural Networks",
+    "model_name": "CCP-GNN",
+    "github": "https://github.com/Jillian555/CCP-GNN"
+  },
+  {
+    "paper_id": "paper-39",
+    "paper_title": "Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning",
+    "model_name": "DSGD",
+    "github": "https://github.com/fanyan0411/DSGD"
+  },
+  {
+    "paper_id": "paper-25",
+    "paper_title": "What Matters in Graph Class Incremental Learning? An Information Preservation Perspective",
+    "model_name": "GSIP",
+    "github": "https://github.com/Jillian555/GSIP"
+  },
+  {
+    "paper_id": "paper-32",
+    "paper_title": "Integrated Heterogeneous Graph Attention Network for Incomplete Multi-Modal Clustering",
+    "model_name": "IHGAT",
+    "github": "https://github.com/yxjdarren/IHGAT"
+  },
+  {
+    "paper_id": "paper-13",
+    "paper_title": "Graphs Help Graphs: Multi-Agent Graph Socialized Learning",
+    "model_name": "GHG",
+    "github": "https://github.com/Jillian555/GHG"
+  },
+  {
+    "paper_id": "paper-45",
+    "paper_title": "Multi-Task Credible Pseudo-Label Learning for Semi-supervised Crowd Counting",
+    "model_name": "MTCP",
+    "github": "https://github.com/ljq2000/MTCP"
+  },
+  {
+    "paper_id": "paper-11",
+    "paper_title": "CKD: Contrastive Knowledge Distillation from A Sample-Wise Perspective",
+    "model_name": "CKD",
+    "github": "https://github.com/ZhouXinzzzzz/CKD"
+  },
+  {
+    "paper_id": "paper-15",
+    "paper_title": "RTF: Recursive TransFusion for Multi-Modal Image Synthesis",
+    "model_name": "RTF",
+    "github": "https://github.com/guoliangq/RTF"
+  },
+  {
+    "paper_id": "paper-12",
+    "paper_title": "Socialized Coevolution: Advancing a Better World Through Cross-Task Collaboration",
+    "model_name": "SC",
+    "github": "https://github.com/yxjdarren/SC/tree/main"
+  },
+  {
+    "paper_id": "paper-7",
+    "paper_title": "Decoupled Multi-Predictor Optimization for Inference-Efficient Model Tuning",
+    "model_name": "DMPO",
+    "github": "https://github.com/TJU-sjyj/DMPO"
+  },
+  {
+    "paper_id": "paper-6",
+    "paper_title": "Multimodal Negative Learning",
+    "model_name": "Multimodal-NL",
+    "github": "https://github.com/BaoquanGong/Multimodal-Negative-Learning"
+  }
+]

@@ -1,0 +1,909 @@
+[
+  {
+    "id": 1,
+    "name": "AUIF",
+    "paper": "Efficient and Interpretable Infrared and Visible Image Fusion Via Algorithm Unrolling",
+    "github": "https://github.com/Zhaozixiang1228/IVIF-AUIF-Net",
+    "description": "基于算法展开框架的高效可解释红外与可见光图像融合方法，通过将优化算法展开为神经网络结构，实现融合过程的透明化和高效性。",
+    "github_info": {
+      "description": "[IEEE TCSVT 2021] Official implementation for \"Efficient and Interpretable Infrared and Visible Image Fusion Via Algorithm Unrolling\"",
+      "stars": 28,
+      "language": "Python",
+      "topics": [
+        "cnn",
+        "image-fusion"
+      ],
+      "updated_at": "2025-11-16T15:42:43Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 2,
+    "name": "DIDFuse",
+    "paper": "DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion",
+    "github": "https://github.com/Zhaozixiang1228/IVIF-DIDFuse",
+    "description": "深度图像分解融合网络，将图像分解为背景和细节层，分别进行融合后再重建，有效保留源图像的互补信息。",
+    "github_info": {
+      "description": "[IJCAI 2020] Official implementation for \"DIDFuse: Deep Image Decomposition for Infrared and Visible Image Fusion\"",
+      "stars": 87,
+      "language": "Python",
+      "topics": [
+        "image-fusion",
+        "infrared-visible"
+      ],
+      "updated_at": "2026-03-04T11:31:26Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 3,
+    "name": "IFCNN",
+    "paper": "IFCNN: A General Image Fusion Framework Based on Convolutional Neural Network",
+    "github": "https://github.com/uzeful/IFCNN",
+    "description": "通用图像融合框架，基于卷积神经网络实现多模态图像融合，具有良好的泛化能力和计算效率。 code for \"IFCNN: A General Image Fusion Framework Based on Convolutional Neural Network\"",
+    "github_info": {
+      "description": "code for \"IFCNN: A General Image Fusion Framework Based on Convolutional Neural Network\"",
+      "stars": 187,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-23T11:49:18Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "name": "DetFusion",
+    "paper": "A Detection-driven Infrared and Visible Image Fusion Network",
+    "github": "https://github.com/SunYM2020/DetFusion",
+    "description": "检测驱动的红外与可见光图像融合网络，将目标检测任务与图像融合相结合，提升融合图像对下游检测任务的友好性。",
+    "github_info": {
+      "description": "This is the offical repository for \"DetFusion: A Detection-driven Infrared and Visible Image Fusion Network\" (ACM MM 2022).",
+      "stars": 82,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-27T03:36:03Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MOEFusion",
+    "paper": "Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion",
+    "github": "https://github.com/SunYM2020/MoE-Fusion",
+    "description": "基于混合专家模型的多模态动态图像融合方法，通过门控机制选择局部到全局的专家，自适应处理不同场景。",
+    "github_info": {
+      "description": "This is the offical repository for \"Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion\" (ICCV 2023).",
+      "stars": 71,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-03T12:26:38Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "PIAFusion",
+    "paper": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
+    "github": "https://github.com/Linfeng-Tang/PIAFusion",
+    "description": "渐进式红外与可见光图像融合网络，引入光照感知机制，根据环境光照条件自适应调整融合策略。",
+    "github_info": {
+      "description": "This is official tensorflow implementation of “PIAFusion: A Progressive Infrared and Visible Image Fusion Network Based on Illumination Aware”",
+      "stars": 122,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-02T06:35:50Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "SDNet",
+    "paper": "SDNet: A Versatile Squeeze-and-Decomposition Network for Real-Time Image Fusion",
+    "github": "https://github.com/HaoZhang1018/SDNet",
+    "description": "轻量级挤压分解网络，专为实时图像融合设计，在保持融合质量的同时显著提升推理速度。 Code of SDNet: A Versatile Squeeze-and-Decomposition Network for Real-Time Image Fusion. ",
+    "github_info": {
+      "description": "Code of SDNet: A Versatile Squeeze-and-Decomposition Network for Real-Time Image Fusion. ",
+      "stars": 52,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-23T08:35:14Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "name": "STDFusion",
+    "paper": "STDFusionNet: An Infrared and Visible Image Fusion Network Based on Salient Target Detection",
+    "github": "https://github.com/Linfeng-Tang/STDFusionNet",
+    "description": "基于显著目标检测的红外与可见光图像融合网络，关注于保留和增强图像中的显著目标区域。 The code of STDFusionNet",
+    "github_info": {
+      "description": "The code of STDFusionNet",
+      "stars": 35,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2025-10-29T13:32:21Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "TarDAL",
+    "paper": "Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection",
+    "github": "https://github.com/JinyuanLiu-CV/TarDAL",
+    "description": "目标感知双对抗学习框架，构建多场景多模态基准数据集，针对目标检测任务优化融合效果。",
+    "github_info": {
+      "description": "CVPR 2022 | Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection.",
+      "stars": 320,
+      "language": "Python",
+      "topics": [
+        "cvpr2022",
+        "deep-learning",
+        "image-fusion",
+        "object-detection",
+        "pytorch"
+      ],
+      "updated_at": "2026-03-05T03:41:42Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "name": "UMF-CMGR",
+    "paper": "Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration",
+    "github": "https://github.com/wdhudiekou/UMF-CMGR",
+    "description": "无监督非对齐红外与可见光图像融合方法，通过跨模态图像生成和配准解决图像对齐问题。",
+    "github_info": {
+      "description": "[IJCAI2022 Oral] Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration",
+      "stars": 235,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-29T13:55:04Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "name": "YDTR",
+    "paper": "YDTR: Infrared and Visible Image Fusion via Y-shape Dynamic Transformer",
+    "github": "https://github.com/tthinking/YDTR",
+    "description": "Y型动态Transformer融合网络，利用Transformer的自注意力机制捕获长距离依赖关系。",
+    "github_info": {
+      "description": "[IEEE TMM 2022] Official implementation of YDTR: Infrared and Visible Image Fusion via Y-shape Dynamic Transformer",
+      "stars": 44,
+      "language": "Python",
+      "topics": [
+        "computer-vision",
+        "image-fusion",
+        "image-processing",
+        "pytorch",
+        "transformers"
+      ],
+      "updated_at": "2026-01-16T02:50:52Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 12,
+    "name": "DenseFuse",
+    "paper": "DenseFuse: A Fusion Approach to Infrared and Visible Images",
+    "github": "https://github.com/hli1221/imagefusion_densefuse",
+    "description": "基于DenseNet的图像融合方法，利用密集连接结构有效传递和融合多尺度特征。 DenseFuse (IEEE TIP 2019, Highly Cited Paper) - Python 3.6, TensorFlow 1.8.0",
+    "github_info": {
+      "description": "DenseFuse (IEEE TIP 2019, Highly Cited Paper) - Python 3.6, TensorFlow 1.8.0",
+      "stars": 301,
+      "language": "Python",
+      "topics": [
+        "deep-learning",
+        "densenet",
+        "image-fusion",
+        "tensorflow"
+      ],
+      "updated_at": "2026-03-04T04:17:56Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 13,
+    "name": "Defusion",
+    "paper": "Fusion from Decomposition: A Self-Supervised Decomposition Approach for Image Fusion",
+    "github": "https://github.com/erfect2020/DecompositionForFusion",
+    "description": "基于自监督分解的图像融合方法，将图像分解为基础层和细节层分别处理后再融合。",
+    "github_info": {
+      "description": "Code for \"Fusion from Decomposition: A Self-Supervised Decomposition Approach for Image Fusion\"(ECCV2022)",
+      "stars": 51,
+      "language": "Python",
+      "topics": [
+        "imagefusion",
+        "pytorch"
+      ],
+      "updated_at": "2026-01-23T08:39:19Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 14,
+    "name": "RFN-Nest",
+    "paper": "RFN-Nest: An end-to-end residual fusion network for infrared and visible images",
+    "github": "https://github.com/hli1221/imagefusion-rfn-nest",
+    "description": "端到端残差融合网络，采用Nest连接结构，有效保留和融合红外与可见光图像的互补信息。 RFN-Nest(Information Fusion, 2021, Highly Cited Paper) - PyTorch =1.5，Python=3.7",
+    "github_info": {
+      "description": "RFN-Nest(Information Fusion, 2021, Highly Cited Paper) - PyTorch =1.5，Python=3.7",
+      "stars": 150,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-27T13:08:48Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 15,
+    "name": "swinfuse",
+    "paper": "SwinFuse: A Residual Swin Transformer Fusion Network for Infrared and Visible Images",
+    "github": "https://github.com/Zhishe-Wang/SwinFuse",
+    "description": "基于Swin Transformer的残差融合网络，利用移位窗口注意力机制高效建模全局依赖。",
+    "github_info": {
+      "description": null,
+      "stars": 63,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-21T06:03:00Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 16,
+    "name": "U2Fusion",
+    "paper": "U2Fusion: A Unified Unsupervised Image Fusion Network",
+    "github": "https://github.com/hanna-xu/U2Fusion",
+    "description": "统一无监督图像融合网络，使用单个模型处理多种融合任务，具有良好的通用性。",
+    "github_info": {
+      "description": "Code of U2Fusion: a unified unsupervised image fusion network for multiple image fusion tasks, including multi-modal, multi-exposure and multi-focus image fusion.",
+      "stars": 380,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-06T15:01:08Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "CDDFuse",
+    "paper": "CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion",
+    "github": "https://github.com/Zhaozixiang1228/MMIF-CDDFuse",
+    "description": "相关性驱动的双分支特征分解融合网络，显式建模跨模态相关性，实现更好的特征分离与融合。",
+    "github_info": {
+      "description": "[CVPR 2023] Official implementation for \"CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion.\"",
+      "stars": 602,
+      "language": "Python",
+      "topics": [
+        "image-fusion",
+        "image-processing",
+        "low-level-vision"
+      ],
+      "updated_at": "2026-03-02T11:44:47Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 18,
+    "name": "MetaFusion",
+    "paper": "MetaFusion: Infrared and Visible Image Fusion via Meta-Feature Embedding from Object Detection",
+    "github": "https://github.com/wdzhao123/MetaFusion",
+    "description": "基于元特征嵌入的融合方法，从目标检测任务中提取元特征指导融合过程。",
+    "github_info": {
+      "description": null,
+      "stars": 69,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-18T01:52:20Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "DDFM",
+    "paper": "DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion",
+    "github": "https://github.com/Zhaozixiang1228/MMIF-DDFM",
+    "description": "基于去噪扩散模型的多模态图像融合方法，利用扩散模型的强大生成能力产生高质量融合结果。",
+    "github_info": {
+      "description": "[ICCV 2023 Oral] Official implementation for \"DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion.\"",
+      "stars": 273,
+      "language": "Python",
+      "topics": [
+        "denoising-diffusion",
+        "generative-models",
+        "image-fusion",
+        "low-level-vision"
+      ],
+      "updated_at": "2026-01-24T17:28:40Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 20,
+    "name": "DIVFusion",
+    "paper": "DIVFusion: Darkness-free infrared and visible image fusion",
+    "github": "https://github.com/Xinyu-Xiang/DIVFusion",
+    "description": "无暗光红外与可见光图像融合方法，专门针对低光照环境下的图像融合问题。 DIVFusion: Darkness-free infrared and visible image fusion",
+    "github_info": {
+      "description": "DIVFusion: Darkness-free infrared and visible image fusion",
+      "stars": 149,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-15T00:55:10Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "MUFusion",
+    "paper": "MUFusion: A general unsupervised image fusion network based on memory unit",
+    "github": "https://github.com/AWCXV/MUFusion",
+    "description": "基于记忆单元的通用无监督图像融合网络，通过记忆机制存储和检索融合知识。",
+    "github_info": {
+      "description": "(2023' Information Fusion) This is the official implementation for the paper titled \"MUFusion: A general unsupervised image fusion network based on memory unit\".",
+      "stars": 36,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-24T08:18:34Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "TC-MoA",
+    "paper": "Task-Customized Mixture of Adapters for General Image Fusion",
+    "github": "https://github.com/YangSun22/TC-MoA",
+    "description": "任务定制混合适配器框架，为不同图像融合任务定制适配器，实现通用图像融合。 Task-Customized Mixture of Adapters for General Image Fusion (CVPR 2024)",
+    "github_info": {
+      "description": "Task-Customized Mixture of Adapters for General Image Fusion (CVPR 2024)",
+      "stars": 101,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-24T02:06:17Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 23,
+    "name": "Text-IF",
+    "paper": "Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion",
+    "github": "https://github.com/XunpengYi/Text-IF",
+    "description": "利用语义文本指导的退化感知交互式图像融合方法，引入文本模态增强融合效果。",
+    "github_info": {
+      "description": "Official Code of Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion (CVPR2024)",
+      "stars": 123,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-07T03:15:48Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 24,
+    "name": "EMMA",
+    "paper": "Equivariant Multi-Modality Image Fusion",
+    "github": "https://github.com/Zhaozixiang1228/MMIF-EMMA",
+    "description": "等变多模态图像融合方法，利用等变学习保持融合过程的物理一致性。 [CVPR 2024] Official implementation for \"Equivariant Multi-Modality Image Fusion.\"",
+    "github_info": {
+      "description": "[CVPR 2024] Official implementation for \"Equivariant Multi-Modality Image Fusion.\"",
+      "stars": 150,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-25T19:04:49Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 25,
+    "name": "TTD",
+    "paper": "Test-time Dynamic Image Fusion",
+    "github": "https://github.com/Yinan-Xia/TTD",
+    "description": "测试时动态图像融合方法，在推理阶段自适应调整融合策略以适应不同输入。 [NeurIPS 2024] Official implementation for \"Test-time Dynamic Image Fusion.\"",
+    "github_info": {
+      "description": "[NeurIPS 2024] Official implementation for \"Test-time Dynamic Image Fusion.\"",
+      "stars": 7,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2025-02-22T10:45:56Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 26,
+    "name": "CCF",
+    "paper": "Conditional Controllable Image Fusion",
+    "github": "https://github.com/jehovahxu/CCF",
+    "description": "条件可控图像融合框架，允许用户通过条件控制融合结果的特性。",
+    "github_info": {
+      "description": null,
+      "stars": 14,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-20T15:18:04Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 27,
+    "name": "DIFF-IF",
+    "paper": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
+    "github": "https://github.com/XunpengYi/Diff-IF",
+    "description": "基于扩散模型的多模态图像融合方法，融合先验知识指导扩散过程。",
+    "github_info": {
+      "description": "Official Code of Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior (Information Fusion 2024)",
+      "stars": 71,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-04T02:08:12Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 28,
+    "name": "FusionBooster",
+    "paper": "FusionBooster: A Unified Image Fusion Boosting Paradigm",
+    "github": "https://github.com/AWCXV/FusionBooster",
+    "description": "统一图像融合增强范式，通过增强策略提升现有融合方法的性能。",
+    "github_info": {
+      "description": "(2025' IJCV) This is the offical implementation for the paper titled \"FusionBooster: A Unified Image Fusion Boosting Paradigm\".",
+      "stars": 14,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2025-11-02T13:20:06Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "ReCoNet",
+    "paper": "Recurrent Correction Network for Fast and Efficient Multi-modality Image Fusion",
+    "github": "https://github.com/dlut-dimt/ReCoNet",
+    "description": "快速高效的多模态图像融合循环校正网络，通过迭代校正提升融合质量。 ECCV 2022 | Recurrent Correction Network for Fast and Efficient Multi-modality Image Fusion.",
+    "github_info": {
+      "description": "ECCV 2022 | Recurrent Correction Network for Fast and Efficient Multi-modality Image Fusion.",
+      "stars": 50,
+      "language": "Python",
+      "topics": [
+        "deep-learning",
+        "eccv2022",
+        "image-fusion",
+        "pytorch"
+      ],
+      "updated_at": "2026-01-22T11:39:33Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 30,
+    "name": "TG-ECN",
+    "paper": "Task-Gated Multi-Expert Collaboration Network for Degraded Multi-Modal Image Fusion",
+    "github": "https://github.com/LeeX54946/TG-ECNet",
+    "description": "任务门控多专家协作网络，针对退化多模态图像融合，动态选择专家网络。",
+    "github_info": {
+      "description": null,
+      "stars": 24,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-05T05:07:51Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 31,
+    "name": "FILM",
+    "paper": "FILM: Image Fusion via Vision-Language Model",
+    "github": "https://github.com/Zhaozixiang1228/IF-FILM",
+    "description": "基于视觉语言模型的图像融合方法，利用CLIP等多模态预训练模型指导融合。 [ICML 2024] Official implementation for \"Image Fusion via Vision-Language Model\".",
+    "github_info": {
+      "description": "[ICML 2024] Official implementation for \"Image Fusion via Vision-Language Model\".",
+      "stars": 91,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-06T11:36:19Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 32,
+    "name": "FusionIVN",
+    "paper": "FusionINV: A Diffusion-Based Approach for Multimodal Image Fusion",
+    "github": "https://github.com/erfect2020/FusionINV",
+    "description": "基于扩散模型的多模态图像融合方法，利用反演技术实现精确控制。 FusionINV (IEEE TIP'25) multimodal image fusion based on SD1.5",
+    "github_info": {
+      "description": "FusionINV (IEEE TIP'25) multimodal image fusion based on SD1.5",
+      "stars": 8,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-11T16:04:04Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "DCEvo",
+    "paper": "DCEvo: Discriminative Cross-Dimensional Evolutionary Learning for Infrared and Visible Image Fusion",
+    "github": "https://github.com/Beate-Suy-Zhang/DCEvo",
+    "description": "判别式跨维度进化学习方法，通过进化策略优化红外与可见光图像融合。",
+    "github_info": {
+      "description": "CVPR 2025 | DCEvo: Discriminative Cross-dimensional Evolutionary Learning for Infrared and Visible Image Fusion",
+      "stars": 79,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-05T15:15:32Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 34,
+    "name": "TDFusion",
+    "paper": "Task-driven Image Fusion with Learnable Fusion Loss",
+    "github": "https://github.com/HaowenBai/TDFusion",
+    "description": "任务驱动的图像融合方法，设计可学习的融合损失函数优化特定任务性能。",
+    "github_info": {
+      "description": null,
+      "stars": 39,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-19T05:45:40Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": [
+      "Fusion"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Text-Dif",
+    "paper": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
+    "github": "https://github.com/XunpengYi/Diff-IF",
+    "description": "基于扩散模型的多模态图像融合方法，融合先验知识指导扩散过程。",
+    "github_info": {
+      "description": "Official Code of Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior (Information Fusion 2024)",
+      "stars": 71,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-04T02:08:12Z"
+    },
+    "note": "与DIFF-IF相同算法",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multi-modal-fusion",
+    "tags": []
+  },
+  {
+    "id": 36,
+    "name": "Chain-of-Spot",
+    "paper": "Chain-of-Spot: Interactive Reasoning Improves Large Vision-Language Models",
+    "github": "https://github.com/dongyh20/Chain-of-Spot",
+    "description": "Chain-of-Spot (CoS) 鼓励大型视觉语言模型识别图像中与问题或指令相关的关键感兴趣区域，并通过交互方式进行推理。",
+    "github_info": {
+      "description": "Chain-of-Spot: Interactive Reasoning Improves Large Vision-language Models",
+      "stars": 99,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-01-18T11:08:48Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "VLM推理",
+      "交互式推理",
+      "Chain-of-Thought"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "CoVT",
+    "paper": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
+    "github": "https://github.com/Wakals/CoVT",
+    "description": "Chain-of-Visual-Thought (CoVT) 使VLMs能够在连续视觉空间中推理，通过引入编码感知线索的连续视觉token来增强视觉中心推理能力。",
+    "github_info": {
+      "description": "Official repo of \"Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens\"",
+      "stars": 322,
+      "language": "Python",
+      "topics": [
+        "multimodal-learning",
+        "vlm"
+      ],
+      "updated_at": "2026-03-13T04:41:22Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "连续视觉token",
+      "视觉推理",
+      "VLM"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "DC^2",
+    "paper": "Divide, Conquer and Combine: A Training-Free Framework for High-Resolution Image Perception in Multimodal Large Language Models",
+    "github": "https://github.com/DreamMr/HR-Bench",
+    "description": "一种无需训练的高分辨率图像感知框架，通过分割、征服和组合策略增强MLLM的高分辨率图像感知能力。",
+    "github_info": {
+      "description": "PyTorch Implementation of \"Divide, Conquer and Combine: A Training-Free Framework for High-Resolution Image Perception in Multimodal Large Language Models\"",
+      "stars": 42,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-14T00:51:45Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "高分辨率",
+      "图像感知",
+      "无需训练"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "FAST-GRPO",
+    "paper": "Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning",
+    "github": "https://github.com/Mr-Loevan/FAST",
+    "description": "FAST-GRPO (Fast-Slow Thinking Group Relative Policy Optimization) 实现快慢思维推理，在视觉和文本推理方面都表现出色。",
+    "github_info": {
+      "description": "[NeurIPS 2025 Spotlight] Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning",
+      "stars": 50,
+      "language": "Python",
+      "topics": [
+        "fast-slow-thinking",
+        "reasoning-models",
+        "vision-language-model"
+      ],
+      "updated_at": "2026-03-08T13:11:07Z"
+    },
+    "note": "NeurIPS 2025 Spotlight",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "快慢思维",
+      "GRPO",
+      "强化学习"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "DualMindVLM",
+    "paper": "Learning to Think Fast and Slow for Visual Language Models",
+    "github": "https://github.com/maifoundations/DualMindVLM",
+    "description": "DualMindVLM学习为视觉语言模型配备快思维和慢思维能力，类似于人类的双过程认知理论。",
+    "github_info": {
+      "description": "Learning to Think Fast and Slow for Visual Language Model",
+      "stars": 6,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-03-08T13:05:04Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "快慢思维",
+      "双过程理论",
+      "VLM"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Reflection-V",
+    "paper": "Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models",
+    "github": "https://github.com/jian0805/ReflectionV",
+    "description": "Reflection-V通过再次观察和慢思考机制增强视觉语言模型中的视觉反思能力。",
+    "github_info": {
+      "description": "[EMNLP 2025] Official Code for the Paper Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models",
+      "stars": 1,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-13T08:40:22Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "视觉反思",
+      "再次观察",
+      "VLM"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Look-Back",
+    "paper": "Look-Back: Implicit Visual Re-focusing in MLLM Reasoning",
+    "github": "https://github.com/PKU-YuanGroup/Look-Back",
+    "description": "Look-Back引入隐式视觉重聚焦机制，使MLLM能够在推理过程中重新聚焦于关键的视觉区域。",
+    "github_info": {
+      "description": "This repository is the official implementation of \"Look-Back: Implicit Visual Re-focusing in MLLM Reasoning\".",
+      "stars": 84,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-02-03T12:56:49Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "视觉重聚焦",
+      "MLLM",
+      "推理"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "TreeVGR",
+    "paper": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology",
+    "github": "https://github.com/Haochen-Wang409/TreeVGR",
+    "description": "TreeVGR通过可追踪证据增强视觉基础推理，提供可解释的推理过程和评估方法。",
+    "github_info": {
+      "description": "[ICLR'26] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology",
+      "stars": 77,
+      "language": "Python",
+      "topics": [
+        "grounding",
+        "grounding-llms",
+        "grpo",
+        "llm",
+        "lmm",
+        "mllm",
+        "o3",
+        "rl",
+        "thinking-with-image"
+      ],
+      "updated_at": "2026-03-11T07:20:51Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "可追踪证据",
+      "视觉推理",
+      "可解释性"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "FAST",
+    "paper": "Visual Agents as Fast and Slow Thinkers",
+    "github": "https://github.com/GuangyanS/Sys2-LLaVA",
+    "description": "FAST将视觉智能体作为快和慢思考者，类似于人类认知中的双过程理论应用于视觉AI智能体。",
+    "github_info": {
+      "description": null,
+      "stars": 28,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2025-09-17T19:07:09Z"
+    },
+    "note": "",
+    "researchArea": "low-altitude-perception",
+    "subArea": "multimodal-llm-reasoning",
+    "tags": [
+      "视觉智能体",
+      "快慢思维",
+      "双过程"
+    ]
+  }
+]
