@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, Database, Brain, Star, BookOpen, Award, ChevronRight, FileText, Lightbulb, Trophy, Quote, Code2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Database, Brain, Star, BookOpen, Award, ChevronRight, FileText, Lightbulb, Trophy, Quote, Code2, Newspaper, Calendar, Tag } from 'lucide-react';
 import { VISDRONE_INFO, RESEARCH_AREAS } from '@/lib/visdrone-config';
 import visdroneService from '@/services/visdroneService';
 import { getHeroImage } from '@/utils/aiImageGenerator';
@@ -12,6 +12,7 @@ const Home: React.FC = () => {
   const [papers, setPapers] = useState<any[]>([]);
   const [awards, setAwards] = useState<any[]>([]);
   const [patents, setPatents] = useState<any[]>([]);
+  const [news, setNews] = useState<any[]>([]);
   const [stats, setStats] = useState({
     papers: 0,
     patents: 0,
@@ -26,12 +27,13 @@ const Home: React.FC = () => {
 
   const loadData = async () => {
     try {
-      const [modelsData, datasetsData, papersData, awardsData, patentsData] = await Promise.all([
+      const [modelsData, datasetsData, papersData, awardsData, patentsData, newsData] = await Promise.all([
         visdroneService.getModels(),
         visdroneService.getDatasets(),
         visdroneService.getPapers(),
         visdroneService.getAwards(),
         visdroneService.getPatents(),
+        visdroneService.getNews(),
       ]);
       // 按stars排序并取前4个
       const sortedModels = modelsData.sort((a, b) => (b.stars || 0) - (a.stars || 0)).slice(0, 4);
@@ -44,6 +46,8 @@ const Home: React.FC = () => {
       setPapers(papersData.slice(0, 3));
       setAwards(awardsData.slice(0, 3));
       setPatents(patentsData.slice(0, 3));
+      // 取最新4条新闻
+      setNews(newsData.slice(0, 4));
       
       // 更新真实统计数据
       setStats({
@@ -210,6 +214,88 @@ const Home: React.FC = () => {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* News Section - 新增新闻动态 */}
+      <section className="py-12 sm:py-20 bg-gradient-to-br from-primary/5 via-background to-primary/5">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 sm:mb-12 gap-4"
+          >
+            <div>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 flex items-center gap-2">
+                <Newspaper className="w-7 h-7 sm:w-8 sm:h-8 text-primary" />
+                新闻动态
+              </h2>
+              <p className="text-muted-foreground text-sm sm:text-base">了解 VisDrone 团队的最新进展、学术成果和获奖荣誉</p>
+            </div>
+            <Link to="/visdrone/news" className="inline-flex items-center gap-1 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium">
+              查看全部新闻 <ChevronRight className="w-4 h-4" />
+            </Link>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            {news.map((item, index) => (
+              <motion.div
+                key={item.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <Link to={`/visdrone/news/${item.id}`} className="group block h-full">
+                  <div className="h-full rounded-xl sm:rounded-2xl border bg-card overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    {/* Image */}
+                    <div className="aspect-[16/9] overflow-hidden relative">
+                      <img
+                        src={item.image || getHeroImage('news')}
+                        alt={item.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                      <div className="absolute top-3 left-3 flex items-center gap-2">
+                        <span className={`px-2 py-1 rounded-lg text-xs font-medium backdrop-blur-md ${
+                          item.category === '学术成果' ? 'bg-blue-500/80 text-white' :
+                          item.category === '竞赛获奖' ? 'bg-purple-500/80 text-white' :
+                          item.category === '科研项目' ? 'bg-red-500/80 text-white' :
+                          item.category === '学术交流' ? 'bg-green-500/80 text-white' :
+                          item.category === '平台建设' ? 'bg-orange-500/80 text-white' :
+                          'bg-primary/80 text-white'
+                        }`}>
+                          {item.category}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-4 sm:p-5">
+                      <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
+                        <Calendar className="w-3.5 h-3.5" />
+                        <span>{item.date}</span>
+                      </div>
+                      <h3 className="font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2 text-sm sm:text-base leading-tight">
+                        {item.title}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-muted-foreground line-clamp-2 leading-relaxed">
+                        {item.excerpt}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* Mobile View All Button */}
+          <div className="text-center mt-6 sm:mt-8 md:hidden">
+            <Link to="/visdrone/news" className="inline-flex items-center gap-1 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium">
+              查看全部新闻 <ChevronRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
