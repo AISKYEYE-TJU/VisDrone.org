@@ -426,11 +426,15 @@ const DataBase: React.FC = () => {
             </p>
             <div className="p-4 rounded-xl bg-card border text-left text-sm font-mono overflow-x-auto">
               <pre className="whitespace-pre-wrap">
-{`@article{zhu2021visdrone,
-  title={The VisDrone Dataset: A Large-scale Benchmark for Object Detection in Drone Imagery},
+{`@article{zhu2021detection,
+  title={Detection and tracking meet drones challenge},
   author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Fan, Heng and Hu, Qinghua and Ling, Haibin},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2021}
+  volume={44},
+  number={11},
+  pages={7380--7399},
+  year={2021},
+  publisher={IEEE}
 }`}
               </pre>
             </div>
