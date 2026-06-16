@@ -14,6 +14,7 @@ const Home: React.FC = () => {
   const [patents, setPatents] = useState<any[]>([]);
   const [news, setNews] = useState<any[]>([]);
   const [partners, setPartners] = useState<any[]>([]);
+  const [citationCount, setCitationCount] = useState<number>(26157);
   const [stats, setStats] = useState({
     papers: 0,
     patents: 0,
@@ -37,6 +38,11 @@ const Home: React.FC = () => {
         visdroneService.getNews(),
         visdroneService.getPartners(),
       ]);
+      // 加载引用次数（独立请求，不阻塞其他数据）
+      const citationVal = await visdroneService.getSiteConfig('citation_count');
+      if (citationVal) {
+        setCitationCount(parseInt(citationVal) || 26157);
+      }
       // 按stars排序并取前4个
       const sortedModels = modelsData.sort((a, b) => (b.stars || 0) - (a.stars || 0)).slice(0, 4);
       const sortedDatasets = datasetsData
@@ -72,7 +78,7 @@ const Home: React.FC = () => {
     { value: stats.papers > 0 ? stats.papers : VISDRONE_INFO.stats.papers, label: '发表论文', icon: <FileText className="w-5 h-5" /> },
     { value: stats.patents > 0 ? stats.patents : VISDRONE_INFO.stats.patents, label: '授权专利', icon: <Lightbulb className="w-5 h-5" /> },
     { value: stats.models > 0 ? stats.models : VISDRONE_INFO.stats.models, label: '开源模型', icon: <Code2 className="w-5 h-5" /> },
-    { value: 26157, label: '引用次数', icon: <Quote className="w-5 h-5" /> },
+    { value: citationCount, label: '引用次数', icon: <Quote className="w-5 h-5" /> },
   ];
 
   return (
