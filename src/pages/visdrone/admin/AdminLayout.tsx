@@ -20,6 +20,7 @@ import {
   Download,
   LogOut,
   Calendar,
+  Handshake,
 } from 'lucide-react';
 
 interface AdminLayoutProps {
@@ -36,6 +37,7 @@ const menuItems = [
   { path: '/visdrone/admin/awards', icon: Award, label: '奖项' },
   { path: '/visdrone/admin/team', icon: Users, label: '团队成员' },
   { path: '/visdrone/admin/seminars', icon: Calendar, label: '学术活动' },
+  { path: '/visdrone/admin/partners', icon: Handshake, label: '合作单位' },
   { path: '/visdrone/admin/sync', icon: RefreshCw, label: '数据同步' },
 ];
 

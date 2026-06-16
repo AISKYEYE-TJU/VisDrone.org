@@ -13,6 +13,7 @@ const Home: React.FC = () => {
   const [awards, setAwards] = useState<any[]>([]);
   const [patents, setPatents] = useState<any[]>([]);
   const [news, setNews] = useState<any[]>([]);
+  const [partners, setPartners] = useState<any[]>([]);
   const [stats, setStats] = useState({
     papers: 0,
     patents: 0,
@@ -27,13 +28,14 @@ const Home: React.FC = () => {
 
   const loadData = async () => {
     try {
-      const [modelsData, datasetsData, papersData, awardsData, patentsData, newsData] = await Promise.all([
+      const [modelsData, datasetsData, papersData, awardsData, patentsData, newsData, partnersData] = await Promise.all([
         visdroneService.getModels(),
         visdroneService.getDatasets(),
         visdroneService.getPapers(),
         visdroneService.getAwards(),
         visdroneService.getPatents(),
         visdroneService.getNews(),
+        visdroneService.getPartners(),
       ]);
       // 按stars排序并取前4个
       const sortedModels = modelsData.sort((a, b) => (b.stars || 0) - (a.stars || 0)).slice(0, 4);
@@ -48,6 +50,8 @@ const Home: React.FC = () => {
       setPatents(patentsData.slice(0, 3));
       // 取最新4条新闻
       setNews(newsData.slice(0, 4));
+      // 加载合作单位
+      setPartners(partnersData);
       
       // 更新真实统计数据
       setStats({
@@ -515,12 +519,23 @@ const Home: React.FC = () => {
             viewport={{ once: true }}
             className="flex flex-wrap justify-center items-center gap-3 sm:gap-6 lg:gap-8"
           >
-            {['雄安国创中心', '一飞智控', '天地伟业', '中电科', '航天三院', '中水北方', '中汽研', '华为', '长安汽车'].map((partner, index) => (
+            {partners.length > 0 ? partners.map((partner, index) => (
+              <div
+                key={partner.id || index}
+                className="px-3 py-1.5 sm:px-4 sm:py-2 lg:px-6 lg:py-3 rounded-lg bg-muted/50 text-muted-foreground font-medium text-xs sm:text-sm hover:bg-muted transition-colors"
+              >
+                {partner.logo_url ? (
+                  <img src={partner.logo_url} alt={partner.name} className="h-6 sm:h-8 object-contain" />
+                ) : (
+                  partner.name
+                )}
+              </div>
+            )) : ['雄安国创中心', '一飞智控', '天地伟业', '中电科', '航天三院', '中水北方', '中汽研', '华为', '长安汽车'].map((name, index) => (
               <div
                 key={index}
                 className="px-3 py-1.5 sm:px-4 sm:py-2 lg:px-6 lg:py-3 rounded-lg bg-muted/50 text-muted-foreground font-medium text-xs sm:text-sm hover:bg-muted transition-colors"
               >
-                {partner}
+                {name}
               </div>
             ))}
           </motion.div>

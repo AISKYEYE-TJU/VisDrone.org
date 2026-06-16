@@ -8,6 +8,7 @@ import type {
   TeamMember,
   Patent,
   Award,
+  Partner,
 } from '@/types/visdrone';
 import {
   mapDbToNews,
@@ -17,8 +18,9 @@ import {
   mapDbToTeamMember,
   mapDbToPatent,
   mapDbToAward,
+  mapDbToPartner,
 } from '@/types/visdrone/fieldMapper';
-import type { DbNews, DbDataset, DbModel, DbPaper, DbTeamMember, DbPatent, DbAward } from '@/types/visdrone/fieldMapper';
+import type { DbNews, DbDataset, DbModel, DbPaper, DbTeamMember, DbPatent, DbAward, DbPartner } from '@/types/visdrone/fieldMapper';
 import { githubFileService } from './githubFileService';
 
 // 模块映射
@@ -30,6 +32,7 @@ const TABLE_TO_MODULE: Record<string, string> = {
   visdrone_patents: 'patents',
   visdrone_awards: 'awards',
   visdrone_team: 'team',
+  visdrone_partners: 'partners',
 };
 
 export class AdminCrudService {
@@ -175,6 +178,7 @@ export const patentsService = new AdminCrudService('visdrone_patents');
 export const awardsService = new AdminCrudService('visdrone_awards');
 const teamService = new AdminCrudService('visdrone_team');
 const seminarsService = new AdminCrudService('visdrone_seminars');
+const partnersService = new AdminCrudService('visdrone_partners');
 
 export async function fetchAllNews(): Promise<NewsItem[]> {
   const news = await newsService.getAll(mapDbToNews);
@@ -430,4 +434,31 @@ export async function updateSeminar(id: string, item: Partial<DbSeminar>): Promi
 
 export async function deleteSeminar(id: string): Promise<{ success: boolean }> {
   return seminarsService.delete(id);
+}
+
+// ========== 合作单位 CRUD ==========
+export async function fetchAllPartners(): Promise<Partner[]> {
+  const partners = await partnersService.getAll(mapDbToPartner);
+  return partners.sort((a, b) => a.display_order - b.display_order);
+}
+
+export async function fetchPartnerById(id: string): Promise<Partner | null> {
+  return partnersService.getById(id, mapDbToPartner);
+}
+
+export async function createPartner(item: Partial<DbPartner>): Promise<{ success: boolean; id?: string }> {
+  return partnersService.create({
+    ...item,
+    display_order: item.display_order ?? 0,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  });
+}
+
+export async function updatePartner(id: string, item: Partial<DbPartner>): Promise<{ success: boolean }> {
+  return partnersService.update(id, item);
+}
+
+export async function deletePartner(id: string): Promise<{ success: boolean }> {
+  return partnersService.delete(id);
 }
