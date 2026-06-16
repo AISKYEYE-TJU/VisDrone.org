@@ -33,6 +33,7 @@ const TABLE_TO_MODULE: Record<string, string> = {
   visdrone_awards: 'awards',
   visdrone_team: 'team',
   visdrone_partners: 'partners',
+  visdrone_site_config: 'site_config',
 };
 
 export class AdminCrudService {
@@ -179,6 +180,7 @@ export const awardsService = new AdminCrudService('visdrone_awards');
 const teamService = new AdminCrudService('visdrone_team');
 const seminarsService = new AdminCrudService('visdrone_seminars');
 const partnersService = new AdminCrudService('visdrone_partners');
+const siteConfigService = new AdminCrudService('visdrone_site_config');
 
 export async function fetchAllNews(): Promise<NewsItem[]> {
   const news = await newsService.getAll(mapDbToNews);
@@ -461,4 +463,74 @@ export async function updatePartner(id: string, item: Partial<DbPartner>): Promi
 
 export async function deletePartner(id: string): Promise<{ success: boolean }> {
   return partnersService.delete(id);
+}
+
+// ========== 站点配置 CRUD（键值对） ==========
+export interface DbSiteConfig {
+  id?: string;
+  key: string;
+  value: string;
+  updated_at?: string;
+}
+
+/** 获取所有站点配置，返回 { key: value } 对象 */
+export async function fetchAllSiteConfig(): Promise<Record<string, string>> {
+  try {
+    const { data, error } = await supabase
+      .from('visdrone_site_config')
+      .select('key, value');
+
+    if (error) throw error;
+    const config: Record<string, string> = {};
+    (data || []).forEach(row => { config[row.key] = row.value; });
+    return config;
+  } catch (err) {
+    console.error('Error fetching site config:', err);
+    return {};
+  }
+}
+
+/** 获取单个配置项 */
+export async function getSiteConfig(key: string): Promise<string | null> {
+  try {
+    const { data, error } = await supabase
+      .from('visdrone_site_config')
+      .select('value')
+      .eq('key', key)
+      .single();
+
+    if (error) return null;
+    return data?.value ?? null;
+  } catch (err) {
+    console.error(`Error fetching site config [${key}]:`, err);
+    return null;
+  }
+}
+
+/** 更新或创建单个配置项（先删后写，防重复） */
+export async function setSiteConfig(key: string, value: string): Promise<{ success: boolean; error?: string }> {
+  try {
+    // 先删除同名旧记录（防止重复 key），忽略无匹配时的 error
+    await supabase.from('visdrone_site_config').delete().eq('key', key);
+
+    // 再插入新记录
+    const { error } = await supabase
+      .from('visdrone_site_config')
+      .insert({
+        id: crypto.randomUUID(),
+        key,
+        value,
+        updated_at: new Date().toISOString(),
+      });
+
+    if (error) throw error;
+
+    toast.success('配置已更新');
+    return { success: true };
+  } catch (err) {
+    console.error(`Error setting site config [${key}]:`, err);
+    const message = err instanceof Error ? err.message : '更新失败';
+    toast.error(message);
+    return { success: false, error: message };
+  }
 }

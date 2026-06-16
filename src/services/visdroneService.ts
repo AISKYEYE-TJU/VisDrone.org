@@ -520,6 +520,22 @@ class VisDroneService {
     }
     return [];
   }
+
+  async getSiteConfig(key: string): Promise<string | null> {
+    try {
+      const { data, error } = await supabase
+        .from('visdrone_site_config')
+        .select('value')
+        .eq('key', key)
+        .single();
+
+      if (error) return null;
+      return data?.value ?? null;
+    } catch (e) {
+      console.warn(`Failed to fetch site config [${key}] from Supabase:`, e);
+      return null;
+    }
+  }
 }
 
 export const visdroneService = new VisDroneService();

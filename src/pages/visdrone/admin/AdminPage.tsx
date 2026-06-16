@@ -11,10 +11,12 @@ import ModelsAdmin from './ModelsAdmin';
 import SeminarsAdmin from './SeminarsAdmin';
 import PartnersAdmin from './PartnersAdmin';
 import DataSyncPage from './DataSyncPage';
-import { FileText, Database, Brain, Users, Lightbulb, Award, Newspaper, LayoutDashboard, RefreshCw, Calendar, Handshake } from 'lucide-react';
+import { FileText, Database, Brain, Users, Lightbulb, Award, Newspaper, LayoutDashboard, RefreshCw, Calendar, Handshake, Quote, Save } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
-import { fetchAllNews, fetchAllDatasets, fetchAllPapers, fetchAllPatents, fetchAllAwards, fetchAllTeamMembers, fetchAllModels, fetchAllSeminars, fetchAllPartners } from '@/services/adminCrudService';
+import { fetchAllNews, fetchAllDatasets, fetchAllPapers, fetchAllPatents, fetchAllAwards, fetchAllTeamMembers, fetchAllModels, fetchAllSeminars, fetchAllPartners, getSiteConfig, setSiteConfig } from '@/services/adminCrudService';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 
 const statsConfig = [
   { key: 'news', label: '新闻', icon: Newspaper, color: 'text-blue-500' },
@@ -40,10 +42,13 @@ function AdminDashboard() {
     seminars: { count: 0, loading: true },
     partners: { count: 0, loading: true },
   });
+  const [citationCount, setCitationCount] = useState<string>('26157');
+  const [citationEditing, setCitationEditing] = useState(false);
+  const [citationSaving, setCitationSaving] = useState(false);
 
   useEffect(() => {
     const loadStats = async () => {
-      const [newsData, datasetsData, papersData, patentsData, awardsData, teamData, modelsData, seminarsData, partnersData] = await Promise.all([
+      const [newsData, datasetsData, papersData, patentsData, awardsData, teamData, modelsData, seminarsData, partnersData, citationVal] = await Promise.all([
         fetchAllNews(),
         fetchAllDatasets(),
         fetchAllPapers(),
@@ -53,6 +58,7 @@ function AdminDashboard() {
         fetchAllModels(),
         fetchAllSeminars(),
         fetchAllPartners(),
+        getSiteConfig('citation_count'),
       ]);
 
       setStats({
@@ -66,10 +72,20 @@ function AdminDashboard() {
         seminars: { count: seminarsData.length, loading: false },
         partners: { count: partnersData.length, loading: false },
       });
+      if (citationVal) {
+        setCitationCount(citationVal);
+      }
     };
 
     loadStats();
   }, []);
+
+  const handleSaveCitation = async () => {
+    setCitationSaving(true);
+    await setSiteConfig('citation_count', citationCount);
+    setCitationSaving(false);
+    setCitationEditing(false);
+  };
 
   return (
     <div className="space-y-6">
@@ -101,6 +117,51 @@ function AdminDashboard() {
           );
         })}
       </div>
+
+      {/* 引用次数编辑卡片 */}
+      <Card>
+        <CardContent className="pt-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <Quote className="w-8 h-8 text-emerald-500" />
+              <div>
+                <p className="text-sm text-slate-500">Google Scholar 引用次数</p>
+                {citationEditing ? (
+                  <div className="flex items-center gap-2 mt-1">
+                    <Input
+                      type="number"
+                      value={citationCount}
+                      onChange={(e) => setCitationCount(e.target.value)}
+                      className="w-40 h-9 text-lg font-bold"
+                      placeholder="输入引用次数"
+                    />
+                    <Button size="sm" onClick={handleSaveCitation} disabled={citationSaving}>
+                      <Save className="w-4 h-4 mr-1" />
+                      {citationSaving ? '保存中...' : '保存'}
+                    </Button>
+                    <Button size="sm" variant="outline" onClick={() => setCitationEditing(false)}>
+                      取消
+                    </Button>
+                  </div>
+                ) : (
+                  <p
+                    className="text-2xl font-bold text-emerald-500 cursor-pointer hover:underline"
+                    onClick={() => setCitationEditing(true)}
+                    title="点击编辑"
+                  >
+                    {Number(citationCount).toLocaleString()}
+                  </p>
+                )}
+              </div>
+            </div>
+            {!citationEditing && (
+              <Button variant="outline" size="sm" onClick={() => setCitationEditing(true)}>
+                编辑
+              </Button>
+            )}
+          </div>
+        </CardContent>
+      </Card>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Card>
