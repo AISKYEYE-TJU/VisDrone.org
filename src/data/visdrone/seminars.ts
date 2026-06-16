@@ -1,7 +1,7 @@
 import type { SeminarEvent } from '@/types/visdrone';
 
 export const seminars: SeminarEvent[] = [
-  // 组会一：学习范式 (learning)
+  // 组会一：群体智能 (learning)
   { id: 'l1', title: '社会化学习在连续学习中的初探', date: '2025-10-21', type: 'group_meeting', group: 'learning', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/202051021-陈慧彤-社会化学习在连续学习中的初探.pptx' },
   { id: 'l2', title: 'VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models', date: '2025-10-21', type: 'group_meeting', group: 'learning', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/2025_CVPRLee_VLsI_Verbalized_Layers-to-Interactions_from_Large_to_Small_Vision_Language_Models.pptx', paper_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/2025-CVPRLee_VLsI_Verbalized_Layers-to-Interactions_from_Large_to_Small_Vision_Language_Models_CVPR_2025_paper.pdf' },
   { id: 'l3', title: 'Divide and not forget: ensemble of selectively trained experts in continual learning', date: '2025-10-21', type: 'group_meeting', group: 'learning', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/12/1021组会.pptx', paper_url: 'https://aiskyeye.com/wp-content/uploads/2025/12/2024_ICLR_Divide-and-not-forget-Ensemble-of-selectively-trained-experts-in-Continual-Learning.pdf' },
@@ -22,7 +22,7 @@ export const seminars: SeminarEvent[] = [
   { id: 'l18', title: 'Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models', date: '2026-03-12', type: 'group_meeting', group: 'learning', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2026/03/20260312-杨竣然-engram-3.pdf' },
   { id: 'l19', title: 'DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection', date: '2026-03-12', type: 'group_meeting', group: 'learning', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2026/03/DiffusionAD-Norm-Guided-One-Step-Denoising-Diffusion-for-Anomaly-Detection.pptx' },
 
-  // 组会二：多模态学习 (multimodal)
+  // 组会二：智能感知 (multimodal)
   { id: 'm1', title: 'Self-reward and Mutual Reward in RLFT for VLMs', date: '2025-09-11', type: 'group_meeting', group: 'multimodal', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/09/组会0911-武嘉和.pptx', paper_url: 'https://aiskyeye.com/wp-content/uploads/2025/09/组会论文-武嘉和.zip' },
   { id: 'm2', title: 'The survey of pan-sharpening', date: '2025-10-11', type: 'group_meeting', group: 'multimodal', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/组会2025.10.11.pptx', paper_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/组会论文2025.10.11.zip' },
   { id: 'm3', title: 'Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision', date: '2025-10-17', type: 'group_meeting', group: 'multimodal', ppt_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/组会1017.pptx', paper_url: 'https://aiskyeye.com/wp-content/uploads/2025/10/组会1017论文.zip' },

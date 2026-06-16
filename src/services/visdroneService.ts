@@ -9,6 +9,7 @@ import type {
   Patent,
   Award,
   SeminarEvent,
+  Partner,
 } from '@/types/visdrone';
 import { datasets as realDatasets } from '@/data/visdrone/datasets';
 import { models as realModels } from '@/data/visdrone/models';
@@ -27,6 +28,7 @@ import {
   mapDbToPaper,
   mapDbToTeamMember,
   mapDbToSeminarEvent,
+  mapDbToPartner,
 } from '@/types/visdrone/fieldMapper';
 
 interface DatasetStats {
@@ -501,6 +503,22 @@ class VisDroneService {
     }
     const sortedTalks = [...realTalks].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     return sortedTalks;
+  }
+
+  async getPartners(): Promise<Partner[]> {
+    try {
+      const { data, error } = await supabase
+        .from('visdrone_partners')
+        .select('*')
+        .order('display_order', { ascending: true });
+
+      if (!error && data && data.length > 0) {
+        return data.map(mapDbToPartner);
+      }
+    } catch (e) {
+      console.warn('Failed to fetch partners from Supabase:', e);
+    }
+    return [];
   }
 }
 

@@ -9,11 +9,12 @@ import AwardsAdmin from './AwardsAdmin';
 import TeamAdmin from './TeamAdmin';
 import ModelsAdmin from './ModelsAdmin';
 import SeminarsAdmin from './SeminarsAdmin';
+import PartnersAdmin from './PartnersAdmin';
 import DataSyncPage from './DataSyncPage';
-import { FileText, Database, Brain, Users, Lightbulb, Award, Newspaper, LayoutDashboard, RefreshCw, Calendar } from 'lucide-react';
+import { FileText, Database, Brain, Users, Lightbulb, Award, Newspaper, LayoutDashboard, RefreshCw, Calendar, Handshake } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
-import { fetchAllNews, fetchAllDatasets, fetchAllPapers, fetchAllPatents, fetchAllAwards, fetchAllTeamMembers, fetchAllModels, fetchAllSeminars } from '@/services/adminCrudService';
+import { fetchAllNews, fetchAllDatasets, fetchAllPapers, fetchAllPatents, fetchAllAwards, fetchAllTeamMembers, fetchAllModels, fetchAllSeminars, fetchAllPartners } from '@/services/adminCrudService';
 
 const statsConfig = [
   { key: 'news', label: '新闻', icon: Newspaper, color: 'text-blue-500' },
@@ -24,6 +25,7 @@ const statsConfig = [
   { key: 'team', label: '团队', icon: Users, color: 'text-pink-500' },
   { key: 'models', label: '模型', icon: Brain, color: 'text-cyan-500' },
   { key: 'seminars', label: '学术活动', icon: Calendar, color: 'text-indigo-500' },
+  { key: 'partners', label: '合作单位', icon: Handshake, color: 'text-emerald-500' },
 ];
 
 function AdminDashboard() {
@@ -36,11 +38,12 @@ function AdminDashboard() {
     team: { count: 0, loading: true },
     models: { count: 0, loading: true },
     seminars: { count: 0, loading: true },
+    partners: { count: 0, loading: true },
   });
 
   useEffect(() => {
     const loadStats = async () => {
-      const [newsData, datasetsData, papersData, patentsData, awardsData, teamData, modelsData, seminarsData] = await Promise.all([
+      const [newsData, datasetsData, papersData, patentsData, awardsData, teamData, modelsData, seminarsData, partnersData] = await Promise.all([
         fetchAllNews(),
         fetchAllDatasets(),
         fetchAllPapers(),
@@ -49,6 +52,7 @@ function AdminDashboard() {
         fetchAllTeamMembers(),
         fetchAllModels(),
         fetchAllSeminars(),
+        fetchAllPartners(),
       ]);
 
       setStats({
@@ -60,6 +64,7 @@ function AdminDashboard() {
         team: { count: teamData.length, loading: false },
         models: { count: modelsData.length, loading: false },
         seminars: { count: seminarsData.length, loading: false },
+        partners: { count: partnersData.length, loading: false },
       });
     };
 
@@ -161,6 +166,7 @@ export default function AdminPage() {
     '/visdrone/admin/awards': <AwardsAdmin />,
     '/visdrone/admin/team': <TeamAdmin />,
     '/visdrone/admin/seminars': <SeminarsAdmin />,
+    '/visdrone/admin/partners': <PartnersAdmin />,
     '/visdrone/admin/sync': <DataSyncPage />,
   };
 

@@ -6,16 +6,16 @@ import { getHeroImage } from '@/utils/aiImageGenerator';
 
 const groupInfo = {
   learning: {
-    name: '组会一：学习范式',
+    name: '组会一：群体智能',
     icon: Brain,
     color: 'bg-blue-500',
-    description: '持续学习、增量学习、小样本学习等前沿学习范式研究'
+    description: '群体智能、协同学习、联邦学习等前沿群体智能研究'
   },
   multimodal: {
-    name: '组会二：多模态学习',
+    name: '组会二：智能感知',
     icon: Layers,
     color: 'bg-purple-500',
-    description: '视觉-语言模型、多模态融合、跨模态学习等研究'
+    description: '视觉感知、目标检测、图像理解等智能感知技术研究'
   },
   embodied: {
     name: '组会三：具身智能',
@@ -73,7 +73,15 @@ const Seminar: React.FC = () => {
 
   const currentEvents = activeTab === 'group_meeting' ? filteredSeminars : talks.sort(sortByDateDesc);
 
-  const getGroupBadge = (group?: string) => {
+  const getGroupBadge = (group?: string, isPublic?: boolean) => {
+    if (isPublic) {
+      return (
+        <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs font-medium bg-orange-500/80 text-white">
+          <Presentation className="w-3 h-3" />
+          公开报告
+        </span>
+      );
+    }
     if (!group || !groupInfo[group as keyof typeof groupInfo]) return null;
     const info = groupInfo[group as keyof typeof groupInfo];
     const Icon = info.icon;
@@ -216,7 +224,7 @@ const Seminar: React.FC = () => {
                       {/* Content */}
                       <div className="flex-1 min-w-0">
                         <div className="flex items-start gap-2 mb-2">
-                          {getGroupBadge(event.group)}
+                          {getGroupBadge(event.group, activeTab === 'invited_talk')}
                         </div>
                         <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">
                           {event.title}
